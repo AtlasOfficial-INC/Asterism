@@ -1,0 +1,429 @@
+{
+ "brief": {
+  "calendar": {
+   "entries": [],
+   "state": "clear",
+   "summary": "Nothing on the calendar — clear day, do what you want with it."
+  },
+  "flags": {
+   "nextFlag": {
+    "detail": "54° / 31°",
+    "label": "Fri Nov 13 cold snap",
+    "targetDate": "2026-11-13"
+   },
+   "state": "none",
+   "text": "Nothing urgent today — next flag: the Fri Nov 13 cold snap, 54° / 31°."
+  },
+  "inbox": {
+   "detail": "HoYoverse beta mail, TikTok notifications, a Meta Horizon receipt — all skippable.",
+   "rows": [],
+   "state": "quiet",
+   "summary": "Quiet — nothing in the inbox needs you."
+  },
+  "lookingAhead": {
+   "detail": "Today tops out at 59° after a chilly morning start (36° low tonight); Sunday sunny near 65°/34°. Dry through midweek with highs near 70° Mon–Wed, then the Friday Nov 13 cold snap: high 54°, low 31°.",
+   "headline": "Cooler, dry weekend — cold snap still Friday."
+  },
+  "weather": {
+   "condition": "Mostly Cloudy",
+   "high": 59,
+   "hourly": [
+    {
+     "label": "NOW",
+     "temp": 47
+    },
+    {
+     "label": "6 AM",
+     "temp": 42
+    },
+    {
+     "label": "8 AM",
+     "temp": 45
+    },
+    {
+     "label": "10 AM",
+     "temp": 52
+    },
+    {
+     "label": "12 PM",
+     "temp": 57
+    }
+   ],
+   "low": 36,
+   "place": "HAZEL GREEN, AL",
+   "rainChanceTodayPct": 2,
+   "rainChanceTonightPct": 5,
+   "tempNow": 47,
+   "tonightCondition": "Partly Cloudy"
+  }
+ },
+ "clusters": {
+  "deepsky": {
+   "nodes": [
+    {
+     "body": "Clear and cold — low 36°, north wind. No alerts.",
+     "id": "tonight",
+     "statusDot": "default",
+     "title": "Tonight"
+    },
+    {
+     "body": "Dry weekend — Sat 60/35, Sun 64/35. Highs near 70 Mon–Wed, possible late showers Wed night.",
+     "id": "the-week",
+     "statusDot": "default",
+     "title": "The Week"
+    },
+    {
+     "badge": "7 days",
+     "badgeTone": "cluster",
+     "body": "7 days to Fri Nov 13 — high 54° / low 31°, the biggest weather event on the board.",
+     "countdown": {
+      "dateLabel": "Fri Nov 13",
+      "targetDate": "2026-11-13"
+     },
+     "id": "the-cold-snap",
+     "statusDot": "live",
+     "title": "The Cold Snap"
+    },
+    {
+     "body": "Daily weather + the 7:47 brief run every morning for Hazel Green.",
+     "id": "standing-watches",
+     "statusDot": "info",
+     "title": "Standing Watches"
+    }
+   ]
+  },
+  "devices": {
+   "nodes": [
+    {
+     "body": "Back in hand after this morning's power-off episode.",
+     "id": "phone-s26-ultra",
+     "statusDot": "default",
+     "title": "Phone — S26 Ultra"
+    },
+    {
+     "body": "~2–3 GB headroom — quota verified unchanged Nov 4.",
+     "id": "google-storage",
+     "statusDot": "info",
+     "title": "Google Storage"
+    },
+    {
+     "body": "0.2.0 live on the site.",
+     "id": "atlas",
+     "statusDot": "live",
+     "statusWord": "0.2.0 live",
+     "title": "Atlas"
+    }
+   ]
+  },
+  "household": {
+   "nodes": [
+    {
+     "body": "Blue/grey pit-type, not yet 5 months old — little-shark teething phase in full effect.",
+     "id": "the-puppy",
+     "statusDot": "live",
+     "title": "The Puppy"
+    },
+    {
+     "body": "Name and breed unknown — the two are mortal enemies.",
+     "id": "the-other-dog",
+     "statusDot": "dim",
+     "title": "The Other Dog"
+    },
+    {
+     "badge": "$1.45",
+     "badgeTone": "rose",
+     "body": "$1.45. Never moves.",
+     "id": "cashapp",
+     "statusDot": "default",
+     "title": "CashApp"
+    }
+   ]
+  },
+  "inmotion": {
+   "nodes": [
+    {
+     "body": "Ordered on Amazon — delivery date not yet known.",
+     "id": "flolab-onetime-pro",
+     "statusDot": "live",
+     "statusWord": "Ordered",
+     "title": "FLOLAB OneTime Pro"
+    },
+    {
+     "body": "WOBKEY direct ~$140 with Cocoa switches — the build to beat.",
+     "id": "rainy-75-price-watch",
+     "statusDot": "default",
+     "title": "Rainy 75 Price Watch"
+    },
+    {
+     "badge": "~$1,029",
+     "body": "~$1,029 and holding.",
+     "id": "christmas-list-total",
+     "statusDot": "default",
+     "title": "Christmas List Total"
+    }
+   ]
+  },
+  "life": {
+   "nodes": [
+    {
+     "body": "“Dark Knight Dummo” — Trippie Redd ft. Travis Scott. A top-5 song, set as his Instagram profile song.",
+     "id": "spotify",
+     "statusDot": "live",
+     "title": "Spotify"
+    },
+    {
+     "body": "Java 1.20.1 with Bliss shaders + Distant Horizons — terrain for days.",
+     "id": "minecraft",
+     "statusDot": "default",
+     "title": "Minecraft"
+    },
+    {
+     "body": "Nightclub Simulator champion — “too good at the game.” Drunken Bar Fight for chair-throwing physics.",
+     "id": "vr",
+     "statusDot": "default",
+     "title": "VR"
+    },
+    {
+     "body": "peenleenbeen.",
+     "id": "chess-com",
+     "statusDot": "info",
+     "title": "Chess.com"
+    }
+   ]
+  },
+  "money": {
+   "nodes": [
+    {
+     "badge": "~$1,029",
+     "body": "The $888.96 audio chain — SM7dB $459, Momentum 4, Scarlett Solo, XLR cable + boom arm — plus the WOBKEY Rainy 75 at ~$140. Wishlist, not yet bought.",
+     "id": "christmas-list",
+     "statusDot": "default",
+     "title": "Christmas List"
+    },
+    {
+     "badge": "$4,000",
+     "body": "M5 Max, 64GB, 1TB — $4,000 out the door. Decision made, timing open — ‘depends’.",
+     "id": "mac-studio-fund",
+     "statusDot": "info",
+     "title": "Mac Studio Fund"
+    },
+    {
+     "body": "iPhone 18 Pro Max lands at Christmas — $1,299 base, full launch price. Case still to pick: TORRAS Q3 Air Pro ($79.99) frontrunner; FLOLAB protector already ordered.",
+     "id": "iphone-day-fund",
+     "statusDot": "default",
+     "title": "iPhone Day Fund"
+    }
+   ]
+  },
+  "social": {
+   "nodes": [
+    {
+     "body": "@wsgimzay — 0 posts, 11 followers, 64 following. Profile made over Nov 6: new bio, Atlas link, profile song ‘Dark Knight Dummo’. The grid stays empty by choice.",
+     "id": "instagram",
+     "statusDot": "live",
+     "title": "Instagram"
+    },
+    {
+     "body": "Profile decorating in progress. Custom pfp + banner art hunt open — shortlist ready, and the goat (favourite animal) leads. Capybara placeholder sets generated meanwhile.",
+     "id": "twitter-x",
+     "statusDot": "default",
+     "title": "Twitter / X"
+    },
+    {
+     "body": "The Atlas site is live at atlasofficial-inc.github.io/Atlas — and his first story plugged it (Nov 6, expired Nov 7 ~03:25).",
+     "id": "atlas-out-loud",
+     "statusDot": "info",
+     "title": "Atlas, Out Loud"
+    }
+   ]
+  },
+  "studio": {
+   "nodes": [
+    {
+     "body": "DaVinci Resolve 21 installed on the PC (Nov 1). First edit still ahead — learning video editing is the standing goal.",
+     "id": "video-editing",
+     "statusDot": "default",
+     "title": "Video Editing"
+    },
+    {
+     "body": "0.2.0 live on the website with the verified APK. Windows at 0.2.1 — installer rebuild pending on his PC. Sync parked.",
+     "id": "atlas-the-product",
+     "statusDot": "live",
+     "title": "Atlas, The Product"
+    },
+    {
+     "body": "This app — the second product. Now on phone + desktop builds; kits ready tonight.",
+     "id": "asterism-the-product",
+     "statusDot": "live",
+     "title": "Asterism, The Product"
+    }
+   ]
+  },
+  "time": {
+   "nodes": [
+    {
+     "badge": "49 days",
+     "badgeTone": "cluster",
+     "body": "49 days to Fri Dec 25 — also iPhone 18 Pro Max day.",
+     "countdown": {
+      "dateLabel": "Fri Dec 25",
+      "targetDate": "2026-12-25"
+     },
+     "id": "christmas",
+     "statusDot": "live",
+     "title": "Christmas"
+    },
+    {
+     "badge": "145 days",
+     "badgeTone": "cluster",
+     "body": "March 31 — 145 days out.",
+     "countdown": {
+      "dateLabel": "March 31",
+      "targetDate": "2027-03-31"
+     },
+     "id": "birthday",
+     "statusDot": "default",
+     "title": "Birthday"
+    },
+    {
+     "body": "None active — the Nov 13 Google storage deadline was resolved Nov 1.",
+     "id": "deadlines",
+     "statusDot": "info",
+     "title": "Deadlines"
+    }
+   ]
+  },
+  "workbench": {
+   "nodes": [
+    {
+     "body": "Live at atlasofficial-inc.github.io/Atlas — Android 0.2.0 downloadable now.",
+     "id": "atlas",
+     "statusDot": "live",
+     "statusWord": "Live",
+     "title": "Atlas"
+    },
+    {
+     "body": "0.2.1 installer awaits a rebuild on Mors's PC, then GitHub Release hosting.",
+     "id": "atlas-for-windows",
+     "statusDot": "default",
+     "title": "Atlas for Windows"
+    },
+    {
+     "body": "Constellation UI accepted — now in its live-content phase.",
+     "id": "asterism",
+     "statusDot": "live",
+     "title": "Asterism"
+    },
+    {
+     "body": "Ranked — TORRAS Ostand Q3 Air Pro ($79.99) on top. Decision still open.",
+     "id": "iphone-case-hunt",
+     "statusDot": "default",
+     "title": "iPhone Case Hunt"
+    },
+    {
+     "body": "FLOLAB OneTime Pro ordered on Amazon — saga closed.",
+     "id": "screen-protector",
+     "statusDot": "info",
+     "title": "Screen Protector"
+    },
+    {
+     "body": "Artist shortlist in hand — Goatz4Eva, albannastudios, elbydraws. No pick yet, ~$45 budget.",
+     "id": "custom-pfp-banner-art",
+     "statusDot": "default",
+     "title": "Custom Pfp & Banner Art"
+    },
+    {
+     "badge": "~$1,029",
+     "body": "~$1,029 total — audio cart $888.96 + Rainy 75 ~$140.",
+     "id": "christmas-list",
+     "statusDot": "default",
+     "title": "Christmas List"
+    },
+    {
+     "badge": "$4,000",
+     "body": "M5 Max / 64GB / 1TB chosen at $4,000 out the door — timing undecided.",
+     "id": "mac-studio",
+     "statusDot": "info",
+     "title": "Mac Studio"
+    }
+   ]
+  }
+ },
+ "meta": {
+  "displayDate": {
+   "monthDay": "Nov 6",
+   "weekday": "Friday"
+  },
+  "pourLabel": "Poured Saturday, Nov 7 — early morning",
+  "pourVersion": 2,
+  "pouredAt": "2026-11-07T03:58:00-06:00",
+  "schemaVersion": 1
+ },
+ "world": {
+  "stories": [
+   {
+    "category": "tech",
+    "categoryLabel": "Tech",
+    "headline": "Google stretches AI video to 15 seconds — and cuts the price",
+    "id": "gemini-omni-15s",
+    "source": "Google",
+    "summary": "Gemini Omni 1.2 Flash is generally available: native clips up from 10 to 15 seconds, price down 30% to $0.07/sec at 720p.",
+    "url": "https://dev.to/paullovelace/gemini-omni-12-flash-15-second-ai-video-for-007-a-second-lfb"
+   },
+   {
+    "category": "tech",
+    "categoryLabel": "Tech",
+    "headline": "AI stocks take their worst hit in months",
+    "id": "ai-stock-selloff",
+    "source": "Rest of World Report",
+    "summary": "The Nasdaq fell 5.5% Thursday, wiping ~$3 trillion off S&P 500 companies; the sell-off spread across Asia Friday (Nikkei −6%).",
+    "url": "https://gulfbusiness.com/en/2026/world/global-ai-stock-selloff-wipes-trillions-off-wall-street-as-nasdaq-plunges-5-5/"
+   },
+   {
+    "category": "gaming",
+    "categoryLabel": "Gaming",
+    "headline": "Xbox Game Pass adds 2 new cozy games, a day-one release, and more",
+    "id": "game-pass-cozy",
+    "source": "GameRant",
+    "summary": "Escape Academy 2: Back 2 School lands day-one, joined by the MySims Cozy Bundle and Firefighting Simulator: Ignite.",
+    "url": "https://gamerant.com/xbox-game-pass-november-2026-games-cozy-sims-escape-acedemy-2/"
+   },
+   {
+    "category": "gaming",
+    "categoryLabel": "Gaming",
+    "headline": "39 games coming to Xbox next week, including Football Manager 27",
+    "id": "xbox-39-games-next-week",
+    "source": "Windows Report",
+    "summary": "The Nov 9–13 wave also brings Warhammer Survivors (Nov 10) and John Carpenter's Toxic Commando (Nov 12).",
+    "url": "https://windowsreport.com/39-games-coming-to-xbox-next-week-november-9-13-including-football-manager-27/"
+   },
+   {
+    "category": "world",
+    "categoryLabel": "World",
+    "headline": "Pope Leo XIV begins 12-day Latin America trip weeks after surgery",
+    "id": "pope-latin-america-trip",
+    "source": "AP",
+    "summary": "Three weeks after lung-cancer surgery, the pope heads home to Peru on the longest trip of his pontificate.",
+    "url": "https://isp.netscape.com/news/world/story/0001/20261105/1ae340cbdea841c9b669a68534ec574c"
+   },
+   {
+    "category": "world",
+    "categoryLabel": "World",
+    "headline": "Iran sends US a nuclear proposal via Qatar",
+    "id": "iran-nuclear-proposal",
+    "source": "Reuters, via Just Security",
+    "summary": "Tehran's proposal would only be discussed after the US meets its seven demands to reopen the Strait of Hormuz; Trump says he'll decide on resuming military action.",
+    "url": "https://www.reuters.com/world/middle-east/iranian-envoys-meet-qatari-mediators-threat-looms-us-strikes-after-midterms-2026-10-31/"
+   },
+   {
+    "category": "culture",
+    "categoryLabel": "Culture",
+    "headline": "The FAA is finally retiring the floppy disks in air traffic control",
+    "id": "faa-floppy-disks",
+    "source": "FAA",
+    "summary": "Systems dating to the 1980s that still run on floppy disks are being replaced by the new Enterprise Information Display System.",
+    "url": "https://www.reuters.com/world/us/us-faa-says-it-will-phase-out-floppy-disks-air-traffic-control-by-2028-2026-11-05/"
+   }
+  ]
+ }
+}
