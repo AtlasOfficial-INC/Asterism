@@ -1,1 +1,429 @@
-ewogImJyaWVmIjogewogICJjYWxlbmRhciI6IHsKICAgImVudHJpZXMiOiBbXSwKICAgInN0YXRlIjogImNsZWFyIiwKICAgInN1bW1hcnkiOiAiTm90aGluZyBvbiB0aGUgY2FsZW5kYXIg4oCUIGNsZWFyIGRheSwgZG8gd2hhdCB5b3Ugd2FudCB3aXRoIGl0LiIKICB9LAogICJmbGFncyI6IHsKICAgIm5leHRGbGFnIjogewogICAgImRldGFpbCI6ICI0M8KwIC8gMzTCsCIsCiAgICAibGFiZWwiOiAiRnJpIE5vdiAxMyBjb2xkIHNuYXAiLAogICAgInRhcmdldERhdGUiOiAiMjAyNi0xMS0xMyIKICAgfSwKICAgInN0YXRlIjogIm5vbmUiLAogICAidGV4dCI6ICJOb3RoaW5nIHVyZ2VudCB0b2RheSDigJQgbmV4dCBmbGFnOiB0aGUgRnJpIE5vdiAxMyBjb2xkIHNuYXAsIDQzwrAgLyAzNMKwLiIKICB9LAogICJpbmJveCI6IHsKICAgImRldGFpbCI6ICJXaXNwcidzIE1hbnZpIHdyb3RlIGluIHdpdGggYSBtaWMtc2V0dXAgcmVjb21tZW5kYXRpb247IEZpcmVmbGllcywgQ2hlc3MuY29tIGFuZCBCRUFSUEFXIHNlbnQgcHJvbW9zOyBHb29nbGUgbG9nZ2VkIGhpcyBvd24gVHJhZGluZ1ZpZXcgYW5kIHByaXZ5LmlvIGRhdGEgc2hhcmVzLiBUaWtUb2sgbm90aWZpY2F0aW9ucyDigJQgYWxsIHNraXBwYWJsZS4iLAogICAicm93cyI6IFtdLAogICAic3RhdGUiOiAicXVpZXQiLAogICAic3VtbWFyeSI6ICJRdWlldCDigJQgbm90aGluZyBpbiB0aGUgaW5ib3ggbmVlZHMgeW91LiIKICB9LAogICJsb29raW5nQWhlYWQiOiB7CiAgICJkZXRhaWwiOiAiVG9kYXkgdG9wcyBvdXQgYXQgNjTCsCBhZnRlciBhIGNoaWxseSAzNMKwIHN0YXJ0OyBNb25kYXkgc3VubnkgNjfCsC8zNcKwLiBSYWluIHBvc3NpYmxlIFdlZOKAk1RodSAoMzDigJMzNCUpLCB0aGVuIHRoZSBGcmlkYXkgTm92IDEzIGNvbGQgc25hcDogaGlnaCA0M8KwLCBsb3cgMzTCsC4iLAogICAiaGVhZGxpbmUiOiAiU3VubnkgU3VuZGF5LCByYWluIG1pZHdlZWsg4oCUIGNvbGQgc25hcCBzdGlsbCBGcmlkYXkuIgogIH0sCiAgIndlYXRoZXIiOiB7CiAgICJjb25kaXRpb24iOiAiU3VubnkiLAogICAiaGlnaCI6IDY0LAogICAiaG91cmx5IjogWwogICAgewogICAgICJsYWJlbCI6ICJOT1ciLAogICAgICJ0ZW1wIjogNDAKICAgIH0sCiAgICB7CiAgICAgImxhYmVsIjogIjkgQU0iLAogICAgICJ0ZW1wIjogNDkKICAgIH0sCiAgICB7CiAgICAgImxhYmVsIjogIjExIEFNIiwKICAgICAidGVtcCI6IDU5CiAgICB9LAogICAgewogICAgICJsYWJlbCI6ICIxIFBNIiwKICAgICAidGVtcCI6IDY0CiAgICB9LAogICAgewogICAgICJsYWJlbCI6ICIzIFBNIiwKICAgICAidGVtcCI6IDYyCiAgICB9CiAgIF0sCiAgICJsb3ciOiAzNCwKICAgInBsYWNlIjogIkhBWkVMIEdSRUVOLCBBTCIsCiAgICJyYWluQ2hhbmNlVG9kYXlQY3QiOiAwLAogICAicmFpbkNoYW5jZVRvbmlnaHRQY3QiOiAwLAogICAidGVtcE5vdyI6IDQwLAogICAidG9uaWdodENvbmRpdGlvbiI6ICJQYXJ0bHkgQ2xvdWR5IgogIH0KIH0sCiAiY2x1c3RlcnMiOiB7CiAgImRlZXBza3kiOiB7CiAgICJub2RlcyI6IFsKICAgIHsKICAgICAiYm9keSI6ICJDbGVhciBhbmQgY29sZCDigJQgbG93IDM0wrAsIGxpZ2h0IHdpbmQuIE5vIGFsZXJ0cy4iLAogICAgICJpZCI6ICJ0b25pZ2h0IiwKICAgICAic3RhdHVzRG90IjogImRlZmF1bHQiLAogICAgICJ0aXRsZSI6ICJUb25pZ2h0IgogICAgfSwKICAgIHsKICAgICAiYm9keSI6ICJTdW5ueSBTdW5kYXkgNjQvMzQuIE1vbiA2Ny8zNSBzdW5ueSwgVHVlIDYzLzQ4LCByYWluIHBvc3NpYmxlIFdlZOKAk1RodSwgdGhlbiB0aGUgRnJpIE5vdiAxMyBjb2xkIHNuYXA6IGhpZ2ggNDPCsCwgbG93IDM0wrAuIiwKICAgICAiaWQiOiAidGhlLXdlZWsiLAogICAgICJzdGF0dXNEb3QiOiAiZGVmYXVsdCIsCiAgICAgInRpdGxlIjogIlRoZSBXZWVrIgogICAgfSwKICAgIHsKICAgICAiYmFkZ2UiOiAiNSBkYXlzIiwKICAgICAiYmFkZ2VUb25lIjogImNsdXN0ZXIiLAogICAgICJib2R5IjogIjUgZGF5cyB0byBGcmkgTm92IDEzIOKAlCBoaWdoIDQzwrAgLyBsb3cgMzTCsCwgdGhlIGJpZ2dlc3Qgd2VhdGhlciBldmVudCBvbiB0aGUgYm9hcmQuIiwKICAgICAiY291bnRkb3duIjogewogICAgICAiZGF0ZUxhYmVsIjogIkZyaSBOb3YgMTMiLAogICAgICAidGFyZ2V0RGF0ZSI6ICIyMDI2LTExLTEzIgogICAgIH0sCiAgICAgImlkIjogInRoZS1jb2xkLXNuYXAiLAogICAgICJzdGF0dXNEb3QiOiAibGl2ZSIsCiAgICAgInRpdGxlIjogIlRoZSBDb2xkIFNuYXAiCiAgICB9LAogICAgewogICAgICJib2R5IjogIkRhaWx5IHdlYXRoZXIgKyB0aGUgNzo0NyBicmllZiBydW4gZXZlcnkgbW9ybmluZyBmb3IgSGF6ZWwgR3JlZW4uIiwKICAgICAiaWQiOiAic3RhbmRpbmctd2F0Y2hlcyIsCiAgICAgInN0YXR1c0RvdCI6ICJpbmZvIiwKICAgICAidGl0bGUiOiAiU3RhbmRpbmcgV2F0Y2hlcyIKICAgIH0KICAgXQogIH0sCiAgImRldmljZXMiOiB7CiAgICJub2RlcyI6IFsKICAgIHsKICAgICAiYm9keSI6ICJCYWNrIGluIGhhbmQgYWZ0ZXIgdGhpcyBtb3JuaW5nJ3MgcG93ZXItb2ZmIGVwaXNvZGUuIiwKICAgICAiaWQiOiAicGhvbmUtczI2LXVsdHJhIiwKICAgICAic3RhdHVzRG90IjogImRlZmF1bHQiLAogICAgICJ0aXRsZSI6ICJQaG9uZSDigJQgUzI2IFVsdHJhIgogICAgfSwKICAgIHsKICAgICAiYm9keSI6ICJ+MuKAkzMgR0IgaGVhZHJvb20g4oCUIHF1b3RhIHZlcmlmaWVkIHVuY2hhbmdlZCBOb3YgNC4iLAogICAgICJpZCI6ICJnb29nbGUtc3RvcmFnZSIsCiAgICAgInN0YXR1c0RvdCI6ICJpbmZvIiwKICAgICAidGl0bGUiOiAiR29vZ2xlIFN0b3JhZ2UiCiAgICB9LAogICAgewogICAgICJib2R5IjogIjAuMi4wIGxpdmUgb24gdGhlIHNpdGUuIiwKICAgICAiaWQiOiAiYXRsYXMiLAogICAgICJzdGF0dXNEb3QiOiAibGl2ZSIsCiAgICAgInN0YXR1c1dvcmQiOiAiMC4yLjAgbGl2ZSIsCiAgICAgInRpdGxlIjogIkF0bGFzIgogICAgfQogICBdCiAgfSwKICAiaG91c2Vob2xkIjogewogICAibm9kZXMiOiBbCiAgICB7CiAgICAgImJvZHkiOiAiQmx1ZS9ncmV5IHBpdC10eXBlLCBub3QgeWV0IDUgbW9udGhzIG9sZCDigJQgbGl0dGxlLXNoYXJrIHRlZXRoaW5nIHBoYXNlIGluIGZ1bGwgZWZmZWN0LiIsCiAgICAgImlkIjogInRoZS1wdXBweSIsCiAgICAgInN0YXR1c0RvdCI6ICJsaXZlIiwKICAgICAidGl0bGUiOiAiVGhlIFB1cHB5IgogICAgfSwKICAgIHsKICAgICAiYm9keSI6ICJOYW1lIGFuZCBicmVlZCB1bmtub3duIOKAlCB0aGUgdHdvIGFyZSBtb3J0YWwgZW5lbWllcy4iLAogICAgICJpZCI6ICJ0aGUtb3RoZXItZG9nIiwKICAgICAic3RhdHVzRG90IjogImRpbSIsCiAgICAgInRpdGxlIjogIlRoZSBPdGhlciBEb2ciCiAgICB9LAogICAgewogICAgICJiYWRnZSI6ICIkMS40NSIsCiAgICAgImJhZGdlVG9uZSI6ICJyb3NlIiwKICAgICAiYm9keSI6ICIkMS40NS4gTmV2ZXIgbW92ZXMuIiwKICAgICAiaWQiOiAiY2FzaGFwcCIsCiAgICAgInN0YXR1c0RvdCI6ICJkZWZhdWx0IiwKICAgICAidGl0bGUiOiAiQ2FzaEFwcCIKICAgIH0KICAgXQogIH0sCiAgImlubW90aW9uIjogewogICAibm9kZXMiOiBbCiAgICB7CiAgICAgImJvZHkiOiAiT3JkZXJlZCBvbiBBbWF6b24g4oCUIGRlbGl2ZXJ5IGRhdGUgbm90IHlldCBrbm93bi4iLAogICAgICJpZCI6ICJmbG9sYWItb25ldGltZS1wcm8iLAogICAgICJzdGF0dXNEb3QiOiAibGl2ZSIsCiAgICAgInN0YXR1c1dvcmQiOiAiT3JkZXJlZCIsCiAgICAgInRpdGxlIjogIkZMT0xBQiBPbmVUaW1lIFBybyIKICAgIH0sCiAgICB7CiAgICAgImJvZHkiOiAiV09CS0VZIGRpcmVjdCB+JDE0MCB3aXRoIENvY29hIHN3aXRjaGVzIOKAlCB0aGUgYnVpbGQgdG8gYmVhdC4iLAogICAgICJpZCI6ICJyYWlueS03NS1wcmljZS13YXRjaCIsCiAgICAgInN0YXR1c0RvdCI6ICJkZWZhdWx0IiwKICAgICAidGl0bGUiOiAiUmFpbnkgNzUgUHJpY2UgV2F0Y2giCiAgICB9LAogICAgewogICAgICJiYWRnZSI6ICJ+JDEsMDI5IiwKICAgICAiYm9keSI6ICJ+JDEsMDI5IGFuZCBob2xkaW5nLiIsCiAgICAgImlkIjogImNocmlzdG1hcy1saXN0LXRvdGFsIiwKICAgICAic3RhdHVzRG90IjogImRlZmF1bHQiLAogICAgICJ0aXRsZSI6ICJDaHJpc3RtYXMgTGlzdCBUb3RhbCIKICAgIH0KICAgXQogIH0sCiAgImxpZmUiOiB7CiAgICJub2RlcyI6IFsKICAgIHsKICAgICAiYm9keSI6ICLigJxEYXJrIEtuaWdodCBEdW1tb+KAnSDigJQgVHJpcHBpZSBSZWRkIGZ0LiBUcmF2aXMgU2NvdHQuIEEgdG9wLTUgc29uZywgc2V0IGFzIGhpcyBJbnN0YWdyYW0gcHJvZmlsZSBzb25nLiIsCiAgICAgImlkIjogInNwb3RpZnkiLAogICAgICJzdGF0dXNEb3QiOiAibGl2ZSIsCiAgICAgInRpdGxlIjogIlNwb3RpZnkiCiAgICB9LAogICAgewogICAgICJib2R5IjogIkphdmEgMS4yMC4xIHdpdGggQmxpc3Mgc2hhZGVycyArIERpc3RhbnQgSG9yaXpvbnMg4oCUIHRlcnJhaW4gZm9yIGRheXMuIiwKICAgICAiaWQiOiAibWluZWNyYWZ0IiwKICAgICAic3RhdHVzRG90IjogImRlZmF1bHQiLAogICAgICJ0aXRsZSI6ICJNaW5lY3JhZnQiCiAgICB9LAogICAgewogICAgICJib2R5IjogIk5pZ2h0Y2x1YiBTaW11bGF0b3IgY2hhbXBpb24g4oCUIOKAnHRvbyBnb29kIGF0IHRoZSBnYW1lLuKAnSBEcnVua2VuIEJhciBGaWdodCBmb3IgY2hhaXItdGhyb3dpbmcgcGh5c2ljcy4iLAogICAgICJpZCI6ICJ2ciIsCiAgICAgInN0YXR1c0RvdCI6ICJkZWZhdWx0IiwKICAgICAidGl0bGUiOiAiVlIiCiAgICB9LAogICAgewogICAgICJib2R5IjogInBlZW5sZWVuYmVlbi4iLAogICAgICJpZCI6ICJjaGVzcy1jb20iLAogICAgICJzdGF0dXNEb3QiOiAiaW5mbyIsCiAgICAgInRpdGxlIjogIkNoZXNzLmNvbSIKICAgIH0KICAgXQogIH0sCiAgIm1vbmV5IjogewogICAibm9kZXMiOiBbCiAgICB7CiAgICAgImJhZGdlIjogIn4kMSwwMjkiLAogICAgICJib2R5IjogIlRoZSAkODg4Ljk2IGF1ZGlvIGNoYWluIOKAlCBTTTdkQiAkNDU5LCBNb21lbnR1bSA0LCBTY2FybGV0dCBTb2xvLCBYTFIgY2FibGUgKyBib29tIGFybSDigJQgcGx1cyB0aGUgV09CS0VZIFJhaW55IDc1IGF0IH4kMTQwLiBXaXNobGlzdCwgbm90IHlldCBib3VnaHQuIiwKICAgICAiaWQiOiAiY2hyaXN0bWFzLWxpc3QiLAogICAgICJzdGF0dXNEb3QiOiAiZGVmYXVsdCIsCiAgICAgInRpdGxlIjogIkNocmlzdG1hcyBMaXN0IgogICAgfSwKICAgIHsKICAgICAiYmFkZ2UiOiAiJDQsMDAwIiwKICAgICAiYm9keSI6ICJNNSBNYXgsIDY0R0IsIDFUQiDigJQgJDQsMDAwIG91dCB0aGUgZG9vci4gRGVjaXNpb24gbWFkZSwgdGltaW5nIG9wZW4g4oCUIOKAmGRlcGVuZHPigJkuIiwKICAgICAiaWQiOiAibWFjLXN0dWRpby1mdW5kIiwKICAgICAic3RhdHVzRG90IjogImluZm8iLAogICAgICJ0aXRsZSI6ICJNYWMgU3R1ZGlvIEZ1bmQiCiAgICB9LAogICAgewogICAgICJib2R5IjogImlQaG9uZSAxOCBQcm8gTWF4IGxhbmRzIGF0IENocmlzdG1hcyDigJQgJDEsMjk5IGJhc2UsIGZ1bGwgbGF1bmNoIHByaWNlLiBDYXNlIENIT1NFTjogTm9tYWQgTW9kZXJuIExlYXRoZXIgKEhvcndlZW4pLCAkNzkg4oCUIGNvbG9yIHN0aWxsIHRvIHBpY2suIEZMT0xBQiBwcm90ZWN0b3IgYWxyZWFkeSBvcmRlcmVkLiIsCiAgICAgImlkIjogImlwaG9uZS1kYXktZnVuZCIsCiAgICAgInN0YXR1c0RvdCI6ICJkZWZhdWx0IiwKICAgICAidGl0bGUiOiAiaVBob25lIERheSBGdW5kIgogICAgfQogICBdCiAgfSwKICAic29jaWFsIjogewogICAibm9kZXMiOiBbCiAgICB7CiAgICAgImJvZHkiOiAiQHdzZ2ltemF5IOKAlCAwIHBvc3RzLCAxMSBmb2xsb3dlcnMsIDY0IGZvbGxvd2luZy4gUHJvZmlsZSBtYWRlIG92ZXIgTm92IDY6IG5ldyBiaW8sIEF0bGFzIGxpbmssIHByb2ZpbGUgc29uZyDigJhEYXJrIEtuaWdodCBEdW1tb+KAmS4gVGhlIGdyaWQgc3RheXMgZW1wdHkgYnkgY2hvaWNlLiIsCiAgICAgImlkIjogImluc3RhZ3JhbSIsCiAgICAgInN0YXR1c0RvdCI6ICJsaXZlIiwKICAgICAidGl0bGUiOiAiSW5zdGFncmFtIgogICAgfSwKICAgIHsKICAgICAiYm9keSI6ICJQcm9maWxlIGRlY29yYXRpbmcgaW4gcHJvZ3Jlc3MuIEN1c3RvbSBwZnAgKyBiYW5uZXIgYXJ0IGh1bnQgb3BlbiDigJQgc2hvcnRsaXN0IHJlYWR5LCBhbmQgdGhlIGdvYXQgKGZhdm91cml0ZSBhbmltYWwpIGxlYWRzLiBDYXB5YmFyYSBwbGFjZWhvbGRlciBzZXRzIGdlbmVyYXRlZCBtZWFud2hpbGUuIiwKICAgICAiaWQiOiAidHdpdHRlci14IiwKICAgICAic3RhdHVzRG90IjogImRlZmF1bHQiLAogICAgICJ0aXRsZSI6ICJUd2l0dGVyIC8gWCIKICAgIH0sCiAgICB7CiAgICAgImJvZHkiOiAiVGhlIEF0bGFzIHNpdGUgaXMgbGl2ZSBhdCBhdGxhc29mZmljaWFsLWluYy5naXRodWIuaW8vQXRsYXMg4oCUIGFuZCBBc3RlcmlzbSBub3cgaGFzIGl0cyBvd24gcmVwbyBhbmQgUGFnZXMgc2l0ZSwgcG91cmluZyBkYWlseSBza3kuanNvbi4iLAogICAgICJpZCI6ICJhdGxhcy1vdXQtbG91ZCIsCiAgICAgInN0YXR1c0RvdCI6ICJpbmZvIiwKICAgICAidGl0bGUiOiAiQXRsYXMsIE91dCBMb3VkIgogICAgfQogICBdCiAgfSwKICAic3R1ZGlvIjogewogICAibm9kZXMiOiBbCiAgICB7CiAgICAgImJvZHkiOiAiRGFWaW5jaSBSZXNvbHZlIDIxIGluc3RhbGxlZCBvbiB0aGUgUEMgKE5vdiAxKS4gRmlyc3QgZWRpdCBzdGlsbCBhaGVhZCDigJQgbGVhcm5pbmcgdmlkZW8gZWRpdGluZyBpcyB0aGUgc3RhbmRpbmcgZ29hbC4iLAogICAgICJpZCI6ICJ2aWRlby1lZGl0aW5nIiwKICAgICAic3RhdHVzRG90IjogImRlZmF1bHQiLAogICAgICJ0aXRsZSI6ICJWaWRlbyBFZGl0aW5nIgogICAgfSwKICAgIHsKICAgICAiYm9keSI6ICIwLjIuMCBsaXZlIG9uIHRoZSB3ZWJzaXRlIHdpdGggdGhlIHZlcmlmaWVkIEFQSy4gV2luZG93cyBhdCAwLjIuMSDigJQgaW5zdGFsbGVyIHJlYnVpbGQgcGVuZGluZyBvbiBoaXMgUEMuIFN5bmMgcGFya2VkLiIsCiAgICAgImlkIjogImF0bGFzLXRoZS1wcm9kdWN0IiwKICAgICAic3RhdHVzRG90IjogImxpdmUiLAogICAgICJ0aXRsZSI6ICJBdGxhcywgVGhlIFByb2R1Y3QiCiAgICB9LAogICAgewogICAgICJib2R5IjogIlRoaXMgYXBwIOKAlCB0aGUgc2Vjb25kIHByb2R1Y3QuIFdpbmRvd3MgYnVpbGQgaW5zdGFsbGVkIGFuZCB3b3JraW5nOyBsaXZlIHdlYXRoZXIgZmV0Y2ggd2VudCBsaXZlIE5vdiA4IH4wMzo0MTsgZGFpbHkgc2t5Lmpzb24gcG91cnMgbm93IGxpdmUuIiwKICAgICAiaWQiOiAiYXN0ZXJpc20tdGhlLXByb2R1Y3QiLAogICAgICJzdGF0dXNEb3QiOiAibGl2ZSIsCiAgICAgInRpdGxlIjogIkFzdGVyaXNtLCBUaGUgUHJvZHVjdCIKICAgIH0KICAgXQogIH0sCiAgInRpbWUiOiB7CiAgICJub2RlcyI6IFsKICAgIHsKICAgICAiYmFkZ2UiOiAiNDcgZGF5cyIsCiAgICAgImJhZGdlVG9uZSI6ICJjbHVzdGVyIiwKICAgICAiYm9keSI6ICI0NyBkYXlzIHRvIEZyaSBEZWMgMjUg4oCUIGFsc28gaVBob25lIDE4IFBybyBNYXggZGF5LiIsCiAgICAgImNvdW50ZG93biI6IHsKICAgICAgImRhdGVMYWJlbCI6ICJGcmkgRGVjIDI1IiwKICAgICAgInRhcmdldERhdGUiOiAiMjAyNi0xMi0yNSIKICAgICB9LAogICAgICJpZCI6ICJjaHJpc3RtYXMiLAogICAgICJzdGF0dXNEb3QiOiAibGl2ZSIsCiAgICAgInRpdGxlIjogIkNocmlzdG1hcyIKICAgIH0sCiAgICB7CiAgICAgImJhZGdlIjogIjE0MyBkYXlzIiwKICAgICAiYmFkZ2VUb25lIjogImNsdXN0ZXIiLAogICAgICJib2R5IjogIk1hcmNoIDMxIOKAlCAxNDMgZGF5cyBvdXQuIiwKICAgICAiY291bnRkb3duIjogewogICAgICAiZGF0ZUxhYmVsIjogIk1hcmNoIDMxIiwKICAgICAgInRhcmdldERhdGUiOiAiMjAyNy0wMy0zMSIKICAgICB9LAogICAgICJpZCI6ICJiaXJ0aGRheSIsCiAgICAgInN0YXR1c0RvdCI6ICJkZWZhdWx0IiwKICAgICAidGl0bGUiOiAiQmlydGhkYXkiCiAgICB9LAogICAgewogICAgICJib2R5IjogIk5vbmUgYWN0aXZlIOKAlCB0aGUgTm92IDEzIEdvb2dsZSBzdG9yYWdlIGRlYWRsaW5lIHdhcyByZXNvbHZlZCBOb3YgMS4iLAogICAgICJpZCI6ICJkZWFkbGluZXMiLAogICAgICJzdGF0dXNEb3QiOiAiaW5mbyIsCiAgICAgInRpdGxlIjogIkRlYWRsaW5lcyIKICAgIH0KICAgXQogIH0sCiAgIndvcmtiZW5jaCI6IHsKICAgIm5vZGVzIjogWwogICAgewogICAgICJib2R5IjogIkxpdmUgYXQgYXRsYXNvZmZpY2lhbC1pbmMuZ2l0aHViLmlvL0F0bGFzIOKAlCBBbmRyb2lkIDAuMi4wIGRvd25sb2FkYWJsZSBub3cuIiwKICAgICAiaWQiOiAiYXRsYXMiLAogICAgICJzdGF0dXNEb3QiOiAibGl2ZSIsCiAgICAgInN0YXR1c1dvcmQiOiAiTGl2ZSIsCiAgICAgInRpdGxlIjogIkF0bGFzIgogICAgfSwKICAgIHsKICAgICAiYm9keSI6ICIwLjIuMSBpbnN0YWxsZXIgYXdhaXRzIGEgcmVidWlsZCBvbiBNb3JzJ3MgUEMsIHRoZW4gR2l0SHViIFJlbGVhc2UgaG9zdGluZy4iLAogICAgICJpZCI6ICJhdGxhcy1mb3Itd2luZG93cyIsCiAgICAgInN0YXR1c0RvdCI6ICJkZWZhdWx0IiwKICAgICAidGl0bGUiOiAiQXRsYXMgZm9yIFdpbmRvd3MiCiAgICB9LAogICAgewogICAgICJib2R5IjogIkNvbnN0ZWxsYXRpb24gVUkgYWNjZXB0ZWQg4oCUIG5vdyBpbiBpdHMgbGl2ZS1jb250ZW50IHBoYXNlOyBkYWlseSA3OjQ3IHBvdXJzIHB1Ymxpc2ggc2t5Lmpzb24uIiwKICAgICAiaWQiOiAiYXN0ZXJpc20iLAogICAgICJzdGF0dXNEb3QiOiAibGl2ZSIsCiAgICAgInRpdGxlIjogIkFzdGVyaXNtIgogICAgfSwKICAgIHsKICAgICAiYm9keSI6ICJOb21hZCBNb2Rlcm4gTGVhdGhlciBDYXNlIChIb3J3ZWVuKSBjaG9zZW4gTm92IDcg4oCUICQ3OSwgY29sb3Igc3RpbGwgdG8gcGljay4gU2FnYSBjbG9zZWQuIiwKICAgICAiaWQiOiAiaXBob25lLWNhc2UtaHVudCIsCiAgICAgInN0YXR1c0RvdCI6ICJpbmZvIiwKICAgICAidGl0bGUiOiAiaVBob25lIENhc2UgSHVudCIKICAgIH0sCiAgICB7CiAgICAgImJvZHkiOiAiRkxPTEFCIE9uZVRpbWUgUHJvIG9yZGVyZWQgb24gQW1hem9uIOKAlCBzYWdhIGNsb3NlZC4iLAogICAgICJpZCI6ICJzY3JlZW4tcHJvdGVjdG9yIiwKICAgICAic3RhdHVzRG90IjogImluZm8iLAogICAgICJ0aXRsZSI6ICJTY3JlZW4gUHJvdGVjdG9yIgogICAgfSwKICAgIHsKICAgICAiYm9keSI6ICJBcnRpc3Qgc2hvcnRsaXN0IGluIGhhbmQg4oCUIEdvYXR6NEV2YSwgYWxiYW5uYXN0dWRpb3MsIGVsYnlkcmF3cy4gTm8gcGljayB5ZXQsIH4kNDUgYnVkZ2V0LiIsCiAgICAgImlkIjogImN1c3RvbS1wZnAtYmFubmVyLWFydCIsCiAgICAgInN0YXR1c0RvdCI6ICJkZWZhdWx0IiwKICAgICAidGl0bGUiOiAiQ3VzdG9tIFBmcCAmIEJhbm5lciBBcnQiCiAgICB9LAogICAgewogICAgICJiYWRnZSI6ICJ+JDEsMDI5IiwKICAgICAiYm9keSI6ICJ+JDEsMDI5IHRvdGFsIOKAlCBhdWRpbyBjYXJ0ICQ4ODguOTYgKyBSYWlueSA3NSB+JDE0MC4iLAogICAgICJpZCI6ICJjaHJpc3RtYXMtbGlzdCIsCiAgICAgInN0YXR1c0RvdCI6ICJkZWZhdWx0IiwKICAgICAidGl0bGUiOiAiQ2hyaXN0bWFzIExpc3QiCiAgICB9LAogICAgewogICAgICJiYWRnZSI6ICIkNCwwMDAiLAogICAgICJib2R5IjogIk01IE1heCAvIDY0R0IgLyAxVEIgY2hvc2VuIGF0ICQ0LDAwMCBvdXQgdGhlIGRvb3Ig4oCUIHRpbWluZyB1bmRlY2lkZWQuIiwKICAgICAiaWQiOiAibWFjLXN0dWRpbyIsCiAgICAgInN0YXR1c0RvdCI6ICJpbmZvIiwKICAgICAidGl0bGUiOiAiTWFjIFN0dWRpbyIKICAgIH0KICAgXQogIH0KIH0sCiAibWV0YSI6IHsKICAiZGlzcGxheURhdGUiOiB7CiAgICJtb250aERheSI6ICJOb3YgOCIsCiAgICJ3ZWVrZGF5IjogIlN1bmRheSIKICB9LAogICJwb3VyTGFiZWwiOiAiUG91cmVkIFN1bmRheSwgTm92IDgg4oCUIG1vcm5pbmciLAogICJwb3VyVmVyc2lvbiI6IDQsCiAgInBvdXJlZEF0IjogIjIwMjYtMTEtMDhUMDc6NTI6MDAtMDY6MDAiLAogICJzY2hlbWFWZXJzaW9uIjogMQogfSwKICJ3b3JsZCI6IHsKICAic3RvcmllcyI6IFsKICAgewogICAgImNhdGVnb3J5IjogInRlY2giLAogICAgImNhdGVnb3J5TGFiZWwiOiAiVGVjaCIsCiAgICAiaGVhZGxpbmUiOiAiQW50aHJvcGljIHB1c2hlcyBhaGVhZCB3aXRoIElQTyBkZXNwaXRlIHRlY2ggc2VsbG9mZiDigJQgdmFsdWF0aW9uIGN1dCB0byAkMeKAkzEuM1QiLAogICAgImlkIjogImFudGhyb3BpYy1pcG8tcHVzaC1haGVhZCIsCiAgICAic291cmNlIjogIkxhdGVudCIsCiAgICAic3VtbWFyeSI6ICJBbnRocm9waWMgaXMgbW92aW5nIGZvcndhcmQgd2l0aCBpdHMgcHJlLVRoYW5rc2dpdmluZyBJUE8gZXZlbiBhcyB0aGUgc2VsbG9mZiBwcmVzc3VyZXMgdmFsdWF0aW9ucyBkb3duIGZyb20gYSAkMlQgdGFyZ2V0LiIsCiAgICAidXJsIjogImh0dHBzOi8vbGF0ZW50LnByby5ldC9yZXBvcnRzLzIwMjYtMTEtMDItdGhlLXdlZWstaW4tYWktbm92ZW1iZXItOC0yMDI2IgogICB9LAogICB7CiAgICAiY2F0ZWdvcnkiOiAidGVjaCIsCiAgICAiY2F0ZWdvcnlMYWJlbCI6ICJUZWNoIiwKICAgICJoZWFkbGluZSI6ICJPcGVuQUkgcmFpc2VzICQxMUIgYXQgYSAkMS4yNVQgdmFsdWF0aW9uIOKAlCBhbmQgbWF5IHJhaXNlICQyMEIgdG90YWwiLAogICAgImlkIjogIm9wZW5haS1yYWlzZXMtMTFiIiwKICAgICJzb3VyY2UiOiAiQUkgU3RyZWFtIE9ubGluZSIsCiAgICAic3VtbWFyeSI6ICJPcGVuQUkgY2xvc2VkIGFuICQxMUIgcm91bmQgYXQgJDEuMjVUIGFuZCBwbGFucyB0byByYWlzZSBhcyBtdWNoIGFzICQyMEIgaW4gdG90YWwsIHNlZWtpbmcgc21hbGxlciBpbnZlc3RvcnMgdG8gcmVhY2ggdGhlIGdvYWwuIiwKICAgICJ1cmwiOiAiaHR0cHM6Ly9haXN0cmVhbW9ubGluZS5jb20vYnJpZWYvMjAyNi0xMS0wOC1vdmVybmlnaHQiCiAgIH0sCiAgIHsKICAgICJjYXRlZ29yeSI6ICJnYW1pbmciLAogICAgImNhdGVnb3J5TGFiZWwiOiAiR2FtaW5nIiwKICAgICJoZWFkbGluZSI6ICJOb3YgMTUgaXMgb2ZmaWNpYWxseSBhIGRhcmsgZGF5IGZvciBHYW1lIFBhc3Mg4oCUIDEzIGdhbWVzIGxlYXZlLCBpbmNsdWRpbmcgR29sZGVuRXllIDAwNyIsCiAgICAiaWQiOiAiZ2FtZS1wYXNzLWRhcmstZGF5LW5vdi0xNSIsCiAgICAic291cmNlIjogIlNjcmVlblJhbnQiLAogICAgInN1bW1hcnkiOiAiVGhpcnRlZW4gZ2FtZXMgbGVhdmUgWGJveCBHYW1lIFBhc3MgYXQgb25jZSBvbiBOb3YgMTU7IEZvb3RiYWxsIE1hbmFnZXIgMjYgbGVhdmVzIGVhcmxpZXIsIG9uIE5vdiAxMCwgdGhlIGRheSBpdHMgc2VxdWVsIGxhdW5jaGVzLiIsCiAgICAidXJsIjogImh0dHBzOi8vc2NyZWVucmFudC5jb20veGJveC1nYW1lLXBhc3MtZ2FtZXMtbGVhdmluZy1ub3ZlbWJlci0xNS0yMDI2LyIKICAgfSwKICAgewogICAgImNhdGVnb3J5IjogImdhbWluZyIsCiAgICAiY2F0ZWdvcnlMYWJlbCI6ICJHYW1pbmciLAogICAgImhlYWRsaW5lIjogIjEwKyBHYW1lIFBhc3MgdGl0bGVzIGNvbmZpcm1lZCBmb3IgWGJveCdzIDI1dGggYW5uaXZlcnNhcnkgd2VlayIsCiAgICAiaWQiOiAiZ2FtZS1wYXNzLTI1dGgtYW5uaXZlcnNhcnktd2VlayIsCiAgICAic291cmNlIjogIlB1cmUgWGJveCIsCiAgICAic3VtbWFyeSI6ICJFaWdodCBnYW1lcyBqb2luIEdhbWUgUGFzcyBFc3NlbnRpYWwgb24gTm92IDE1IGl0c2VsZiDigJQgQmFuam8tS2F6b29pZSwgR2VhcnMgb2YgV2FyOiBKdWRnbWVudCwgSGFsbzogU3BhcnRhbiBBc3NhdWx0IGFuZCBtb3JlIOKAlCB3aXRoIHNpeCBtb3JlIGFjcm9zcyB0aGUgd2Vlay4iLAogICAgInVybCI6ICJodHRwczovL3d3dy5wdXJleGJveC5jb20vbmV3cy8yMDI2LzExLzEwcGx1cy1nYW1lLXBhc3MtdGl0bGVzLWFyZS1jb25maXJtZWQtZm9yLXhib3hzLTI1dGgtYW5uaXZlcnNhcnktd2VlayIKICAgfSwKICAgewogICAgImNhdGVnb3J5IjogIndvcmxkIiwKICAgICJjYXRlZ29yeUxhYmVsIjogIldvcmxkIiwKICAgICJoZWFkbGluZSI6ICJHdW5tYW4ga2lsbHMgc2l4IGluIEtyYWvDs3cncyBtYWluIHNxdWFyZTsgdGhyZWUgbW9yZSBib2RpZXMgZm91bmQgYXQgaGlzIGhvbWUiLAogICAgImlkIjogImtyYWtvdy1tYXJrZXQtc3F1YXJlLXNob290aW5nIiwKICAgICJzb3VyY2UiOiAiT25lIFR1cm4iLAogICAgInN1bW1hcnkiOiAiQSAyNS15ZWFyLW9sZCBvcGVuZWQgZmlyZSBpbiBLcmFrw7N3J3MgbWFya2V0IHNxdWFyZSBTYXR1cmRheSBhZnRlcm5vb247IGF0IGxlYXN0IHNpeCBraWxsZWQsIDE2IHdvdW5kZWQsIGEgQnJpdG9uIGFtb25nIHRoZSBkZWFkLiIsCiAgICAidXJsIjogImh0dHBzOi8vb25ldHVybi5uZXdzL25ld3MvIgogICB9LAogICB7CiAgICAiY2F0ZWdvcnkiOiAid29ybGQiLAogICAgImNhdGVnb3J5TGFiZWwiOiAiV29ybGQiLAogICAgImhlYWRsaW5lIjogIlJ1c3NpYSBmaXJlcyAzNiBiYWxsaXN0aWMgbWlzc2lsZXMgYXQgS3lpdiByZWdpb24gYXMgQWJ1IERoYWJpIHRhbGtzIG5lYXIiLAogICAgImlkIjogInJ1c3NpYS1taXNzaWxlcy1reWl2LW5vdi04IiwKICAgICJzb3VyY2UiOiAiWmFyayBOZXdzIiwKICAgICJzdW1tYXJ5IjogIk92ZXJuaWdodCBOb3YgNuKAkzcgYmFycmFnZSBwbHVzIDE3MiBkcm9uZXMgYWNyb3NzIDEzIHJlZ2lvbnM7IGFpciBkZWZlbmNlcyBkb3duZWQgb25seSA0IG9mIHRoZSBtaXNzaWxlcywgWmVsZW5za3l5IHNhaWQuIiwKICAgICJ1cmwiOiAiaHR0cHM6Ly96YXJrbmV3cy5jb20vemFyay1uZXdzLWRhaWx5LWJyaWVmaW5nLW5vdmVtYmVyLTgtMjAyNi8iCiAgIH0sCiAgIHsKICAgICJjYXRlZ29yeSI6ICJjdWx0dXJlIiwKICAgICJjYXRlZ29yeUxhYmVsIjogIkN1bHR1cmUiLAogICAgImhlYWRsaW5lIjogIlN0cmFuZ2VyIFRoaW5ncyBjb25maXJtcyBsaXZlLWFjdGlvbiBwcmVxdWVsICdPdGhlciBXb3JsZHMnIOKAlCAxOTU1LCBNYXJpb24sIE5ldmFkYSwgMjAyOCIsCiAgICAiaWQiOiAic3RyYW5nZXItdGhpbmdzLW90aGVyLXdvcmxkcyIsCiAgICAic291cmNlIjogIlJhZGlvIFRpbWVzIiwKICAgICJzdW1tYXJ5IjogIlRoZSB0ZWFzZXIgY29uZmlybXMgdGhlIHNldHRpbmcgKE1hcmlvbiwgTmV2YWRhLCBBcHJpbCAxOSwgMTk1NSkgYW5kIGEgMjAyOCByZWxlYXNlOyBLYXRlIFRyZWZyeSBzaG93cnVucywgSm9lIFdyaWdodCBkaXJlY3RzIHRoZSBmaXJzdCB0aHJlZSBlcGlzb2Rlcy4iLAogICAgInVybCI6ICJodHRwczovL3d3dy5yYWRpb3RpbWVzLmNvbS90di9zY2ktZmkvc3RyYW5nZXItdGhpbmdzLWxpdmUtYWN0aW9uLXByZXF1ZWwtbmV3c3VwZGF0ZS8iCiAgIH0KICBdCiB9Cn0K
+{
+ "brief": {
+  "calendar": {
+   "entries": [],
+   "state": "clear",
+   "summary": "Nothing on the calendar — clear day, do what you want with it."
+  },
+  "flags": {
+   "nextFlag": {
+    "detail": "43° / 34°",
+    "label": "Fri Nov 13 cold snap",
+    "targetDate": "2026-11-13"
+   },
+   "state": "none",
+   "text": "Nothing urgent today — next flag: the Fri Nov 13 cold snap, 43° / 34°."
+  },
+  "inbox": {
+   "detail": "Wispr's Manvi wrote in with a mic-setup recommendation; Fireflies, Chess.com and BEARPAW sent promos; Google logged his own TradingView and privy.io data shares. TikTok notifications — all skippable.",
+   "rows": [],
+   "state": "quiet",
+   "summary": "Quiet — nothing in the inbox needs you."
+  },
+  "lookingAhead": {
+   "detail": "Today tops out at 64° after a chilly 34° start; Monday sunny 67°/35°. Rain possible Wed–Thu (30–34%), then the Friday Nov 13 cold snap: high 43°, low 34°.",
+   "headline": "Sunny Sunday, rain midweek — cold snap still Friday."
+  },
+  "weather": {
+   "condition": "Sunny",
+   "high": 64,
+   "hourly": [
+    {
+     "label": "NOW",
+     "temp": 40
+    },
+    {
+     "label": "9 AM",
+     "temp": 49
+    },
+    {
+     "label": "11 AM",
+     "temp": 59
+    },
+    {
+     "label": "1 PM",
+     "temp": 64
+    },
+    {
+     "label": "3 PM",
+     "temp": 62
+    }
+   ],
+   "low": 34,
+   "place": "HAZEL GREEN, AL",
+   "rainChanceTodayPct": 0,
+   "rainChanceTonightPct": 0,
+   "tempNow": 40,
+   "tonightCondition": "Partly Cloudy"
+  }
+ },
+ "clusters": {
+  "deepsky": {
+   "nodes": [
+    {
+     "body": "Clear and cold — low 34°, light wind. No alerts.",
+     "id": "tonight",
+     "statusDot": "default",
+     "title": "Tonight"
+    },
+    {
+     "body": "Sunny Sunday 64/34. Mon 67/35 sunny, Tue 63/48, rain possible Wed–Thu, then the Fri Nov 13 cold snap: high 43°, low 34°.",
+     "id": "the-week",
+     "statusDot": "default",
+     "title": "The Week"
+    },
+    {
+     "badge": "5 days",
+     "badgeTone": "cluster",
+     "body": "5 days to Fri Nov 13 — high 43° / low 34°, the biggest weather event on the board.",
+     "countdown": {
+      "dateLabel": "Fri Nov 13",
+      "targetDate": "2026-11-13"
+     },
+     "id": "the-cold-snap",
+     "statusDot": "live",
+     "title": "The Cold Snap"
+    },
+    {
+     "body": "Daily weather + the 7:47 brief run every morning for Hazel Green.",
+     "id": "standing-watches",
+     "statusDot": "info",
+     "title": "Standing Watches"
+    }
+   ]
+  },
+  "devices": {
+   "nodes": [
+    {
+     "body": "Back in hand after this morning's power-off episode.",
+     "id": "phone-s26-ultra",
+     "statusDot": "default",
+     "title": "Phone — S26 Ultra"
+    },
+    {
+     "body": "~2–3 GB headroom — quota verified unchanged Nov 4.",
+     "id": "google-storage",
+     "statusDot": "info",
+     "title": "Google Storage"
+    },
+    {
+     "body": "0.2.0 live on the site.",
+     "id": "atlas",
+     "statusDot": "live",
+     "statusWord": "0.2.0 live",
+     "title": "Atlas"
+    }
+   ]
+  },
+  "household": {
+   "nodes": [
+    {
+     "body": "Blue/grey pit-type, not yet 5 months old — little-shark teething phase in full effect.",
+     "id": "the-puppy",
+     "statusDot": "live",
+     "title": "The Puppy"
+    },
+    {
+     "body": "Name and breed unknown — the two are mortal enemies.",
+     "id": "the-other-dog",
+     "statusDot": "dim",
+     "title": "The Other Dog"
+    },
+    {
+     "badge": "$1.45",
+     "badgeTone": "rose",
+     "body": "$1.45. Never moves.",
+     "id": "cashapp",
+     "statusDot": "default",
+     "title": "CashApp"
+    }
+   ]
+  },
+  "inmotion": {
+   "nodes": [
+    {
+     "body": "Ordered on Amazon — delivery date not yet known.",
+     "id": "flolab-onetime-pro",
+     "statusDot": "live",
+     "statusWord": "Ordered",
+     "title": "FLOLAB OneTime Pro"
+    },
+    {
+     "body": "WOBKEY direct ~$140 with Cocoa switches — the build to beat.",
+     "id": "rainy-75-price-watch",
+     "statusDot": "default",
+     "title": "Rainy 75 Price Watch"
+    },
+    {
+     "badge": "~$1,029",
+     "body": "~$1,029 and holding.",
+     "id": "christmas-list-total",
+     "statusDot": "default",
+     "title": "Christmas List Total"
+    }
+   ]
+  },
+  "life": {
+   "nodes": [
+    {
+     "body": "“Dark Knight Dummo” — Trippie Redd ft. Travis Scott. A top-5 song, set as his Instagram profile song.",
+     "id": "spotify",
+     "statusDot": "live",
+     "title": "Spotify"
+    },
+    {
+     "body": "Java 1.20.1 with Bliss shaders + Distant Horizons — terrain for days.",
+     "id": "minecraft",
+     "statusDot": "default",
+     "title": "Minecraft"
+    },
+    {
+     "body": "Nightclub Simulator champion — “too good at the game.” Drunken Bar Fight for chair-throwing physics.",
+     "id": "vr",
+     "statusDot": "default",
+     "title": "VR"
+    },
+    {
+     "body": "peenleenbeen.",
+     "id": "chess-com",
+     "statusDot": "info",
+     "title": "Chess.com"
+    }
+   ]
+  },
+  "money": {
+   "nodes": [
+    {
+     "badge": "~$1,029",
+     "body": "The $888.96 audio chain — SM7dB $459, Momentum 4, Scarlett Solo, XLR cable + boom arm — plus the WOBKEY Rainy 75 at ~$140. Wishlist, not yet bought.",
+     "id": "christmas-list",
+     "statusDot": "default",
+     "title": "Christmas List"
+    },
+    {
+     "badge": "$4,000",
+     "body": "M5 Max, 64GB, 1TB — $4,000 out the door. Decision made, timing open — ‘depends’.",
+     "id": "mac-studio-fund",
+     "statusDot": "info",
+     "title": "Mac Studio Fund"
+    },
+    {
+     "body": "iPhone 18 Pro Max lands at Christmas — $1,299 base, full launch price. Case CHOSEN: Nomad Modern Leather (Horween), $79 — color still to pick. FLOLAB protector already ordered.",
+     "id": "iphone-day-fund",
+     "statusDot": "default",
+     "title": "iPhone Day Fund"
+    }
+   ]
+  },
+  "social": {
+   "nodes": [
+    {
+     "body": "@wsgimzay — 0 posts, 11 followers, 64 following. Profile made over Nov 6: new bio, Atlas link, profile song ‘Dark Knight Dummo’. The grid stays empty by choice.",
+     "id": "instagram",
+     "statusDot": "live",
+     "title": "Instagram"
+    },
+    {
+     "body": "Profile decorating in progress. Custom pfp + banner art hunt open — shortlist ready, and the goat (favourite animal) leads. Capybara placeholder sets generated meanwhile.",
+     "id": "twitter-x",
+     "statusDot": "default",
+     "title": "Twitter / X"
+    },
+    {
+     "body": "The Atlas site is live at atlasofficial-inc.github.io/Atlas — and Asterism now has its own repo and Pages site, pouring daily sky.json.",
+     "id": "atlas-out-loud",
+     "statusDot": "info",
+     "title": "Atlas, Out Loud"
+    }
+   ]
+  },
+  "studio": {
+   "nodes": [
+    {
+     "body": "DaVinci Resolve 21 installed on the PC (Nov 1). First edit still ahead — learning video editing is the standing goal.",
+     "id": "video-editing",
+     "statusDot": "default",
+     "title": "Video Editing"
+    },
+    {
+     "body": "0.2.0 live on the website with the verified APK. Windows at 0.2.1 — installer rebuild pending on his PC. Sync parked.",
+     "id": "atlas-the-product",
+     "statusDot": "live",
+     "title": "Atlas, The Product"
+    },
+    {
+     "body": "This app — the second product. Windows build installed and working; live weather fetch went live Nov 8 ~03:41; daily sky.json pours now live.",
+     "id": "asterism-the-product",
+     "statusDot": "live",
+     "title": "Asterism, The Product"
+    }
+   ]
+  },
+  "time": {
+   "nodes": [
+    {
+     "badge": "47 days",
+     "badgeTone": "cluster",
+     "body": "47 days to Fri Dec 25 — also iPhone 18 Pro Max day.",
+     "countdown": {
+      "dateLabel": "Fri Dec 25",
+      "targetDate": "2026-12-25"
+     },
+     "id": "christmas",
+     "statusDot": "live",
+     "title": "Christmas"
+    },
+    {
+     "badge": "143 days",
+     "badgeTone": "cluster",
+     "body": "March 31 — 143 days out.",
+     "countdown": {
+      "dateLabel": "March 31",
+      "targetDate": "2027-03-31"
+     },
+     "id": "birthday",
+     "statusDot": "default",
+     "title": "Birthday"
+    },
+    {
+     "body": "None active — the Nov 13 Google storage deadline was resolved Nov 1.",
+     "id": "deadlines",
+     "statusDot": "info",
+     "title": "Deadlines"
+    }
+   ]
+  },
+  "workbench": {
+   "nodes": [
+    {
+     "body": "Live at atlasofficial-inc.github.io/Atlas — Android 0.2.0 downloadable now.",
+     "id": "atlas",
+     "statusDot": "live",
+     "statusWord": "Live",
+     "title": "Atlas"
+    },
+    {
+     "body": "0.2.1 installer awaits a rebuild on Mors's PC, then GitHub Release hosting.",
+     "id": "atlas-for-windows",
+     "statusDot": "default",
+     "title": "Atlas for Windows"
+    },
+    {
+     "body": "Constellation UI accepted — now in its live-content phase; daily 7:47 pours publish sky.json.",
+     "id": "asterism",
+     "statusDot": "live",
+     "title": "Asterism"
+    },
+    {
+     "body": "Nomad Modern Leather Case (Horween) chosen Nov 7 — $79, color still to pick. Saga closed.",
+     "id": "iphone-case-hunt",
+     "statusDot": "info",
+     "title": "iPhone Case Hunt"
+    },
+    {
+     "body": "FLOLAB OneTime Pro ordered on Amazon — saga closed.",
+     "id": "screen-protector",
+     "statusDot": "info",
+     "title": "Screen Protector"
+    },
+    {
+     "body": "Artist shortlist in hand — Goatz4Eva, albannastudios, elbydraws. No pick yet, ~$45 budget.",
+     "id": "custom-pfp-banner-art",
+     "statusDot": "default",
+     "title": "Custom Pfp & Banner Art"
+    },
+    {
+     "badge": "~$1,029",
+     "body": "~$1,029 total — audio cart $888.96 + Rainy 75 ~$140.",
+     "id": "christmas-list",
+     "statusDot": "default",
+     "title": "Christmas List"
+    },
+    {
+     "badge": "$4,000",
+     "body": "M5 Max / 64GB / 1TB chosen at $4,000 out the door — timing undecided.",
+     "id": "mac-studio",
+     "statusDot": "info",
+     "title": "Mac Studio"
+    }
+   ]
+  }
+ },
+ "meta": {
+  "displayDate": {
+   "monthDay": "Nov 8",
+   "weekday": "Sunday"
+  },
+  "pourLabel": "Poured Sunday, Nov 8 — morning",
+  "pourVersion": 4,
+  "pouredAt": "2026-11-08T07:52:00-06:00",
+  "schemaVersion": 1
+ },
+ "world": {
+  "stories": [
+   {
+    "category": "tech",
+    "categoryLabel": "Tech",
+    "headline": "Anthropic pushes ahead with IPO despite tech selloff — valuation cut to $1–1.3T",
+    "id": "anthropic-ipo-push-ahead",
+    "source": "Latent",
+    "summary": "Anthropic is moving forward with its pre-Thanksgiving IPO even as the selloff pressures valuations down from a $2T target.",
+    "url": "https://latent.pro.et/reports/2026-11-02-the-week-in-ai-november-8-2026"
+   },
+   {
+    "category": "tech",
+    "categoryLabel": "Tech",
+    "headline": "OpenAI raises $11B at a $1.25T valuation — and may raise $20B total",
+    "id": "openai-raises-11b",
+    "source": "AI Stream Online",
+    "summary": "OpenAI closed an $11B round at $1.25T and plans to raise as much as $20B in total, seeking smaller investors to reach the goal.",
+    "url": "https://aistreamonline.com/brief/2026-11-08-overnight"
+   },
+   {
+    "category": "gaming",
+    "categoryLabel": "Gaming",
+    "headline": "Nov 15 is officially a dark day for Game Pass — 13 games leave, including GoldenEye 007",
+    "id": "game-pass-dark-day-nov-15",
+    "source": "ScreenRant",
+    "summary": "Thirteen games leave Xbox Game Pass at once on Nov 15; Football Manager 26 leaves earlier, on Nov 10, the day its sequel launches.",
+    "url": "https://screenrant.com/xbox-game-pass-games-leaving-november-15-2026/"
+   },
+   {
+    "category": "gaming",
+    "categoryLabel": "Gaming",
+    "headline": "10+ Game Pass titles confirmed for Xbox's 25th anniversary week",
+    "id": "game-pass-25th-anniversary-week",
+    "source": "Pure Xbox",
+    "summary": "Eight games join Game Pass Essential on Nov 15 itself — Banjo-Kazooie, Gears of War: Judgment, Halo: Spartan Assault and more — with six more across the week.",
+    "url": "https://www.purexbox.com/news/2026/11/10plus-game-pass-titles-are-confirmed-for-xboxs-25th-anniversary-week"
+   },
+   {
+    "category": "world",
+    "categoryLabel": "World",
+    "headline": "Gunman kills six in Kraków's main square; three more bodies found at his home",
+    "id": "krakow-market-square-shooting",
+    "source": "One Turn",
+    "summary": "A 25-year-old opened fire in Kraków's market square Saturday afternoon; at least six killed, 16 wounded, a Briton among the dead.",
+    "url": "https://oneturn.news/news/"
+   },
+   {
+    "category": "world",
+    "categoryLabel": "World",
+    "headline": "Russia fires 36 ballistic missiles at Kyiv region as Abu Dhabi talks near",
+    "id": "russia-missiles-kyiv-nov-8",
+    "source": "Zark News",
+    "summary": "Overnight Nov 6–7 barrage plus 172 drones across 13 regions; air defences downed only 4 of the missiles, Zelenskyy said.",
+    "url": "https://zarknews.com/zark-news-daily-briefing-november-8-2026/"
+   },
+   {
+    "category": "culture",
+    "categoryLabel": "Culture",
+    "headline": "Stranger Things confirms live-action prequel 'Other Worlds' — 1955, Marion, Nevada, 2028",
+    "id": "stranger-things-other-worlds",
+    "source": "Radio Times",
+    "summary": "The teaser confirms the setting (Marion, Nevada, April 19, 1955) and a 2028 release; Kate Trefry showruns, Joe Wright directs the first three episodes.",
+    "url": "https://www.radiotimes.com/tv/sci-fi/stranger-things-live-action-prequel-newsupdate/"
+   }
+  ]
+ }
+}
