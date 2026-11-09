@@ -7,26 +7,26 @@
   },
   "flags": {
    "nextFlag": {
-    "detail": "43° / 34°",
+    "detail": "50° / 36°",
     "label": "Fri Nov 13 cold snap",
     "targetDate": "2026-11-13"
    },
    "state": "none",
-   "text": "Nothing urgent today — next flag: the Fri Nov 13 cold snap, 43° / 34°."
+   "text": "Nothing urgent today — next flag: the Fri Nov 13 cold snap, 50° / 36°."
   },
   "inbox": {
-   "detail": "Wispr's Manvi wrote in with a mic-setup recommendation; Fireflies, Chess.com and BEARPAW sent promos; Google logged his own TradingView and privy.io data shares. TikTok notifications — all skippable.",
+   "detail": "Instagram confirmed an old alt account was permanently disabled (suspended 180+ days, no review possible — not his main @wsgimzay). AudioPen, Fireflies and Wispr promos, TikTok notifications — all skippable.",
    "rows": [],
    "state": "quiet",
    "summary": "Quiet — nothing in the inbox needs you."
   },
   "lookingAhead": {
-   "detail": "Today tops out at 64° after a chilly 34° start; Monday sunny 67°/35°. Rain possible Wed–Thu (30–34%), then the Friday Nov 13 cold snap: high 43°, low 34°.",
-   "headline": "Sunny Sunday, rain midweek — cold snap still Friday."
+   "detail": "Today tops out at 69° after a chilly 35° start; Monday sunny 68°/42°. Rain likely Tue 61°/49° and Wed 61°/42° (71% both days), then the Fri Nov 13 cold snap: high 50°, low 36° — milder than yesterday's 43°/34° forecast.",
+   "headline": "Sunny Monday, rain Tue–Wed — cold snap still Friday, milder now."
   },
   "weather": {
-   "condition": "Sunny",
-   "high": 64,
+   "condition": "Clear",
+   "high": 69,
    "hourly": [
     {
      "label": "NOW",
@@ -38,18 +38,18 @@
     },
     {
      "label": "11 AM",
-     "temp": 59
+     "temp": 60
     },
     {
      "label": "1 PM",
-     "temp": 64
+     "temp": 67
     },
     {
      "label": "3 PM",
-     "temp": 62
+     "temp": 69
     }
    ],
-   "low": 34,
+   "low": 35,
    "place": "HAZEL GREEN, AL",
    "rainChanceTodayPct": 0,
    "rainChanceTonightPct": 0,
@@ -61,21 +61,21 @@
   "deepsky": {
    "nodes": [
     {
-     "body": "Clear and cold — low 34°, light wind. No alerts.",
+     "body": "Clear and cold — low 35°, light wind. No alerts.",
      "id": "tonight",
      "statusDot": "default",
      "title": "Tonight"
     },
     {
-     "body": "Sunny Sunday 64/34. Mon 67/35 sunny, Tue 63/48, rain possible Wed–Thu, then the Fri Nov 13 cold snap: high 43°, low 34°.",
+     "body": "Sunny Monday 69/35. Tue 61/49 with rain likely, Wed 61/42 rain likely, then the Fri Nov 13 cold snap: high 50°, low 36°.",
      "id": "the-week",
      "statusDot": "default",
      "title": "The Week"
     },
     {
-     "badge": "5 days",
+     "badge": "4 days",
      "badgeTone": "cluster",
-     "body": "5 days to Fri Nov 13 — high 43° / low 34°, the biggest weather event on the board.",
+     "body": "4 days to Fri Nov 13 — high 50° / low 36°, the biggest weather event on the board.",
      "countdown": {
       "dateLabel": "Fri Nov 13",
       "targetDate": "2026-11-13"
@@ -262,9 +262,9 @@
   "time": {
    "nodes": [
     {
-     "badge": "47 days",
+     "badge": "46 days",
      "badgeTone": "cluster",
-     "body": "47 days to Fri Dec 25 — also iPhone 18 Pro Max day.",
+     "body": "46 days to Fri Dec 25 — also iPhone 18 Pro Max day.",
      "countdown": {
       "dateLabel": "Fri Dec 25",
       "targetDate": "2026-12-25"
@@ -274,9 +274,9 @@
      "title": "Christmas"
     },
     {
-     "badge": "143 days",
+     "badge": "142 days",
      "badgeTone": "cluster",
-     "body": "March 31 — 143 days out.",
+     "body": "March 31 — 142 days out.",
      "countdown": {
       "dateLabel": "March 31",
       "targetDate": "2027-03-31"
@@ -351,12 +351,12 @@
  },
  "meta": {
   "displayDate": {
-   "monthDay": "Nov 8",
-   "weekday": "Sunday"
+   "monthDay": "Nov 9",
+   "weekday": "Monday"
   },
-  "pourLabel": "Poured Sunday, Nov 8 — morning",
-  "pourVersion": 4,
-  "pouredAt": "2026-11-08T07:52:00-06:00",
+  "pourLabel": "Poured Monday, Nov 9 — morning",
+  "pourVersion": 5,
+  "pouredAt": "2026-11-09T07:52:00-06:00",
   "schemaVersion": 1
  },
  "world": {
@@ -364,65 +364,65 @@
    {
     "category": "tech",
     "categoryLabel": "Tech",
-    "headline": "Anthropic pushes ahead with IPO despite tech selloff — valuation cut to $1–1.3T",
-    "id": "anthropic-ipo-push-ahead",
-    "source": "Latent",
-    "summary": "Anthropic is moving forward with its pre-Thanksgiving IPO even as the selloff pressures valuations down from a $2T target.",
-    "url": "https://latent.pro.et/reports/2026-11-02-the-week-in-ai-november-8-2026"
+    "headline": "Anthropic reportedly spends $3.4B on gas generators to power its AI data centers",
+    "id": "anthropic-3-4b-gas-generators",
+    "source": "The Neuron",
+    "summary": "A reported $3.4B deal for 1.7 GW of gas-powered generation, taking over Caterpillar orders placed by OnePWR Solutions.",
+    "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-monday-november-9-2026/"
    },
    {
     "category": "tech",
     "categoryLabel": "Tech",
-    "headline": "OpenAI raises $11B at a $1.25T valuation — and may raise $20B total",
-    "id": "openai-raises-11b",
-    "source": "AI Stream Online",
-    "summary": "OpenAI closed an $11B round at $1.25T and plans to raise as much as $20B in total, seeking smaller investors to reach the goal.",
-    "url": "https://aistreamonline.com/brief/2026-11-08-overnight"
+    "headline": "Nvidia board probes CEO Jensen Huang over affair and reported spy fears",
+    "id": "nvidia-board-probes-huang",
+    "source": "The Art of CTO",
+    "summary": "Nvidia's board launched an independent investigation after Huang admitted to an affair with a tech executive a US intelligence memo reportedly flagged as a potential Chinese agent.",
+    "url": "https://theartofcto.com/daily-sync/2026-11-09-daily-sync"
    },
    {
     "category": "gaming",
     "categoryLabel": "Gaming",
-    "headline": "Nov 15 is officially a dark day for Game Pass — 13 games leave, including GoldenEye 007",
-    "id": "game-pass-dark-day-nov-15",
-    "source": "ScreenRant",
-    "summary": "Thirteen games leave Xbox Game Pass at once on Nov 15; Football Manager 26 leaves earlier, on Nov 10, the day its sequel launches.",
-    "url": "https://screenrant.com/xbox-game-pass-games-leaving-november-15-2026/"
+    "headline": "Xbox gets 37 new games in a single week",
+    "id": "xbox-37-new-games-week",
+    "source": "ixbt.games",
+    "summary": "Microsoft's Nov 9–13 wave includes Shrek 2 Remastered, Hard West 2 and Football Manager 27, with several day-one on Game Pass.",
+    "url": "https://ixbt.games/en/news/2026/11/09/xbox-polucit-srazu-37-novyx-igr-za-nedeliu-microsoft-raskryla-polnyi-spisok.html"
    },
    {
     "category": "gaming",
     "categoryLabel": "Gaming",
-    "headline": "10+ Game Pass titles confirmed for Xbox's 25th anniversary week",
-    "id": "game-pass-25th-anniversary-week",
-    "source": "Pure Xbox",
-    "summary": "Eight games join Game Pass Essential on Nov 15 itself — Banjo-Kazooie, Gears of War: Judgment, Halo: Spartan Assault and more — with six more across the week.",
-    "url": "https://www.purexbox.com/news/2026/11/10plus-game-pass-titles-are-confirmed-for-xboxs-25th-anniversary-week"
+    "headline": "Game Pass Essential adds Banjo-Kazooie and Perfect Dark on Nov 15",
+    "id": "game-pass-essential-banjo-perfect-dark",
+    "source": "Gear Chamber",
+    "summary": "Eight Xbox classics join the entry-level tier for Xbox's 25th anniversary, the same day GoldenEye 007 leaves.",
+    "url": "https://gearchamber.com/news/banjo-kazooie-game-pass-essential/"
    },
    {
     "category": "world",
     "categoryLabel": "World",
-    "headline": "Gunman kills six in Kraków's main square; three more bodies found at his home",
-    "id": "krakow-market-square-shooting",
-    "source": "One Turn",
-    "summary": "A 25-year-old opened fire in Kraków's market square Saturday afternoon; at least six killed, 16 wounded, a Briton among the dead.",
-    "url": "https://oneturn.news/news/"
+    "headline": "COP31 climate talks open in Antalya, Türkiye",
+    "id": "cop31-opens-antalya",
+    "source": "Okay News",
+    "summary": "Nearly 200 countries meet Nov 9–20, with Türkiye pushing electrification to the top of the agenda.",
+    "url": "https://www.okaynews.com/okay-news-daily-briefing-november-9-2026/"
    },
    {
     "category": "world",
     "categoryLabel": "World",
-    "headline": "Russia fires 36 ballistic missiles at Kyiv region as Abu Dhabi talks near",
-    "id": "russia-missiles-kyiv-nov-8",
-    "source": "Zark News",
-    "summary": "Overnight Nov 6–7 barrage plus 172 drones across 13 regions; air defences downed only 4 of the missiles, Zelenskyy said.",
-    "url": "https://zarknews.com/zark-news-daily-briefing-november-8-2026/"
+    "headline": "Russia–Ukraine talks begin tomorrow in Abu Dhabi",
+    "id": "russia-ukraine-talks-abu-dhabi",
+    "source": "Bangladesh Chronicle",
+    "summary": "The two-day US-mediated talks are the first trilateral negotiations since February, with security guarantees at the center.",
+    "url": "https://bangladeshchronicle.net/morning-news-brief-monday-november-9-2026/"
    },
    {
     "category": "culture",
     "categoryLabel": "Culture",
-    "headline": "Stranger Things confirms live-action prequel 'Other Worlds' — 1955, Marion, Nevada, 2028",
-    "id": "stranger-things-other-worlds",
-    "source": "Radio Times",
-    "summary": "The teaser confirms the setting (Marion, Nevada, April 19, 1955) and a 2028 release; Kate Trefry showruns, Joe Wright directs the first three episodes.",
-    "url": "https://www.radiotimes.com/tv/sci-fi/stranger-things-live-action-prequel-newsupdate/"
+    "headline": "'Godzilla Minus Zero' opens to a record $31.6M for a foreign-language film",
+    "id": "godzilla-minus-zero-record-opening",
+    "source": "Seven Lights",
+    "summary": "The weekend's biggest opening, as Lando Norris won a wet São Paulo Grand Prix and Mercedes took the constructors' title.",
+    "url": "https://sevenlights.org/podcast/2026-11-09-daily-brief/"
    }
   ]
  }
