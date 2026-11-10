@@ -7,75 +7,75 @@
   },
   "flags": {
    "nextFlag": {
-    "detail": "50° / 36°",
+    "detail": "51° / 28°",
     "label": "Fri Nov 13 cold snap",
     "targetDate": "2026-11-13"
    },
    "state": "none",
-   "text": "Nothing urgent today — next flag: the Fri Nov 13 cold snap, 50° / 36°."
+   "text": "Nothing urgent today — next flag: the Fri Nov 13 cold snap, 51° / 28°."
   },
   "inbox": {
-   "detail": "Instagram confirmed an old alt account was permanently disabled (suspended 180+ days, no review possible — not his main @wsgimzay). AudioPen, Fireflies and Wispr promos, TikTok notifications — all skippable.",
+   "detail": "Instagram confirmed an old alt account was permanently disabled (suspended 180+ days, no review possible — not his main @wsgimzay). Fireflies and AudioPen promos, TikTok notifications, a fomo newsletter — all skippable.",
    "rows": [],
    "state": "quiet",
    "summary": "Quiet — nothing in the inbox needs you."
   },
   "lookingAhead": {
-   "detail": "Today tops out at 69° after a chilly 35° start; Monday sunny 68°/42°. Rain likely Tue 61°/49° and Wed 61°/42° (71% both days), then the Fri Nov 13 cold snap: high 50°, low 36° — milder than yesterday's 43°/34° forecast.",
-   "headline": "Sunny Monday, rain Tue–Wed — cold snap still Friday, milder now."
+   "detail": "Today tops out at 72° after a 41° start; Wed partly cloudy 69°/47° with a slight rain chance and showers possible early night. Thu cooler, 61°/37°. Then the Fri Nov 13 cold snap: high 51°, low 28° — colder than yesterday's 50°/36° forecast.",
+   "headline": "Sunny and warm today — cold snap Friday drops to 28°."
   },
   "weather": {
-   "condition": "Clear",
-   "high": 69,
+   "condition": "Sunny",
+   "high": 72,
    "hourly": [
     {
      "label": "NOW",
-     "temp": 40
+     "temp": 42
     },
     {
      "label": "9 AM",
-     "temp": 49
+     "temp": 51
     },
     {
      "label": "11 AM",
-     "temp": 60
+     "temp": 66
     },
     {
      "label": "1 PM",
-     "temp": 67
+     "temp": 70
     },
     {
      "label": "3 PM",
-     "temp": 69
+     "temp": 70
     }
    ],
-   "low": 35,
+   "low": 41,
    "place": "HAZEL GREEN, AL",
-   "rainChanceTodayPct": 0,
-   "rainChanceTonightPct": 0,
-   "tempNow": 40,
-   "tonightCondition": "Partly Cloudy"
+   "rainChanceTodayPct": 2,
+   "rainChanceTonightPct": 2,
+   "tempNow": 42,
+   "tonightCondition": "Mostly Clear"
   }
  },
  "clusters": {
   "deepsky": {
    "nodes": [
     {
-     "body": "Clear and cold — low 35°, light wind. No alerts.",
+     "body": "Mostly clear and chilly — low 41°, calm wind. No alerts.",
      "id": "tonight",
      "statusDot": "default",
      "title": "Tonight"
     },
     {
-     "body": "Sunny Monday 69/35. Tue 61/49 with rain likely, Wed 61/42 rain likely, then the Fri Nov 13 cold snap: high 50°, low 36°.",
+     "body": "Wed partly cloudy 69/47, slight rain chance. Thu 61/37, then the Fri Nov 13 cold snap: high 51°, low 28°.",
      "id": "the-week",
      "statusDot": "default",
      "title": "The Week"
     },
     {
-     "badge": "4 days",
+     "badge": "3 days",
      "badgeTone": "cluster",
-     "body": "4 days to Fri Nov 13 — high 50° / low 36°, the biggest weather event on the board.",
+     "body": "3 days to Fri Nov 13 — high 51° / low 28°, the biggest weather event on the board.",
      "countdown": {
       "dateLabel": "Fri Nov 13",
       "targetDate": "2026-11-13"
@@ -262,9 +262,9 @@
   "time": {
    "nodes": [
     {
-     "badge": "46 days",
+     "badge": "45 days",
      "badgeTone": "cluster",
-     "body": "46 days to Fri Dec 25 — also iPhone 18 Pro Max day.",
+     "body": "45 days to Fri Dec 25 — also iPhone 18 Pro Max day.",
      "countdown": {
       "dateLabel": "Fri Dec 25",
       "targetDate": "2026-12-25"
@@ -274,9 +274,9 @@
      "title": "Christmas"
     },
     {
-     "badge": "142 days",
+     "badge": "141 days",
      "badgeTone": "cluster",
-     "body": "March 31 — 142 days out.",
+     "body": "March 31 — 141 days out.",
      "countdown": {
       "dateLabel": "March 31",
       "targetDate": "2027-03-31"
@@ -351,12 +351,12 @@
  },
  "meta": {
   "displayDate": {
-   "monthDay": "Nov 9",
-   "weekday": "Monday"
+   "monthDay": "Nov 10",
+   "weekday": "Tuesday"
   },
-  "pourLabel": "Poured Monday, Nov 9 — morning",
-  "pourVersion": 5,
-  "pouredAt": "2026-11-09T07:52:00-06:00",
+  "pourLabel": "Poured Tuesday, Nov 10 — morning",
+  "pourVersion": 6,
+  "pouredAt": "2026-11-10T07:51:03-06:00",
   "schemaVersion": 1
  },
  "world": {
@@ -364,65 +364,65 @@
    {
     "category": "tech",
     "categoryLabel": "Tech",
-    "headline": "Anthropic reportedly spends $3.4B on gas generators to power its AI data centers",
-    "id": "anthropic-3-4b-gas-generators",
-    "source": "The Neuron",
-    "summary": "A reported $3.4B deal for 1.7 GW of gas-powered generation, taking over Caterpillar orders placed by OnePWR Solutions.",
-    "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-monday-november-9-2026/"
+    "headline": "Nvidia shares drop 6.4% as board investigates CEO Jensen Huang",
+    "id": "nvidia-shares-drop-huang-probe",
+    "source": "Michael Brunger",
+    "summary": "Trump says the FBI is \"looking into\" Huang after reports of his relationship with an alleged Chinese spy; the board investigation continues and shares fell Monday.",
+    "url": "https://michaelbrunger.com/briefs/2026-11-10/"
    },
    {
     "category": "tech",
     "categoryLabel": "Tech",
-    "headline": "Nvidia board probes CEO Jensen Huang over affair and reported spy fears",
-    "id": "nvidia-board-probes-huang",
-    "source": "The Art of CTO",
-    "summary": "Nvidia's board launched an independent investigation after Huang admitted to an affair with a tech executive a US intelligence memo reportedly flagged as a potential Chinese agent.",
-    "url": "https://theartofcto.com/daily-sync/2026-11-09-daily-sync"
+    "headline": "Anthropic mistakenly emails IPO details, reveals $69.3B fundraising",
+    "id": "anthropic-ipo-email-69-3b",
+    "source": "SimpleLife.news",
+    "summary": "Anthropic reportedly plans to move ahead with an IPO, with a valuation range expected this week; a mistaken email spilled fundraising details.",
+    "url": "https://simplelife.news/regions/tw/en/latest.html"
    },
    {
     "category": "gaming",
     "categoryLabel": "Gaming",
-    "headline": "Xbox gets 37 new games in a single week",
-    "id": "xbox-37-new-games-week",
+    "headline": "GTA 6 is done — gone gold, preload live ahead of Nov 19 launch",
+    "id": "gta-6-gone-gold-preload-live",
+    "source": "Nexorift",
+    "summary": "Take-Two confirmed on Monday's earnings call that development is complete; preload is live now (up to 212 GB), launching Nov 19 on PS5/Xbox at $79.99.",
+    "url": "http://nexorift.blogspot.com/"
+   },
+   {
+    "category": "gaming",
+    "categoryLabel": "Gaming",
+    "headline": "Warhammer Survivors out today on PC, consoles and phones",
+    "id": "warhammer-survivors-out-today",
     "source": "ixbt.games",
-    "summary": "Microsoft's Nov 9–13 wave includes Shrek 2 Remastered, Hard West 2 and Football Manager 27, with several day-one on Game Pass.",
-    "url": "https://ixbt.games/en/news/2026/11/09/xbox-polucit-srazu-37-novyx-igr-za-nedeliu-microsoft-raskryla-polnyi-spisok.html"
-   },
-   {
-    "category": "gaming",
-    "categoryLabel": "Gaming",
-    "headline": "Game Pass Essential adds Banjo-Kazooie and Perfect Dark on Nov 15",
-    "id": "game-pass-essential-banjo-perfect-dark",
-    "source": "Gear Chamber",
-    "summary": "Eight Xbox classics join the entry-level tier for Xbox's 25th anniversary, the same day GoldenEye 007 leaves.",
-    "url": "https://gearchamber.com/news/banjo-kazooie-game-pass-essential/"
+    "summary": "A Vampire Survivors-style bullet-heaven from Auroch Digital and poncle, set in Warhammer 40,000 and Age of Sigmar — $7.19 with the launch discount.",
+    "url": "https://ixbt.games/en/news/2026/11/10/vampire-survivors-no-s-kosmodesantnikami-warhammer-survivors-vysla-na-pk-konsoliax-i-smartfonax.html"
    },
    {
     "category": "world",
     "categoryLabel": "World",
-    "headline": "COP31 climate talks open in Antalya, Türkiye",
-    "id": "cop31-opens-antalya",
-    "source": "Okay News",
-    "summary": "Nearly 200 countries meet Nov 9–20, with Türkiye pushing electrification to the top of the agenda.",
-    "url": "https://www.okaynews.com/okay-news-daily-briefing-november-9-2026/"
+    "headline": "Russia–Ukraine peace talks open in Abu Dhabi",
+    "id": "russia-ukraine-talks-abu-dhabi-nov10",
+    "source": "The Augerton Digest",
+    "summary": "US-mediated talks, the first since February, as negotiators seek an end to more than four years of war.",
+    "url": "https://www.augerton.com/"
    },
    {
     "category": "world",
     "categoryLabel": "World",
-    "headline": "Russia–Ukraine talks begin tomorrow in Abu Dhabi",
-    "id": "russia-ukraine-talks-abu-dhabi",
-    "source": "Bangladesh Chronicle",
-    "summary": "The two-day US-mediated talks are the first trilateral negotiations since February, with security guarantees at the center.",
-    "url": "https://bangladeshchronicle.net/morning-news-brief-monday-november-9-2026/"
+    "headline": "France blames Iran's Revolutionary Guard for supermarket fridge cyberattacks",
+    "id": "france-blames-iran-fridge-cyberattacks",
+    "source": "Seven Lights",
+    "summary": "October attacks raised the temperature of supermarket refrigeration across France; Paris calls it the first cyber offensive carried out purely to sabotage national territory.",
+    "url": "https://sevenlights.org/podcast/2026-11-10-daily-brief/"
    },
    {
     "category": "culture",
     "categoryLabel": "Culture",
-    "headline": "'Godzilla Minus Zero' opens to a record $31.6M for a foreign-language film",
-    "id": "godzilla-minus-zero-record-opening",
+    "headline": "M. John Harrison, 81, wins the Booker Prize",
+    "id": "booker-prize-john-harrison",
     "source": "Seven Lights",
-    "summary": "The weekend's biggest opening, as Lando Norris won a wet São Paulo Grand Prix and Mercedes took the constructors' title.",
-    "url": "https://sevenlights.org/podcast/2026-11-09-daily-brief/"
+    "summary": "Won for 'The End of Everything', one of the oldest winners ever.",
+    "url": "https://sevenlights.org/podcast/2026-11-10-daily-brief/"
    }
   ]
  }
