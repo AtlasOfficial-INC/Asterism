@@ -3,79 +3,79 @@
   "calendar": {
    "entries": [],
    "state": "clear",
-   "summary": "Nothing on the calendar — clear day, do what you want with it."
+   "summary": "Nothing on the calendar but the Veterans Day marker — clear day, do what you want with it."
   },
   "flags": {
    "nextFlag": {
-    "detail": "51° / 28°",
+    "detail": "52° / 29°",
     "label": "Fri Nov 13 cold snap",
     "targetDate": "2026-11-13"
    },
    "state": "none",
-   "text": "Nothing urgent today — next flag: the Fri Nov 13 cold snap, 51° / 28°."
+   "text": "Nothing urgent today — next flag: the Fri Nov 13 cold snap, 52° / 29°."
   },
   "inbox": {
-   "detail": "Instagram confirmed an old alt account was permanently disabled (suspended 180+ days, no review possible — not his main @wsgimzay). Fireflies and AudioPen promos, TikTok notifications, a fomo newsletter — all skippable.",
+   "detail": "Google notes he signed into AccuWeather with his Google account this morning — his own action, nothing to do. Microsoft flagged a new Horizon sign-in (Nov 10) and a newly connected app — looks like his own VR sign-in. Letterly, AudioPen, Wispr, TradingView, HP, Battle.net, fomo, TikTok, CGTrader and Fireflies promos — all skippable.",
    "rows": [],
    "state": "quiet",
    "summary": "Quiet — nothing in the inbox needs you."
   },
   "lookingAhead": {
-   "detail": "Today tops out at 72° after a 41° start; Wed partly cloudy 69°/47° with a slight rain chance and showers possible early night. Thu cooler, 61°/37°. Then the Fri Nov 13 cold snap: high 51°, low 28° — colder than yesterday's 50°/36° forecast.",
-   "headline": "Sunny and warm today — cold snap Friday drops to 28°."
+   "detail": "Today tops out at 69° after a 43° start; showers early tonight (possible thunderstorm 9 PM–midnight), low 46°. Thu mostly cloudy 60°/35° with patchy frost after 2 AM. Then the Fri Nov 13 cold snap: high 52°, low 29° — a touch warmer than yesterday's 51°/28° forecast.",
+   "headline": "Partly cloudy and 69° today, showers tonight — cold snap Friday drops to 29°."
   },
   "weather": {
-   "condition": "Sunny",
-   "high": 72,
+   "condition": "Partly Cloudy",
+   "high": 69,
    "hourly": [
     {
      "label": "NOW",
-     "temp": 42
+     "temp": 43
     },
     {
      "label": "9 AM",
-     "temp": 51
+     "temp": 53
     },
     {
      "label": "11 AM",
-     "temp": 66
+     "temp": 65
     },
     {
      "label": "1 PM",
-     "temp": 70
+     "temp": 68
     },
     {
      "label": "3 PM",
-     "temp": 70
+     "temp": 68
     }
    ],
-   "low": 41,
+   "low": 46,
    "place": "HAZEL GREEN, AL",
-   "rainChanceTodayPct": 2,
-   "rainChanceTonightPct": 2,
-   "tempNow": 42,
-   "tonightCondition": "Mostly Clear"
+   "rainChanceTodayPct": 50,
+   "rainChanceTonightPct": 40,
+   "tempNow": 43,
+   "tonightCondition": "Showers Early"
   }
  },
  "clusters": {
   "deepsky": {
    "nodes": [
     {
-     "body": "Mostly clear and chilly — low 41°, calm wind. No alerts.",
+     "body": "Showers early tonight, then mostly cloudy — low 46°, possible thunderstorm 9 PM–midnight. No alerts.",
      "id": "tonight",
      "statusDot": "default",
      "title": "Tonight"
     },
     {
-     "body": "Wed partly cloudy 69/47, slight rain chance. Thu 61/37, then the Fri Nov 13 cold snap: high 51°, low 28°.",
+     "body": "Today partly cloudy 69/46, showers early tonight. Thu mostly cloudy 60/35, patchy frost. Then the Fri Nov 13 cold snap: high 52°, low 29°.",
      "id": "the-week",
      "statusDot": "default",
      "title": "The Week"
     },
     {
-     "badge": "3 days",
+     "badge": "2 days",
      "badgeTone": "cluster",
-     "body": "3 days to Fri Nov 13 — high 51° / low 28°, the biggest weather event on the board.",
+     "body": "2 days to Fri Nov 13 — high 52° / low 29°, the biggest weather event on the board.",
      "countdown": {
       "dateLabel": "Fri Nov 13",
       "targetDate": "2026-11-13"
@@ -124,7 +124,7 @@
      "title": "The Puppy"
     },
     {
-     "body": "Name and breed unknown — the two are mortal enemies.",
+     "body": "Grumpy — almost 6, hates everyone including Charlee. The two are mortal enemies.",
      "id": "the-other-dog",
      "statusDot": "dim",
      "title": "The Other Dog"
@@ -262,9 +262,9 @@
   "time": {
    "nodes": [
     {
-     "badge": "45 days",
+     "badge": "44 days",
      "badgeTone": "cluster",
-     "body": "45 days to Fri Dec 25 — also iPhone 18 Pro Max day.",
+     "body": "44 days to Fri Dec 25 — also iPhone 18 Pro Max day.",
      "countdown": {
       "dateLabel": "Fri Dec 25",
       "targetDate": "2026-12-25"
@@ -274,9 +274,9 @@
      "title": "Christmas"
     },
     {
-     "badge": "141 days",
+     "badge": "140 days",
      "badgeTone": "cluster",
-     "body": "March 31 — 141 days out.",
+     "body": "March 31 — 140 days out.",
      "countdown": {
       "dateLabel": "March 31",
       "targetDate": "2027-03-31"
@@ -351,12 +351,12 @@
  },
  "meta": {
   "displayDate": {
-   "monthDay": "Nov 10",
-   "weekday": "Tuesday"
+   "monthDay": "Nov 11",
+   "weekday": "Wednesday"
   },
-  "pourLabel": "Poured Tuesday, Nov 10 — morning",
-  "pourVersion": 6,
-  "pouredAt": "2026-11-10T07:51:03-06:00",
+  "pourLabel": "Poured Wednesday, Nov 11 — morning",
+  "pourVersion": 7,
+  "pouredAt": "2026-11-11T07:56:00-06:00",
   "schemaVersion": 1
  },
  "world": {
@@ -364,65 +364,65 @@
    {
     "category": "tech",
     "categoryLabel": "Tech",
-    "headline": "Nvidia shares drop 6.4% as board investigates CEO Jensen Huang",
-    "id": "nvidia-shares-drop-huang-probe",
-    "source": "Michael Brunger",
-    "summary": "Trump says the FBI is \"looking into\" Huang after reports of his relationship with an alleged Chinese spy; the board investigation continues and shares fell Monday.",
-    "url": "https://michaelbrunger.com/briefs/2026-11-10/"
+    "headline": "Google drops Gemini 4 Carbon, its strongest model yet",
+    "id": "gemini-4-carbon-arrives",
+    "source": "The Daily Fledgling",
+    "summary": "Released Tuesday afternoon; Ultra subscribers and paying API customers get it first, and Cursor puts it top of CursorBench at 60.4%.",
+    "url": "https://thedailyfledgling.click/"
    },
    {
     "category": "tech",
     "categoryLabel": "Tech",
-    "headline": "Anthropic mistakenly emails IPO details, reveals $69.3B fundraising",
-    "id": "anthropic-ipo-email-69-3b",
-    "source": "SimpleLife.news",
-    "summary": "Anthropic reportedly plans to move ahead with an IPO, with a valuation range expected this week; a mistaken email spilled fundraising details.",
-    "url": "https://simplelife.news/regions/tw/en/latest.html"
+    "headline": "Anthropic's IPO roadshow opens with a $70–$78 price range",
+    "id": "anthropic-ipo-roadshow-70-78",
+    "source": "The Neuron",
+    "summary": "Nasdaq listing under ticker ANT, implying a ~$1.4T valuation; seven tech giants have committed $26B alongside the offering.",
+    "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-wednesday-november-11-2026/"
    },
    {
     "category": "gaming",
     "categoryLabel": "Gaming",
-    "headline": "GTA 6 is done — gone gold, preload live ahead of Nov 19 launch",
-    "id": "gta-6-gone-gold-preload-live",
-    "source": "Nexorift",
-    "summary": "Take-Two confirmed on Monday's earnings call that development is complete; preload is live now (up to 212 GB), launching Nov 19 on PS5/Xbox at $79.99.",
-    "url": "http://nexorift.blogspot.com/"
+    "headline": "GTA 6 preloads are live — and it'll stream on Xbox Cloud Gaming at launch",
+    "id": "gta-6-preload-cloud-streaming",
+    "source": "Insider Gaming",
+    "summary": "Launches Nov 19 on PS5/Xbox; cloud streaming starts 1 AM ET on launch day for Series X|S and even Xbox One, but not PC.",
+    "url": "https://insider-gaming.com/is-gta-6-out-now-launch-day-tracker/"
    },
    {
     "category": "gaming",
     "categoryLabel": "Gaming",
-    "headline": "Warhammer Survivors out today on PC, consoles and phones",
-    "id": "warhammer-survivors-out-today",
-    "source": "ixbt.games",
-    "summary": "A Vampire Survivors-style bullet-heaven from Auroch Digital and poncle, set in Warhammer 40,000 and Age of Sigmar — $7.19 with the launch discount.",
-    "url": "https://ixbt.games/en/news/2026/11/10/vampire-survivors-no-s-kosmodesantnikami-warhammer-survivors-vysla-na-pk-konsoliax-i-smartfonax.html"
+    "headline": "GTA VI Festival tickets go on sale today in Miami",
+    "id": "gta-vi-festival-tickets-today",
+    "source": "USA Today",
+    "summary": "Nov 21 at Mana Wynwood; lottery codes unlock ticket sales at noon today, $60 tickets, two per code.",
+    "url": "https://www.usatoday.com/story/news/state/florida/miami/2026/11/11/gta-6-festival-miami-tickets/92722158007/"
    },
    {
     "category": "world",
     "categoryLabel": "World",
-    "headline": "Russia–Ukraine peace talks open in Abu Dhabi",
-    "id": "russia-ukraine-talks-abu-dhabi-nov10",
-    "source": "The Augerton Digest",
-    "summary": "US-mediated talks, the first since February, as negotiators seek an end to more than four years of war.",
-    "url": "https://www.augerton.com/"
+    "headline": "Russia–Ukraine talks wrap in Abu Dhabi with a big prisoner swap agreed",
+    "id": "russia-ukraine-talks-wrap-prisoner-swap",
+    "source": "Just Security",
+    "summary": "Zelenskyy called day one \"constructive and quite substantive\"; officials say both sides agreed a large POW exchange as the two-day talks close.",
+    "url": "https://www.justsecurity.org/164111/early-edition-november-11-2026/"
    },
    {
     "category": "world",
     "categoryLabel": "World",
-    "headline": "France blames Iran's Revolutionary Guard for supermarket fridge cyberattacks",
-    "id": "france-blames-iran-fridge-cyberattacks",
-    "source": "Seven Lights",
-    "summary": "October attacks raised the temperature of supermarket refrigeration across France; Paris calls it the first cyber offensive carried out purely to sabotage national territory.",
-    "url": "https://sevenlights.org/podcast/2026-11-10-daily-brief/"
+    "headline": "Millions strike in Spain over the housing crisis",
+    "id": "spain-general-strike-housing",
+    "source": "AnewZ",
+    "summary": "The country's first general strike in 14 years, demanding action on soaring housing costs.",
+    "url": "https://anewz.tv/world/world-news/26557/the-world-today-5-key-developments/news"
    },
    {
     "category": "culture",
     "categoryLabel": "Culture",
-    "headline": "M. John Harrison, 81, wins the Booker Prize",
-    "id": "booker-prize-john-harrison",
-    "source": "Seven Lights",
-    "summary": "Won for 'The End of Everything', one of the oldest winners ever.",
-    "url": "https://sevenlights.org/podcast/2026-11-10-daily-brief/"
+    "headline": "'Madden' hits select theaters today, streaming Nov 18",
+    "id": "madden-movie-theaters-today",
+    "source": "Commercial Appeal",
+    "summary": "David O. Russell's film stars Nicolas Cage as John Madden; Memphis musician Scott Bomar contributed music.",
+    "url": "https://www.commercialappeal.com/story/entertainment/music/2026/11/11/madden-movie-music-scott-bomar/92134182007/"
    }
   ]
  }
