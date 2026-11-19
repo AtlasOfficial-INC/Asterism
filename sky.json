@@ -1,107 +1,140 @@
 {
  "brief": {
   "calendar": {
-   "entries": [],
    "state": "clear",
-   "summary": "Nothing on the calendar — clear day, do what you want with it."
+   "summary": "Nothing on the calendar — clear day, do what you want with it.",
+   "entries": []
   },
   "flags": {
+   "state": "urgent",
+   "text": "TODAY: GTA 6 is out — unlocked at midnight. Black Friday window opens (Nov 19–28), and the Samsung S85H live price check runs at 9 AM.",
    "nextFlag": {
-    "detail": "Early Black Friday price ends Sun Nov 15",
-    "label": "Samsung S85H $999.99 ends today",
-    "targetDate": "2026-11-15"
-   },
-   "state": "none",
-   "text": "Last day for the Samsung S85H at $999.99 — Early Black Friday price ends today; next window Nov 19–28, price not guaranteed. Freeze warning until 8 AM; warming toward the upper 60s by Fri."
+    "label": "GTA 6 launch day",
+    "targetDate": "2026-11-19",
+    "detail": "Unlocked at midnight; Black Friday window opens; S85H price check at 9 AM"
+   }
   },
   "inbox": {
-   "detail": "The Whatnot $25 'verification' mail is the same Xero-sent phishing from yesterday — already spotted, ignore it. TikTok notifications, Wispr week-one stats, Fireflies, ChatGPT sleep mail — all skippable.",
-   "rows": [],
-   "state": "quiet",
-   "summary": "Quiet — nothing in the inbox needs you."
+   "state": "signals",
+   "summary": "One Microsoft security email to check — the rest is skippable.",
+   "detail": "Microsoft sent a security-info replacement email last night — ignore it if you didn't request it. ChatGPT health-data promo, AudioPen formatting mail, TikTok notifications (Jackson viewed your profile) — all skippable.",
+   "rows": [
+    {
+     "label": "Microsoft account — security info replacement",
+     "detail": "Sent Nov 18, 6:24 PM — ignore if you didn’t ask for it.",
+     "severity": "attention"
+    },
+    {
+     "label": "TikTok — Jackson viewed your profile",
+     "detail": "Notification, nothing to do.",
+     "severity": "info"
+    }
+   ]
   },
   "lookingAhead": {
-   "detail": "Mon sunny 58°/32°, Tue sunny 61°/39°, Wed overcast 64°/40°, Thu overcast 66°/43° — warming toward the upper 60s by Fri Nov 20 (66°). Tonight overcast, down to ~32°.",
+   "headline": "Warm and dry through the weekend — then a cool, rainy turn midweek.",
+   "detail": "Fri partly cloudy 72°/48°, Sat sunny 73°/49°; showers arrive Sun night. Mon cloudy 57°/35°, Tue 58°/37° with showers, Wed rain 49°/33°.",
    "entries": [
     {
-     "day": "Sun Nov 15",
-     "high": 55,
-     "low": 25,
-     "note": "Overcast spells; hard freeze overnight (25°)"
+     "day": "Thu Nov 19",
+     "high": 73,
+     "low": 41,
+     "note": "Sunny — GTA 6 launch day"
     },
     {
-     "day": "Mon Nov 16",
+     "day": "Fri Nov 20",
+     "high": 72,
+     "low": 48,
+     "note": "Partly cloudy"
+    },
+    {
+     "day": "Sat Nov 21",
+     "high": 73,
+     "low": 49,
+     "note": "Sunny"
+    },
+    {
+     "day": "Sun Nov 22",
+     "high": 73,
+     "low": 48,
+     "note": "Partly cloudy, showers at night"
+    },
+    {
+     "day": "Mon Nov 23",
+     "high": 57,
+     "low": 35,
+     "note": "Cloudy"
+    },
+    {
+     "day": "Tue Nov 24",
      "high": 58,
-     "low": 32,
-     "note": "Sunny"
+     "low": 37,
+     "note": "Partly cloudy, showers at night"
     },
     {
-     "day": "Tue Nov 17",
-     "high": 61,
-     "low": 39,
-     "note": "Sunny"
-    },
-    {
-     "day": "Wed Nov 18",
-     "high": 64,
-     "low": 40,
-     "note": "Overcast"
+     "day": "Wed Nov 25",
+     "high": 49,
+     "low": 33,
+     "note": "Rain"
     }
-   ],
-   "headline": "Clear and 34° now — overcast spells today, high 55°. Hard freeze overnight, down to 25°."
+   ]
   },
   "weather": {
-   "condition": "Clear",
-   "high": 55,
+   "place": "HAZEL GREEN, AL",
+   "tempNow": 44,
+   "condition": "Sunny",
+   "high": 73,
+   "low": 41,
    "hourly": [
     {
      "label": "NOW",
-     "temp": 34
+     "temp": 44
     },
     {
      "label": "9 AM",
-     "temp": 42
-    },
-    {
-     "label": "11 AM",
-     "temp": 51
-    },
-    {
-     "label": "1 PM",
      "temp": 54
     },
     {
+     "label": "12 PM",
+     "temp": 70
+    },
+    {
      "label": "3 PM",
-     "temp": 55
+     "temp": 71
+    },
+    {
+     "label": "6 PM",
+     "temp": 57
+    },
+    {
+     "label": "9 PM",
+     "temp": 50
     }
    ],
-   "low": 25,
-   "place": "HAZEL GREEN, AL",
    "rainChanceTodayPct": 0,
    "rainChanceTonightPct": 0,
-   "tempNow": 34,
-   "tonightCondition": "Overcast"
+   "tonightCondition": "Partly Cloudy"
   }
  },
  "clusters": {
   "deepsky": {
    "nodes": [
     {
-     "body": "Overcast tonight — low ~32°. No rain.",
+     "body": "Partly cloudy tonight — low ~41°. No rain.",
      "id": "tonight",
      "statusDot": "default",
      "title": "Tonight"
     },
     {
-     "body": "Today overcast spells 55/25 — hard freeze overnight (25°). Mon sunny 58/32, Tue sunny 61/39, Wed overcast 64/40. Warming toward the upper 60s by Fri.",
+     "body": "Today sunny 73/41 — GTA 6 day. Fri partly cloudy 72/48, Sat sunny 73/49. Sun 73/48 with showers Sunday night. Cooling Mon–Tue (57°/35°, 58°/37°), rain Wed 49°/33°.",
      "id": "the-week",
      "statusDot": "default",
      "title": "The Week"
     },
     {
-     "badge": "25° overnight",
+     "badge": "Over",
      "badgeTone": "cluster",
-     "body": "Cold snap's coldest night was last night — down to 25°. Freeze warning ran until 8 AM this morning; warming from here.",
+     "body": "Done — the Nov 13 cold snap bottomed out at 25° overnight and the freeze warning’s lifted. Warming from here — though a cool, rainy stretch is coming midweek.",
      "countdown": {
       "dateLabel": "Fri Nov 13",
       "targetDate": "2026-11-13"
@@ -121,7 +154,7 @@
   "devices": {
    "nodes": [
     {
-     "body": "Back in hand after this morning's power-off episode.",
+     "body": "Still the daily driver — the Christmas iPhone lands Dec 25.",
      "id": "phone-s26-ultra",
      "statusDot": "default",
      "title": "Phone — S26 Ultra"
@@ -144,7 +177,7 @@
   "household": {
    "nodes": [
     {
-     "body": "Blue/grey pit-type, not yet 5 months old — little-shark teething phase in full effect.",
+     "body": "Blue/grey pit-type, ~5 months old — little-shark teething phase in full effect.",
      "id": "the-puppy",
      "statusDot": "live",
      "title": "The Puppy"
@@ -210,7 +243,7 @@
      "title": "VR"
     },
     {
-     "body": "peenleenbeen.",
+     "body": "peenleenbeen — beat the Magnus bot in 55 moves on Nov 15, plus an 11-move checkmate the same day.",
      "id": "chess-com",
      "statusDot": "info",
      "title": "Chess.com"
@@ -221,7 +254,7 @@
    "nodes": [
     {
      "badge": "~$1,029",
-     "body": "The $888.96 audio chain — SM7dB $459, Momentum 4, Scarlett Solo, XLR cable + boom arm — plus the WOBKEY Rainy 75 at ~$140. Wishlist, not yet bought.",
+     "body": "The $888.96 audio chain — SM7dB $459, Momentum 4, Scarlett Solo, XLR cable + boom arm — plus the WOBKEY Rainy 75 at ~$140. Wishlist, not yet bought. (Switch 2 also on the list — Mario Kart World bundle $550 + 3 games, $807.67 after tax.)",
      "id": "christmas-list",
      "statusDot": "default",
      "title": "Christmas List"
@@ -234,7 +267,7 @@
      "title": "Mac Studio Fund"
     },
     {
-     "body": "iPhone 18 Pro Max lands at Christmas — $1,299 base, full launch price. Case CHOSEN: Nomad Modern Leather (Horween), $79 — color still to pick. FLOLAB protector already ordered.",
+     "body": "iPhone 18 Pro Max lands at Christmas — $1,299 base, full launch price. Case still open: Nomad $79 vs TORRAS Q3 Air $65.99 vs Spigen pair. FLOLAB protector already ordered.",
      "id": "iphone-day-fund",
      "statusDot": "default",
      "title": "iPhone Day Fund"
@@ -250,7 +283,7 @@
      "title": "Instagram"
     },
     {
-     "body": "Profile decorating in progress. Custom pfp + banner art hunt open — shortlist ready, and the goat (favourite animal) leads. Capybara placeholder sets generated meanwhile.",
+     "body": "Profile decorating in progress. Custom pfp + banner art hunt open — shortlist ready, and the goat (favourite animal) leads. Capybara placeholder sets generated meanwhile. (Replied to Alec’s GTA 6 post Nov 19: “go home guys, the fun police said gta 6 is bad. we’ll try again in 15 years.”)",
      "id": "twitter-x",
      "statusDot": "default",
      "title": "Twitter / X"
@@ -288,9 +321,9 @@
   "time": {
    "nodes": [
     {
-     "badge": "40 days",
+     "badge": "36 days",
      "badgeTone": "cluster",
-     "body": "40 days to Fri Dec 25 — also iPhone 18 Pro Max day.",
+     "body": "36 days to Fri Dec 25 — also iPhone 18 Pro Max day.",
      "countdown": {
       "dateLabel": "Fri Dec 25",
       "targetDate": "2026-12-25"
@@ -300,9 +333,9 @@
      "title": "Christmas"
     },
     {
-     "badge": "136 days",
+     "badge": "132 days",
      "badgeTone": "cluster",
-     "body": "March 31 — 136 days out.",
+     "body": "March 31 — 132 days out.",
      "countdown": {
       "dateLabel": "March 31",
       "targetDate": "2027-03-31"
@@ -341,9 +374,9 @@
      "title": "Asterism"
     },
     {
-     "body": "Nomad Modern Leather Case (Horween) chosen Nov 7 — $79, color still to pick. Saga closed.",
+     "body": "Contested: Nomad Modern Leather (Horween) $79 vs TORRAS Q3 Air Ever Green/Midnight Blue $65.99 — plus the Spigen pair (Liquid Air / Ultra Hybrid MagFit). Pick still open.",
      "id": "iphone-case-hunt",
-     "statusDot": "info",
+     "statusDot": "default",
      "title": "iPhone Case Hunt"
     },
     {
@@ -360,7 +393,7 @@
     },
     {
      "badge": "~$1,029",
-     "body": "~$1,029 total — audio cart $888.96 + Rainy 75 ~$140.",
+     "body": "~$1,029 total — audio cart $888.96 + Rainy 75 ~$140. (Switch 2 also on the list now — Mario Kart World bundle $550 + Ocarina remake, Donkey Kong Bananza, Mario Tennis Fever.)",
      "id": "christmas-list",
      "statusDot": "default",
      "title": "Christmas List"
@@ -377,87 +410,87 @@
  },
  "meta": {
   "displayDate": {
-   "monthDay": "Nov 15",
-   "weekday": "Sunday"
+   "weekday": "Thursday",
+   "monthDay": "Nov 19"
   },
-  "pourLabel": "Poured Sunday, Nov 15 — morning",
-  "pourVersion": 8,
-  "pouredAt": "2026-11-15T07:54:06-06:00",
+  "pourLabel": "Poured Thursday, Nov 19 — morning",
+  "pourVersion": 9,
+  "pouredAt": "2026-11-19T07:58:00-06:00",
   "schemaVersion": 1
  },
  "world": {
   "stories": [
    {
+    "id": "anthropic-ipo-83",
     "category": "tech",
     "categoryLabel": "Tech",
-    "headline": "Anthropic announces Claude IPO roadshow with proposed $70–$78 share price",
-    "id": "anthropic-claude-ipo-roadshow-ant",
-    "source": "SXF Brief",
-    "summary": "Anthropic outlines a proposed 825-million-share offering at a $70–$78 indicative range with planned Nasdaq ticker ANT; the registration is not yet effective.",
-    "url": "https://sxf.si/brief/"
+    "headline": "Anthropic prices record $81.3B IPO at $83 a share, starts trading today as ANT",
+    "summary": "Priced above its $70–$78 range, the largest IPO on record, valuing the Claude maker at ~$1.5T fully diluted. Seven tech giants including Google and Nvidia agreed to buy $26B of shares in a private placement.",
+    "source": "Reuters, via Duke FM",
+    "url": "https://duke.fm/2026/11/19/anthropics-historic-debut-to-put-ais-promise-and-peril-to-wall-st-test/"
    },
    {
+    "id": "nvidia-china-hopper-halt",
     "category": "tech",
     "categoryLabel": "Tech",
-    "headline": "Italy fines Meta €805m over access to users' photos",
-    "id": "italy-fines-meta-805m-photos",
-    "source": "One Turn",
-    "summary": "Italy's data protection authority fined Meta €805 million, saying the Facebook Android app accessed users' photos without specific consent; about 20 million users were not informed.",
-    "url": "https://oneturn.news/topic/technology/"
+    "headline": "Nvidia has stopped selling its licensed Hopper chips to China",
+    "summary": "Interim CEO Colette Kress said on the Nov 17 earnings call that Nvidia has no further licensed Hopper shipments planned, after $2.4B of such sales last quarter. Q3 revenue of $115.8B beat expectations and the board added $150B to the buyback.",
+    "source": "The Neuron",
+    "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-thursday-november-19-2026/"
    },
    {
-    "category": "tech",
-    "categoryLabel": "Tech",
-    "headline": "Microsoft files patent for AI that can alter what people say during a live broadcast",
-    "id": "microsoft-patent-ai-alter-live-speech",
-    "source": "Israel First TV Program, via Futurism",
-    "summary": "The patent describes near-real-time AI that changes a speaker's words on live video and moves their lips to match; filed April 2025, published Oct 29, 2026.",
-    "url": "https://israelfirsttvprogram.substack.com/p/sunday-november-15-2026-dangerous"
-   },
-   {
+    "id": "gta-6-out-now",
     "category": "gaming",
     "categoryLabel": "Gaming",
-    "headline": "GTA 6 has gone gold: development complete",
-    "id": "gta-6-gone-gold",
-    "source": "GTA6News.gg",
-    "summary": "Take-Two CEO Strauss Zelnick told investors Nov 9 that Rockstar has completed development of GTA VI, ten days before the Nov 19 launch.",
-    "url": "https://gta6news.gg/gta-6-gone-gold/"
+    "headline": "GTA 6 is out — live now, and already breaking records",
+    "summary": "Grand Theft Auto VI went live at midnight local time today on PS5 and Xbox Series X|S. Presales passed $1.65B / 17M+ copies, and 2M+ people were watching launch streams this morning. One in five US salaried workers planned to take today off to play.",
+    "source": "USA Today",
+    "url": "https://www.usatoday.com/story/tech/gaming/2026/11/19/gta-6-live-updates--live/92811863007/"
    },
    {
+    "id": "gta-6-launch-live",
     "category": "gaming",
     "categoryLabel": "Gaming",
-    "headline": "GTA VI pre-load breaks UK broadband records before launch",
-    "id": "gta-6-preload-uk-broadband-records",
-    "source": "Sitting Out",
-    "summary": "Virgin Media O2 carried more data on pre-load Tuesday than on any entire day before it; Openreach traffic ran 32.9% above a normal Tuesday.",
-    "url": "https://sittingout.gg/2026/11/15/gta-vi-preload-uk-broadband-traffic-records-2026/"
+    "headline": "GTA 6 launch live: 99 on Metacritic, New Zealand trick, actors revealed",
+    "summary": "99 from 145+ critic reviews, tying Ocarina of Time for the best-reviewed game ever; 2.8M+ watching on Twitch. Lucia and Jason’s actors — Manni L. Perez and Dylan Rourke — finally went public with their roles.",
+    "source": "Kotaku",
+    "url": "https://kotaku.com/live-updates-on-gta-6-the-biggest-launch-in-gaming-history-2000758030"
    },
    {
+    "id": "trump-xi-putin-summit",
     "category": "world",
     "categoryLabel": "World",
-    "headline": "Zelensky says US proposed Ukraine leave Donbas for NATO membership",
-    "id": "zelensky-donbas-nato-proposal",
-    "source": "SimpleLife.news, via BBC",
-    "summary": "Zelensky said US negotiators at the Abu Dhabi talks proposed, for the first time, that Ukraine withdraw from Donbas in exchange for NATO membership; the US has not confirmed the proposal.",
-    "url": "https://simplelife.news/regions/tw/en/latest.html"
+    "headline": "Trump, Xi and Putin hold first-ever three-way summit in Shenzhen",
+    "summary": "The three leaders met for 90 minutes at APEC, pledging further talks on nuclear arms, trade and AI. Their joint declaration covered UN reform, more oil production and reducing nuclear risks — but made no mention of Ukraine.",
+    "source": "USA Today",
+    "url": "https://www.usatoday.com/story/news/world/2026/11/19/trump-china-russia-xi-putin-apec-summit/92856409007/"
    },
    {
+    "id": "iran-gulf-attacks-widen",
     "category": "world",
     "categoryLabel": "World",
-    "headline": "Trilateral talks resume in Abu Dhabi following initial agreement on prisoner exchange",
-    "id": "abu-dhabi-trilateral-talks-resume",
-    "source": "Nexus Europa",
-    "summary": "Ukraine, Russia and US talks continue in Abu Dhabi, building on preliminary progress toward a new prisoner-of-war exchange.",
-    "url": "https://nexuseuropa.eu/en/top-news/2026-11-15-0300"
+    "headline": "Iran widens Gulf attacks after US strike on Qeshm Island",
+    "summary": "Iran fired drones at the US air base in Kuwait and launched attacks on Bahrain after US jets hit a Revolutionary Guard missile site on Qeshm Island on Tuesday. No US personnel were injured; a UAE-linked tanker was hit in the Strait of Hormuz, one crew member missing.",
+    "source": "The Daily Star, via TBS News",
+    "url": "https://www.tbsnews.net/worldbiz/middle-east/iran-fires-kuwait-after-us-strike-iranian-island-1607456"
    },
    {
+    "id": "pattinson-new-bond",
     "category": "culture",
     "categoryLabel": "Culture",
-    "headline": "All 8 Harry Potter movies are officially disappearing ahead of HBO's reboot",
-    "id": "harry-potter-movies-leaving-peacock",
-    "source": "Collider",
-    "summary": "All eight films — plus the three Fantastic Beasts spin-offs — leave Peacock on December 1, days before HBO's reboot series premieres on Christmas Day.",
-    "url": "https://collider.com/harry-potter-movies-leaving-peacock-december-2026/"
+    "headline": "Robert Pattinson is the new James Bond",
+    "summary": "Amazon MGM has officially named Pattinson as 007 — Jeff Bezos says he was heavily involved in the pick after five finalists screen-tested. Christopher Nolan joked he’s “the most cowardly James Bond.”",
+    "source": "UBStandard",
+    "url": "https://www.ubstandard.com/culture"
+   },
+   {
+    "id": "hunger-games-sunrise-opens",
+    "category": "culture",
+    "categoryLabel": "Culture",
+    "headline": "Hunger Games: Sunrise on the Reaping opens Friday",
+    "summary": "The prequel opens tomorrow with Francis Lawrence back behind the camera and newcomer Joseph Zada as teenage Haymitch. A 13-year-old’s fan artwork will open every UK screening.",
+    "source": "Seven Lights",
+    "url": "https://www.sevenlights.org/categories/entertainment/"
    }
   ]
  }
