@@ -7,126 +7,126 @@
   },
   "flags": {
    "state": "urgent",
-   "text": "TODAY: GTA 6 is out — unlocked at midnight. Black Friday window opens (Nov 19–28), and the Samsung S85H live price check runs at 9 AM.",
+   "text": "Check the Authy alert — a new Android device was added to your account in Hyattsville, MD last night. Thanksgiving is Thursday, 2 days out; rain arrives Wednesday.",
    "nextFlag": {
-    "label": "GTA 6 launch day",
-    "targetDate": "2026-11-19",
-    "detail": "Unlocked at midnight; Black Friday window opens; S85H price check at 9 AM"
+    "label": "Authy new-device check",
+    "targetDate": "2026-11-24",
+    "detail": "Android device added in Hyattsville, MD — verify it was you"
    }
   },
   "inbox": {
    "state": "signals",
-   "summary": "One Microsoft security email to check — the rest is skippable.",
-   "detail": "Microsoft sent a security-info replacement email last night — ignore it if you didn't request it. ChatGPT health-data promo, AudioPen formatting mail, TikTok notifications (Jackson viewed your profile) — all skippable.",
+   "summary": "One security alert to check — the rest is skippable.",
+   "detail": "Authy added a new Android device in Hyattsville, Maryland last night — check it if that wasn't you. Best Buy Black Friday promos, Samsung gift mail, Chess.com streak mail, TikTok Shop, Malwarebytes newsletter — all skippable.",
    "rows": [
     {
-     "label": "Microsoft account — security info replacement",
-     "detail": "Sent Nov 18, 6:24 PM — ignore if you didn’t ask for it.",
+     "label": "Authy — new device added",
+     "detail": "Android device, Hyattsville, MD, Nov 23 11:45 PM — check if it wasn't you.",
      "severity": "attention"
     },
     {
-     "label": "TikTok — Jackson viewed your profile",
-     "detail": "Notification, nothing to do.",
+     "label": "Chess.com — streak paused at 2 days",
+     "detail": "Play a game or solve a puzzle before midnight to keep it going.",
      "severity": "info"
     }
    ]
   },
   "lookingAhead": {
-   "headline": "Warm and dry through the weekend — then a cool, rainy turn midweek.",
-   "detail": "Fri partly cloudy 72°/48°, Sat sunny 73°/49°; showers arrive Sun night. Mon cloudy 57°/35°, Tue 58°/37° with showers, Wed rain 49°/33°.",
+   "headline": "Rain moves in Wednesday — then a cold, dry Thanksgiving.",
+   "detail": "Wed rain 54°/40° (~1.4 in), Thu Thanksgiving AM light rain 42°/32°, Fri partly cloudy 49°/30°, Sat mostly sunny 61°/42°, Sun showers 62°/38°.",
    "entries": [
     {
-     "day": "Thu Nov 19",
-     "high": 73,
-     "low": 41,
-     "note": "Sunny — GTA 6 launch day"
+     "day": "Wed Nov 25",
+     "high": 54,
+     "low": 40,
+     "note": "Rain, ~1.4 in"
     },
     {
-     "day": "Fri Nov 20",
-     "high": 72,
-     "low": 48,
+     "day": "Thu Nov 26",
+     "high": 42,
+     "low": 32,
+     "note": "Thanksgiving — AM light rain"
+    },
+    {
+     "day": "Fri Nov 27",
+     "high": 49,
+     "low": 30,
      "note": "Partly cloudy"
     },
     {
-     "day": "Sat Nov 21",
-     "high": 73,
-     "low": 49,
-     "note": "Sunny"
+     "day": "Sat Nov 28",
+     "high": 61,
+     "low": 42,
+     "note": "Mostly sunny"
     },
     {
-     "day": "Sun Nov 22",
-     "high": 73,
-     "low": 48,
-     "note": "Partly cloudy, showers at night"
+     "day": "Sun Nov 29",
+     "high": 62,
+     "low": 38,
+     "note": "Showers"
     },
     {
-     "day": "Mon Nov 23",
-     "high": 57,
-     "low": 35,
-     "note": "Cloudy"
+     "day": "Mon Nov 30",
+     "high": 55,
+     "low": 32,
+     "note": "Partly cloudy"
     },
     {
-     "day": "Tue Nov 24",
-     "high": 58,
+     "day": "Tue Dec 1",
+     "high": 56,
      "low": 37,
-     "note": "Partly cloudy, showers at night"
-    },
-    {
-     "day": "Wed Nov 25",
-     "high": 49,
-     "low": 33,
-     "note": "Rain"
+     "note": "Partly cloudy"
     }
    ]
   },
   "weather": {
    "place": "HAZEL GREEN, AL",
-   "tempNow": 44,
+   "tempNow": 38,
    "condition": "Sunny",
-   "high": 73,
-   "low": 41,
+   "high": 56,
+   "low": 45,
    "hourly": [
     {
      "label": "NOW",
-     "temp": 44
+     "temp": 38
     },
     {
      "label": "9 AM",
-     "temp": 54
+     "temp": 44
     },
     {
      "label": "12 PM",
-     "temp": 70
+     "temp": 53
     },
     {
      "label": "3 PM",
-     "temp": 71
+     "temp": 54
     },
     {
      "label": "6 PM",
-     "temp": 57
+     "temp": 50
     },
     {
      "label": "9 PM",
-     "temp": 50
+     "temp": 48
     }
    ],
    "rainChanceTodayPct": 0,
-   "rainChanceTonightPct": 0,
-   "tonightCondition": "Partly Cloudy"
+   "rainChanceTonightPct": 10,
+   "tonightCondition": "Cloudy"
   }
  },
  "clusters": {
   "deepsky": {
    "nodes": [
     {
-     "body": "Partly cloudy tonight — low ~41°. No rain.",
+     "body": "Cloudy tonight — low ~45°. Rain ~10%.",
      "id": "tonight",
      "statusDot": "default",
      "title": "Tonight"
     },
     {
-     "body": "Today sunny 73/41 — GTA 6 day. Fri partly cloudy 72/48, Sat sunny 73/49. Sun 73/48 with showers Sunday night. Cooling Mon–Tue (57°/35°, 58°/37°), rain Wed 49°/33°.",
+     "body": "Today cloudy 56/45. Wed rain 54/40, Thu Thanksgiving AM rain 42/32, Fri partly cloudy 49/30, Sat mostly sunny 61/42. Thanksgiving Thu is 2 days out.",
      "id": "the-week",
      "statusDot": "default",
      "title": "The Week"
@@ -134,7 +134,7 @@
     {
      "badge": "Over",
      "badgeTone": "cluster",
-     "body": "Done — the Nov 13 cold snap bottomed out at 25° overnight and the freeze warning’s lifted. Warming from here — though a cool, rainy stretch is coming midweek.",
+     "body": "Done — the Nov 13 cold snap bottomed out at 25° overnight and the freeze warning's lifted. A cool, rainy stretch is coming midweek instead.",
      "countdown": {
       "dateLabel": "Fri Nov 13",
       "targetDate": "2026-11-13"
@@ -154,7 +154,7 @@
   "devices": {
    "nodes": [
     {
-     "body": "Still the daily driver — the Christmas iPhone lands Dec 25.",
+     "body": "Still the daily driver — the Christmas iPhone lands Dec 25, and iOS 27's translucent Liquid Glass keyboard is the thing he's most hyped for on it.",
      "id": "phone-s26-ultra",
      "statusDot": "default",
      "title": "Phone — S26 Ultra"
@@ -208,14 +208,14 @@
      "title": "FLOLAB OneTime Pro"
     },
     {
-     "body": "WOBKEY direct ~$140 with Cocoa switches — the build to beat.",
+     "body": "Cut from the Christmas list Nov 19 — WOBKEY direct ~$140 with Cocoa switches was the build to beat, but it's off the list now. Watch parked.",
      "id": "rainy-75-price-watch",
-     "statusDot": "default",
+     "statusDot": "dim",
      "title": "Rainy 75 Price Watch"
     },
     {
-     "badge": "~$1,029",
-     "body": "~$1,029 and holding.",
+     "badge": "~$758",
+     "body": "~$758 and holding — PS5 $649 + GTA 6 Ultimate $99.99. The audio cart, Rainy 75 and Switch 2 are off the list.",
      "id": "christmas-list-total",
      "statusDot": "default",
      "title": "Christmas List Total"
@@ -237,7 +237,7 @@
      "title": "Minecraft"
     },
     {
-     "body": "Nightclub Simulator champion — “too good at the game.” Drunken Bar Fight for chair-throwing physics.",
+     "body": "Gilla VR is the new peak — brutal horror monkey-movement game, 'Be the Monster' mode, Backrooms, chainsaw monster. Nightclub Simulator champion ('too good at the game'); Drunken Bar Fight for chair-throwing physics.",
      "id": "vr",
      "statusDot": "default",
      "title": "VR"
@@ -253,8 +253,8 @@
   "money": {
    "nodes": [
     {
-     "badge": "~$1,029",
-     "body": "The $888.96 audio chain — SM7dB $459, Momentum 4, Scarlett Solo, XLR cable + boom arm — plus the WOBKEY Rainy 75 at ~$140. Wishlist, not yet bought. (Switch 2 also on the list — Mario Kart World bundle $550 + 3 games, $807.67 after tax.)",
+     "badge": "~$758",
+     "body": "~$758 — the PS5 ($649) plus GTA 6 Ultimate ($99.99) on PlayStation Direct. Wishlist, not yet bought. (Audio cart, Rainy 75 and Switch 2 all cut Nov 19.)",
      "id": "christmas-list",
      "statusDot": "default",
      "title": "Christmas List"
@@ -267,7 +267,7 @@
      "title": "Mac Studio Fund"
     },
     {
-     "body": "iPhone 18 Pro Max lands at Christmas — $1,299 base, full launch price. Case still open: Nomad $79 vs TORRAS Q3 Air $65.99 vs Spigen pair. FLOLAB protector already ordered.",
+     "body": "iPhone 18 Pro Max lands at Christmas — 512GB Glacier, $1,499 ($1,581.45 with tax) in the Apple bag. Case: ESR $16.99 leads; FLOLAB protector already ordered.",
      "id": "iphone-day-fund",
      "statusDot": "default",
      "title": "iPhone Day Fund"
@@ -321,9 +321,9 @@
   "time": {
    "nodes": [
     {
-     "badge": "36 days",
+     "badge": "33 days",
      "badgeTone": "cluster",
-     "body": "36 days to Fri Dec 25 — also iPhone 18 Pro Max day.",
+     "body": "33 days to Fri Dec 25 — also iPhone 18 Pro Max day.",
      "countdown": {
       "dateLabel": "Fri Dec 25",
       "targetDate": "2026-12-25"
@@ -333,9 +333,9 @@
      "title": "Christmas"
     },
     {
-     "badge": "132 days",
+     "badge": "129 days",
      "badgeTone": "cluster",
-     "body": "March 31 — 132 days out.",
+     "body": "March 31 — 129 days out.",
      "countdown": {
       "dateLabel": "March 31",
       "targetDate": "2027-03-31"
@@ -374,7 +374,7 @@
      "title": "Asterism"
     },
     {
-     "body": "Contested: Nomad Modern Leather (Horween) $79 vs TORRAS Q3 Air Ever Green/Midnight Blue $65.99 — plus the Spigen pair (Liquid Air / Ultra Hybrid MagFit). Pick still open.",
+     "body": "ESR Classic Hybrid Magnetic with Camera Control — Clear, $16.99 at ESR — is the frontrunner now; Mors: 'the esr case is genuinely good lmao esr lowk underrated.' Spigen Ultra Hybrid S MagFit ($32.99) is the runner-up; TORRAS Q3 Air Ever Green/Midnight Blue ($65.99) and Nomad leather ($79) still in the running.",
      "id": "iphone-case-hunt",
      "statusDot": "default",
      "title": "iPhone Case Hunt"
@@ -392,8 +392,8 @@
      "title": "Custom Pfp & Banner Art"
     },
     {
-     "badge": "~$1,029",
-     "body": "~$1,029 total — audio cart $888.96 + Rainy 75 ~$140. (Switch 2 also on the list now — Mario Kart World bundle $550 + Ocarina remake, Donkey Kong Bananza, Mario Tennis Fever.)",
+     "badge": "~$758",
+     "body": "PS5 + iPhone only now — everything else was cut Nov 19. PS5 1TB with disc $649 and GTA 6 Ultimate $99.99 on PlayStation Direct (his total $758); the iPhone 18 Pro Max lands Dec 25.",
      "id": "christmas-list",
      "statusDot": "default",
      "title": "Christmas List"
@@ -409,88 +409,70 @@
   }
  },
  "meta": {
+  "schemaVersion": 1,
+  "pourVersion": 10,
+  "pouredAt": "2026-11-24T07:52:37-06:00",
+  "pourLabel": "Poured Tuesday, Nov 24 — morning",
   "displayDate": {
-   "weekday": "Thursday",
-   "monthDay": "Nov 19"
-  },
-  "pourLabel": "Poured Thursday, Nov 19 — morning",
-  "pourVersion": 9,
-  "pouredAt": "2026-11-19T07:58:00-06:00",
-  "schemaVersion": 1
+   "weekday": "Tuesday",
+   "monthDay": "Nov 24"
+  }
  },
  "world": {
   "stories": [
    {
-    "id": "anthropic-ipo-83",
-    "category": "tech",
-    "categoryLabel": "Tech",
-    "headline": "Anthropic prices record $81.3B IPO at $83 a share, starts trading today as ANT",
-    "summary": "Priced above its $70–$78 range, the largest IPO on record, valuing the Claude maker at ~$1.5T fully diluted. Seven tech giants including Google and Nvidia agreed to buy $26B of shares in a private placement.",
-    "source": "Reuters, via Duke FM",
-    "url": "https://duke.fm/2026/11/19/anthropics-historic-debut-to-put-ais-promise-and-peril-to-wall-st-test/"
-   },
-   {
-    "id": "nvidia-china-hopper-halt",
-    "category": "tech",
-    "categoryLabel": "Tech",
-    "headline": "Nvidia has stopped selling its licensed Hopper chips to China",
-    "summary": "Interim CEO Colette Kress said on the Nov 17 earnings call that Nvidia has no further licensed Hopper shipments planned, after $2.4B of such sales last quarter. Q3 revenue of $115.8B beat expectations and the board added $150B to the buyback.",
-    "source": "The Neuron",
-    "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-thursday-november-19-2026/"
-   },
-   {
-    "id": "gta-6-out-now",
+    "id": "gta-vi-biggest-playstation-launch",
     "category": "gaming",
     "categoryLabel": "Gaming",
-    "headline": "GTA 6 is out — live now, and already breaking records",
-    "summary": "Grand Theft Auto VI went live at midnight local time today on PS5 and Xbox Series X|S. Presales passed $1.65B / 17M+ copies, and 2M+ people were watching launch streams this morning. One in five US salaried workers planned to take today off to play.",
-    "source": "USA Today",
-    "url": "https://www.usatoday.com/story/tech/gaming/2026/11/19/gta-6-live-updates--live/92811863007/"
+    "headline": "GTA 6 is the biggest launch in PlayStation history — 39 million players in four days",
+    "summary": "Sony says more than 39 million unique players played GTA 6 on PS5 in its first four days, with 683 million hours logged — the biggest launch across all five PlayStation generations.",
+    "source": "PlayStation Blog",
+    "url": "https://blog.playstation.com/?p=425938"
    },
    {
-    "id": "gta-6-launch-live",
+    "id": "nvidia-reinstates-jensen-huang",
+    "category": "tech",
+    "categoryLabel": "Tech",
+    "headline": "Nvidia reinstates Jensen Huang as CEO, 11 days after he resigned",
+    "summary": "Nvidia's board voted unanimously to bring Huang back effective immediately after pressure from Trump and Wall Street; shares jumped ~33% and reignited the AI trade.",
+    "source": "Reuters",
+    "url": "https://www.reuters.com/technology/nvidia-reinstates-jensen-huang-ceo-2026-11-23/"
+   },
+   {
+    "id": "gta-vi-60fps-xbox-glitch",
     "category": "gaming",
     "categoryLabel": "Gaming",
-    "headline": "GTA 6 launch live: 99 on Metacritic, New Zealand trick, actors revealed",
-    "summary": "99 from 145+ critic reviews, tying Ocarina of Time for the best-reviewed game ever; 2.8M+ watching on Twitch. Lucia and Jason’s actors — Manni L. Perez and Dylan Rourke — finally went public with their roles.",
-    "source": "Kotaku",
-    "url": "https://kotaku.com/live-updates-on-gta-6-the-biggest-launch-in-gaming-history-2000758030"
+    "headline": "GTA 6 hits 60fps on Xbox via a Quick Resume glitch — but the game speeds up too",
+    "summary": "A refresh-rate toggle + Quick Resume trick lifts the 30fps cap on Xbox Series X/S, but game speed is tied to frame rate, so everything runs at double speed. Digital Foundry confirmed the cap is gone.",
+    "source": "Wccftech",
+    "url": "https://wccftech.com/grand-theft-auto-vi-60-fps-xbox-series-x-glitch/"
    },
    {
-    "id": "trump-xi-putin-summit",
+    "id": "cop31-fallout-eu-reform",
     "category": "world",
     "categoryLabel": "World",
-    "headline": "Trump, Xi and Putin hold first-ever three-way summit in Shenzhen",
-    "summary": "The three leaders met for 90 minutes at APEC, pledging further talks on nuclear arms, trade and AI. Their joint declaration covered UN reform, more oil production and reducing nuclear risks — but made no mention of Ukraine.",
-    "source": "USA Today",
-    "url": "https://www.usatoday.com/story/news/world/2026/11/19/trump-china-russia-xi-putin-apec-summit/92856409007/"
+    "headline": "COP31 fallout: EU to push reform of UN climate talks after the no-deal collapse",
+    "summary": "After COP31 ended with no cover decision, the EU says it will propose changes to the UN's consensus model — 'hijacked by a small minority' — while blame for the collapse is traded in public.",
+    "source": "Carbon Brief",
+    "url": "https://www.carbonbrief.org/daily-briefing-cop31-fallout-indias-nepal-aid-package-trump-slurs-ipcc"
    },
    {
-    "id": "iran-gulf-attacks-widen",
-    "category": "world",
-    "categoryLabel": "World",
-    "headline": "Iran widens Gulf attacks after US strike on Qeshm Island",
-    "summary": "Iran fired drones at the US air base in Kuwait and launched attacks on Bahrain after US jets hit a Revolutionary Guard missile site on Qeshm Island on Tuesday. No US personnel were injured; a UAE-linked tanker was hit in the Strait of Hormuz, one crew member missing.",
-    "source": "The Daily Star, via TBS News",
-    "url": "https://www.tbsnews.net/worldbiz/middle-east/iran-fires-kuwait-after-us-strike-iranian-island-1607456"
+    "id": "samsung-odyssey-g6-1100hz",
+    "category": "tech",
+    "categoryLabel": "Tech",
+    "headline": "Samsung launches the world's first 1,100Hz gaming monitor — $899.99 in December",
+    "summary": "The 27-inch Odyssey G6 (G60H) hits 1,100Hz at 720p or 600Hz at native QHD via Dual Mode. $899.99 at US retailers from December.",
+    "source": "Samsung Newsroom",
+    "url": "https://news.samsung.com/us/samsung-launches-odyssey-g6-worlds-first-1100hz-gaming-monitor/"
    },
    {
-    "id": "pattinson-new-bond",
-    "category": "culture",
-    "categoryLabel": "Culture",
-    "headline": "Robert Pattinson is the new James Bond",
-    "summary": "Amazon MGM has officially named Pattinson as 007 — Jeff Bezos says he was heavily involved in the pick after five finalists screen-tested. Christopher Nolan joked he’s “the most cowardly James Bond.”",
-    "source": "UBStandard",
-    "url": "https://www.ubstandard.com/culture"
-   },
-   {
-    "id": "hunger-games-sunrise-opens",
-    "category": "culture",
-    "categoryLabel": "Culture",
-    "headline": "Hunger Games: Sunrise on the Reaping opens Friday",
-    "summary": "The prequel opens tomorrow with Francis Lawrence back behind the camera and newcomer Joseph Zada as teenage Haymitch. A 13-year-old’s fan artwork will open every UK screening.",
-    "source": "Seven Lights",
-    "url": "https://www.sevenlights.org/categories/entertainment/"
+    "id": "claude-vp-vnp-proof",
+    "category": "tech",
+    "categoryLabel": "Tech",
+    "headline": "Claude claims it proved a 47-year-old math conjecture — and no human has checked it yet",
+    "summary": "Anthropic posted a 70-page paper credited solely to Claude claiming VP ≠ VNP, Valiant's 1979 conjecture, with a 73,000-line Lean formalization. The repo is blunt: no human mathematician has checked the proof.",
+    "source": "Interesting Engineering",
+    "url": "https://interestingengineering.com/ai-robotics/claude-proves-vp-not-vnp-valiant-conjecture"
    }
   ]
  }
