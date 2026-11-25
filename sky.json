@@ -7,126 +7,121 @@
   },
   "flags": {
    "state": "urgent",
-   "text": "Check the Authy alert — a new Android device was added to your account in Hyattsville, MD last night. Thanksgiving is Thursday, 2 days out; rain arrives Wednesday.",
+   "text": "Thanksgiving is tomorrow — and it's looking wet (rain likely, 49°/36°, ~0.7 in). Rain moves in tonight.",
    "nextFlag": {
-    "label": "Authy new-device check",
-    "targetDate": "2026-11-24",
-    "detail": "Android device added in Hyattsville, MD — verify it was you"
+    "label": "Thanksgiving — wet day ahead",
+    "targetDate": "2026-11-26",
+    "detail": "Rain likely, 49°/36°, ~0.7 in"
    }
   },
   "inbox": {
    "state": "signals",
-   "summary": "One security alert to check — the rest is skippable.",
-   "detail": "Authy added a new Android device in Hyattsville, Maryland last night — check it if that wasn't you. Best Buy Black Friday promos, Samsung gift mail, Chess.com streak mail, TikTok Shop, Malwarebytes newsletter — all skippable.",
+   "summary": "Couldn't check the inbox — Gmail is disconnected this morning.",
+   "detail": "The Gmail link dropped, so no inbox read was possible. Reconnect Gmail to resume inbox checks.",
    "rows": [
     {
-     "label": "Authy — new device added",
-     "detail": "Android device, Hyattsville, MD, Nov 23 11:45 PM — check if it wasn't you.",
+     "label": "Gmail — not connected",
+     "detail": "The Gmail link dropped this morning; reconnect to resume inbox checks.",
      "severity": "attention"
-    },
-    {
-     "label": "Chess.com — streak paused at 2 days",
-     "detail": "Play a game or solve a puzzle before midnight to keep it going.",
-     "severity": "info"
     }
    ]
   },
   "lookingAhead": {
-   "headline": "Rain moves in Wednesday — then a cold, dry Thanksgiving.",
-   "detail": "Wed rain 54°/40° (~1.4 in), Thu Thanksgiving AM light rain 42°/32°, Fri partly cloudy 49°/30°, Sat mostly sunny 61°/42°, Sun showers 62°/38°.",
+   "headline": "Rain arrives tonight — a wet Thanksgiving, then a dry weekend.",
+   "detail": "Wed rain arrives tonight 63°/49° (~0.5 in), Thu Thanksgiving rain likely 49°/36° (~0.7 in), Fri foggy then clearing 50°/37°, Sat overcast 60°/36°, Sun rain showers 62°/45° (~0.35 in), Mon overcast 50°/38°, Tue overcast 57°/36°.",
    "entries": [
     {
      "day": "Wed Nov 25",
-     "high": 54,
-     "low": 40,
-     "note": "Rain, ~1.4 in"
+     "high": 63,
+     "low": 49,
+     "note": "Rain arrives tonight, ~0.5 in"
     },
     {
      "day": "Thu Nov 26",
-     "high": 42,
-     "low": 32,
-     "note": "Thanksgiving — AM light rain"
+     "high": 49,
+     "low": 36,
+     "note": "Thanksgiving — rain likely, ~0.7 in"
     },
     {
      "day": "Fri Nov 27",
-     "high": 49,
-     "low": 30,
-     "note": "Partly cloudy"
+     "high": 50,
+     "low": 37,
+     "note": "Foggy, then clearing"
     },
     {
      "day": "Sat Nov 28",
-     "high": 61,
-     "low": 42,
-     "note": "Mostly sunny"
+     "high": 60,
+     "low": 36,
+     "note": "Overcast"
     },
     {
      "day": "Sun Nov 29",
      "high": 62,
-     "low": 38,
-     "note": "Showers"
+     "low": 45,
+     "note": "Rain showers, ~0.35 in"
     },
     {
      "day": "Mon Nov 30",
-     "high": 55,
-     "low": 32,
-     "note": "Partly cloudy"
+     "high": 50,
+     "low": 38,
+     "note": "Overcast"
     },
     {
      "day": "Tue Dec 1",
-     "high": 56,
-     "low": 37,
-     "note": "Partly cloudy"
+     "high": 57,
+     "low": 36,
+     "note": "Overcast"
     }
    ]
   },
   "weather": {
    "place": "HAZEL GREEN, AL",
-   "tempNow": 38,
-   "condition": "Sunny",
-   "high": 56,
-   "low": 45,
+   "tempNow": 54,
+   "condition": "Partly Cloudy",
+   "high": 63,
+   "low": 49,
    "hourly": [
     {
      "label": "NOW",
-     "temp": 38
-    },
-    {
-     "label": "9 AM",
-     "temp": 44
-    },
-    {
-     "label": "12 PM",
-     "temp": 53
-    },
-    {
-     "label": "3 PM",
      "temp": 54
     },
     {
+     "label": "9 AM",
+     "temp": 56
+    },
+    {
+     "label": "12 PM",
+     "temp": 62
+    },
+    {
+     "label": "3 PM",
+     "temp": 62
+    },
+    {
      "label": "6 PM",
-     "temp": 50
+     "temp": 53
     },
     {
      "label": "9 PM",
-     "temp": 48
+     "temp": 51
     }
    ],
-   "rainChanceTodayPct": 0,
-   "rainChanceTonightPct": 10,
-   "tonightCondition": "Cloudy"
+   "rainChanceTodayPct": 78,
+   "rainChanceTonightPct": 73,
+   "tonightCondition": "Rain likely"
   }
  },
  "clusters": {
   "deepsky": {
    "nodes": [
     {
-     "body": "Cloudy tonight — low ~45°. Rain ~10%.",
+     "body": "Rain moves in tonight — low ~49°. Rain ~73%.",
      "id": "tonight",
      "statusDot": "default",
      "title": "Tonight"
     },
     {
-     "body": "Today cloudy 56/45. Wed rain 54/40, Thu Thanksgiving AM rain 42/32, Fri partly cloudy 49/30, Sat mostly sunny 61/42. Thanksgiving Thu is 2 days out.",
+     "body": "Today rain arrives tonight 63/49. Thu Thanksgiving rain 49/36, Fri foggy then clearing 50/37, Sat overcast 60/36, Sun showers 62/45. Thanksgiving Thu is tomorrow.",
      "id": "the-week",
      "statusDot": "default",
      "title": "The Week"
@@ -321,9 +316,9 @@
   "time": {
    "nodes": [
     {
-     "badge": "33 days",
+     "badge": "30 days",
      "badgeTone": "cluster",
-     "body": "33 days to Fri Dec 25 — also iPhone 18 Pro Max day.",
+     "body": "30 days to Fri Dec 25 — also iPhone 18 Pro Max day.",
      "countdown": {
       "dateLabel": "Fri Dec 25",
       "targetDate": "2026-12-25"
@@ -333,9 +328,9 @@
      "title": "Christmas"
     },
     {
-     "badge": "129 days",
+     "badge": "126 days",
      "badgeTone": "cluster",
-     "body": "March 31 — 129 days out.",
+     "body": "March 31 — 126 days out.",
      "countdown": {
       "dateLabel": "March 31",
       "targetDate": "2027-03-31"
@@ -410,69 +405,69 @@
  },
  "meta": {
   "schemaVersion": 1,
-  "pourVersion": 10,
-  "pouredAt": "2026-11-24T07:52:37-06:00",
-  "pourLabel": "Poured Tuesday, Nov 24 — morning",
+  "pourVersion": 11,
+  "pouredAt": "2026-11-25T07:51:55-06:00",
+  "pourLabel": "Poured Wednesday, Nov 25 — morning",
   "displayDate": {
-   "weekday": "Tuesday",
-   "monthDay": "Nov 24"
+   "weekday": "Wednesday",
+   "monthDay": "Nov 25"
   }
  },
  "world": {
   "stories": [
    {
-    "id": "gta-vi-biggest-playstation-launch",
+    "id": "gta-vi-47-8m-copies-four-days",
     "category": "gaming",
     "categoryLabel": "Gaming",
-    "headline": "GTA 6 is the biggest launch in PlayStation history — 39 million players in four days",
-    "summary": "Sony says more than 39 million unique players played GTA 6 on PS5 in its first four days, with 683 million hours logged — the biggest launch across all five PlayStation generations.",
-    "source": "PlayStation Blog",
-    "url": "https://blog.playstation.com/?p=425938"
+    "headline": "GTA 6 sold an estimated 47.8 million copies in four days",
+    "summary": "Sensor Tower data: 35.3M by end of launch day, 47.8M by Sunday — the best-selling game of 2026 in four days, installed on ~35% of active PS5 and Xbox Series consoles. Call of Duty's daily players fell 46% in the same window.",
+    "source": "Shane the Gamer",
+    "url": "https://www.shanethegamer.com/news/gta-6-sales-launch-weekend-47-million-copies/"
    },
    {
-    "id": "nvidia-reinstates-jensen-huang",
-    "category": "tech",
-    "categoryLabel": "Tech",
-    "headline": "Nvidia reinstates Jensen Huang as CEO, 11 days after he resigned",
-    "summary": "Nvidia's board voted unanimously to bring Huang back effective immediately after pressure from Trump and Wall Street; shares jumped ~33% and reignited the AI trade.",
-    "source": "Reuters",
-    "url": "https://www.reuters.com/technology/nvidia-reinstates-jensen-huang-ceo-2026-11-23/"
-   },
-   {
-    "id": "gta-vi-60fps-xbox-glitch",
-    "category": "gaming",
-    "categoryLabel": "Gaming",
-    "headline": "GTA 6 hits 60fps on Xbox via a Quick Resume glitch — but the game speeds up too",
-    "summary": "A refresh-rate toggle + Quick Resume trick lifts the 30fps cap on Xbox Series X/S, but game speed is tied to frame rate, so everything runs at double speed. Digital Foundry confirmed the cap is gone.",
-    "source": "Wccftech",
-    "url": "https://wccftech.com/grand-theft-auto-vi-60-fps-xbox-series-x-glitch/"
-   },
-   {
-    "id": "cop31-fallout-eu-reform",
+    "id": "huawei-convicted-us-trial",
     "category": "world",
     "categoryLabel": "World",
-    "headline": "COP31 fallout: EU to push reform of UN climate talks after the no-deal collapse",
-    "summary": "After COP31 ended with no cover decision, the EU says it will propose changes to the UN's consensus model — 'hijacked by a small minority' — while blame for the collapse is traded in public.",
-    "source": "Carbon Brief",
-    "url": "https://www.carbonbrief.org/daily-briefing-cop31-fallout-indias-nepal-aid-package-trump-slurs-ipcc"
+    "headline": "Huawei convicted in US criminal trial over Iran business and trade-secret theft",
+    "summary": "A Brooklyn jury found Huawei guilty on 10 of 12 counts, including bank fraud, wire fraud, sanctions violations and conspiring to steal trade secrets. Sentencing is set for Sept 14, 2027; Huawei plans to appeal.",
+    "source": "Reuters",
+    "url": "https://www.reuters.com/legal/litigation/chinas-huawei-convicted-us-criminal-trial-stemming-iran-business-2026-11-24/"
    },
    {
-    "id": "samsung-odyssey-g6-1100hz",
+    "id": "tidal-bans-ai-music",
     "category": "tech",
     "categoryLabel": "Tech",
-    "headline": "Samsung launches the world's first 1,100Hz gaming monitor — $899.99 in December",
-    "summary": "The 27-inch Odyssey G6 (G60H) hits 1,100Hz at 720p or 600Hz at native QHD via Dual Mode. $899.99 at US retailers from December.",
-    "source": "Samsung Newsroom",
-    "url": "https://news.samsung.com/us/samsung-launches-odyssey-g6-worlds-first-1100hz-gaming-monitor/"
+    "headline": "Tidal to ban AI-generated music and remove 29 million tracks",
+    "summary": "Starting Dec 9, Tidal will remove fully AI-generated tracks — about 29 million songs — and reject 80,000–85,000 new ones a day. 43% of tracks uploaded in the last 90 days were flagged as AI-generated.",
+    "source": "TechCrunch",
+    "url": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/"
    },
    {
-    "id": "claude-vp-vnp-proof",
+    "id": "axelera-ai-400m-raise",
     "category": "tech",
     "categoryLabel": "Tech",
-    "headline": "Claude claims it proved a 47-year-old math conjecture — and no human has checked it yet",
-    "summary": "Anthropic posted a 70-page paper credited solely to Claude claiming VP ≠ VNP, Valiant's 1979 conjecture, with a 73,000-line Lean formalization. The repo is blunt: no human mathematician has checked the proof.",
-    "source": "Interesting Engineering",
-    "url": "https://interestingengineering.com/ai-robotics/claude-proves-vp-not-vnp-valiant-conjecture"
+    "headline": "Dutch AI chip startup Axelera seeks $400M in new funding",
+    "summary": "Axelera AI is in talks to raise $400M for AI inference chips and is seeking EU grants; meanwhile AI adoption is cutting graduate hiring for clerical roles in Japan, and India's AI sector drew $1.6B in venture funding in 2026's first nine months.",
+    "source": "Analytics Insight",
+    "url": "https://www.analyticsinsight.net/tech-news/top-news-today-axelera-ai-seeks-usd-400m-ai-reshapes-japans-graduate-hiring"
+   },
+   {
+    "id": "gpt-6-protein-design",
+    "category": "tech",
+    "categoryLabel": "Tech",
+    "headline": "GPT-6 is learning to design proteins in the lab",
+    "summary": "OpenAI showed GPT-6 models designing protein structures and sequences with reasoning and code alone, with lab validation on five targets. Also: amateur astronomers used AI to spot possible exoplanets in NASA telescope data.",
+    "source": "The Neuron",
+    "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-november-25-2026/"
+   },
+   {
+    "id": "israel-strikes-gaza-city",
+    "category": "world",
+    "categoryLabel": "World",
+    "headline": "Israel struck Gaza City, killing Hamas's internal security chief",
+    "summary": "Israel struck Gaza City, killing Naim Abu Nakhla, head of Hamas's internal security apparatus; Gaza authorities have recorded at least 1,679 deaths since the October ceasefire agreement.",
+    "source": "EventGraph",
+    "url": "https://www.livingruntime.com/en/daily"
    }
   ]
  }
