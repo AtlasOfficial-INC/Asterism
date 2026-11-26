@@ -1,127 +1,126 @@
 {
  "brief": {
   "calendar": {
-   "state": "clear",
-   "summary": "Nothing on the calendar — clear day, do what you want with it.",
-   "entries": []
+   "state": "events",
+   "summary": "Thanksgiving Day — and nothing else on the calendar.",
+   "entries": [
+    {
+     "title": "Thanksgiving Day",
+     "startLabel": "All day"
+    }
+   ]
   },
   "flags": {
    "state": "urgent",
-   "text": "Thanksgiving is tomorrow — and it's looking wet (rain likely, 49°/36°, ~0.7 in). Rain moves in tonight.",
+   "text": "Thanksgiving Day — rain turning to snow showers, high 41°, low 34°. Bundle up if you're heading out.",
    "nextFlag": {
-    "label": "Thanksgiving — wet day ahead",
+    "label": "Thanksgiving Day — rain/snow",
     "targetDate": "2026-11-26",
-    "detail": "Rain likely, 49°/36°, ~0.7 in"
+    "detail": "Rain/snow, 41°/34°"
    }
   },
   "inbox": {
    "state": "signals",
-   "summary": "Couldn't check the inbox — Gmail is disconnected this morning.",
-   "detail": "The Gmail link dropped, so no inbox read was possible. Reconnect Gmail to resume inbox checks.",
+   "summary": "Couldn't check the inbox — Gmail is still disconnected.",
+   "detail": "The Gmail link is still down (status: not_connected since Nov 25). Reconnect Gmail to resume inbox checks.",
    "rows": [
     {
      "label": "Gmail — not connected",
-     "detail": "The Gmail link dropped this morning; reconnect to resume inbox checks.",
+     "detail": "Gmail still disconnected; reconnect to resume inbox checks.",
      "severity": "attention"
     }
    ]
   },
   "lookingAhead": {
-   "headline": "Rain arrives tonight — a wet Thanksgiving, then a dry weekend.",
-   "detail": "Wed rain arrives tonight 63°/49° (~0.5 in), Thu Thanksgiving rain likely 49°/36° (~0.7 in), Fri foggy then clearing 50°/37°, Sat overcast 60°/36°, Sun rain showers 62°/45° (~0.35 in), Mon overcast 50°/38°, Tue overcast 57°/36°.",
+   "headline": "Rain and snow showers for Thanksgiving — then a warm, dry Saturday.",
+   "detail": "Thu Thanksgiving rain/snow 41°/34° (~0.19 in), Fri clearing 48°/30°, Sat sunny 60°/36°, Sun rain showers 64°/45°, Mon overcast 51°/38°, Tue 57°/37°.",
    "entries": [
     {
-     "day": "Wed Nov 25",
-     "high": 63,
-     "low": 49,
-     "note": "Rain arrives tonight, ~0.5 in"
-    },
-    {
      "day": "Thu Nov 26",
-     "high": 49,
-     "low": 36,
-     "note": "Thanksgiving — rain likely, ~0.7 in"
+     "high": 41,
+     "low": 34,
+     "note": "Thanksgiving — rain turning to snow showers, ~0.19 in"
     },
     {
      "day": "Fri Nov 27",
-     "high": 50,
-     "low": 37,
-     "note": "Foggy, then clearing"
+     "high": 48,
+     "low": 30,
+     "note": "AM clouds, PM sun"
     },
     {
      "day": "Sat Nov 28",
      "high": 60,
      "low": 36,
-     "note": "Overcast"
+     "note": "Sunny and dry"
     },
     {
      "day": "Sun Nov 29",
-     "high": 62,
+     "high": 64,
      "low": 45,
-     "note": "Rain showers, ~0.35 in"
+     "note": "Rain showers likely"
     },
     {
      "day": "Mon Nov 30",
-     "high": 50,
+     "high": 51,
      "low": 38,
      "note": "Overcast"
     },
     {
      "day": "Tue Dec 1",
      "high": 57,
-     "low": 36,
-     "note": "Overcast"
+     "low": 37,
+     "note": "Overcast, dry"
     }
    ]
   },
   "weather": {
    "place": "HAZEL GREEN, AL",
-   "tempNow": 54,
-   "condition": "Partly Cloudy",
-   "high": 63,
-   "low": 49,
+   "tempNow": 40,
+   "condition": "Rain",
+   "high": 41,
+   "low": 34,
    "hourly": [
     {
      "label": "NOW",
-     "temp": 54
+     "temp": 40
     },
     {
      "label": "9 AM",
-     "temp": 56
+     "temp": 40
     },
     {
      "label": "12 PM",
-     "temp": 62
+     "temp": 37
     },
     {
      "label": "3 PM",
-     "temp": 62
+     "temp": 38
     },
     {
      "label": "6 PM",
-     "temp": 53
+     "temp": 36
     },
     {
      "label": "9 PM",
-     "temp": 51
+     "temp": 35
     }
    ],
-   "rainChanceTodayPct": 78,
-   "rainChanceTonightPct": 73,
-   "tonightCondition": "Rain likely"
+   "rainChanceTodayPct": 90,
+   "rainChanceTonightPct": 50,
+   "tonightCondition": "Snow showers early"
   }
  },
  "clusters": {
   "deepsky": {
    "nodes": [
     {
-     "body": "Rain moves in tonight — low ~49°. Rain ~73%.",
+     "body": "Snow showers early — low ~34°. Rain/snow ~50%.",
      "id": "tonight",
      "statusDot": "default",
      "title": "Tonight"
     },
     {
-     "body": "Today rain arrives tonight 63/49. Thu Thanksgiving rain 49/36, Fri foggy then clearing 50/37, Sat overcast 60/36, Sun showers 62/45. Thanksgiving Thu is tomorrow.",
+     "body": "Today rain/snow 41/34. Fri clearing 48/30, Sat sunny 60/36, Sun showers 64/45. Thanksgiving is today.",
      "id": "the-week",
      "statusDot": "default",
      "title": "The Week"
@@ -316,9 +315,9 @@
   "time": {
    "nodes": [
     {
-     "badge": "30 days",
+     "badge": "29 days",
      "badgeTone": "cluster",
-     "body": "30 days to Fri Dec 25 — also iPhone 18 Pro Max day.",
+     "body": "29 days to Fri Dec 25 — also iPhone 18 Pro Max day.",
      "countdown": {
       "dateLabel": "Fri Dec 25",
       "targetDate": "2026-12-25"
@@ -328,9 +327,9 @@
      "title": "Christmas"
     },
     {
-     "badge": "126 days",
+     "badge": "125 days",
      "badgeTone": "cluster",
-     "body": "March 31 — 126 days out.",
+     "body": "March 31 — 125 days out.",
      "countdown": {
       "dateLabel": "March 31",
       "targetDate": "2027-03-31"
@@ -405,69 +404,78 @@
  },
  "meta": {
   "schemaVersion": 1,
-  "pourVersion": 11,
-  "pouredAt": "2026-11-25T07:51:55-06:00",
-  "pourLabel": "Poured Wednesday, Nov 25 — morning",
+  "pourVersion": 12,
+  "pouredAt": "2026-11-26T07:52:00-06:00",
+  "pourLabel": "Poured Thursday, Nov 26 — morning",
   "displayDate": {
-   "weekday": "Wednesday",
-   "monthDay": "Nov 25"
+   "weekday": "Thursday",
+   "monthDay": "Nov 26"
   }
  },
  "world": {
   "stories": [
    {
-    "id": "gta-vi-47-8m-copies-four-days",
+    "id": "memory-chip-shortage-10x-holiday-prices",
+    "category": "tech",
+    "categoryLabel": "Tech",
+    "headline": "Memory chips are up 10x — and holiday electronics prices are paying for it",
+    "summary": "AI data centers have drained the memory-chip supply; some chip prices are up tenfold in a year, SK Hynix is sold out of DRAM through 2029, and MacBook prices are up $100–500 while the iPhone 18 Pro and Pro Max start $100 higher.",
+    "source": "The Wall Street Journal",
+    "url": "https://www.wsj.com/tech/memory-chip-shortage-ai-electronics-prices-e58a065a"
+   },
+   {
+    "id": "gta-6-leaked-build-boots-pc-1fps",
     "category": "gaming",
     "categoryLabel": "Gaming",
-    "headline": "GTA 6 sold an estimated 47.8 million copies in four days",
-    "summary": "Sensor Tower data: 35.3M by end of launch day, 47.8M by Sunday — the best-selling game of 2026 in four days, installed on ~35% of active PS5 and Xbox Series consoles. Call of Duty's daily players fell 46% in the same window.",
-    "source": "Shane the Gamer",
-    "url": "https://www.shanethegamer.com/news/gta-6-sales-launch-weekend-47-million-copies/"
+    "headline": "The leaked GTA 6 Xbox build now boots on PC — at about 1 frame per second",
+    "summary": "Cyberleek released the missing executable on Nov 23; the open-source VIctory project says the game boots and reaches the prologue, menus at 30fps but ~1fps in the world — not playable.",
+    "source": "Make Tech Easier",
+    "url": "https://maketecheasier.com/cyberleek-gta-6-xbox-executable-released/"
    },
    {
-    "id": "huawei-convicted-us-trial",
+    "id": "gta-6-cut-features-tennis-crawl-cinemas",
+    "category": "gaming",
+    "categoryLabel": "Gaming",
+    "headline": "Rockstar devs reveal GTA 6's cut features — tennis, crawling, cinemas",
+    "summary": "Tennis was cut because it wasn't good enough, cinemas weren't interactive enough, and crawling plus safehouse furnishing were also dropped. Story missions can't be replayed, unlike GTA 5.",
+    "source": "VGTimes",
+    "url": "https://vgtimes.com/gaming-news/175803-gta-6-developers-reveal-cut-features-from-tennis-to-crawl-mechanics.html"
+   },
+   {
+    "id": "gta-6-40m-copies-683m-hours",
+    "category": "gaming",
+    "categoryLabel": "Gaming",
+    "headline": "GTA 6 is closing in on 40 million copies — 683 million hours in four days",
+    "summary": "Nearly 40M copies sold across PS5 and Xbox; PS5 players logged 683 million hours over the launch weekend, a platform record. The game also picked up eight Game Awards nominations, including Game of the Year.",
+    "source": "Wall Street Next",
+    "url": "https://wsnext.com/inside-grand-theft-auto-vis-massive-launch-and-evolving-crime-mechanics/"
+   },
+   {
+    "id": "trump-new-tariffs-14-partners",
     "category": "world",
     "categoryLabel": "World",
-    "headline": "Huawei convicted in US criminal trial over Iran business and trade-secret theft",
-    "summary": "A Brooklyn jury found Huawei guilty on 10 of 12 counts, including bank fraud, wire fraud, sanctions violations and conspiring to steal trade secrets. Sentencing is set for Sept 14, 2027; Huawei plans to appeal.",
-    "source": "Reuters",
-    "url": "https://www.reuters.com/legal/litigation/chinas-huawei-convicted-us-criminal-trial-stemming-iran-business-2026-11-24/"
+    "headline": "Trump unveils new tariffs on 14 trading partners",
+    "summary": "Proposed tariffs target 14 major trading partners over factory overcapacity; meanwhile EU leaders meet over the bloc's long-term budget, North Korea signals further nuclear expansion, and Ukraine diplomacy faces renewed uncertainty.",
+    "source": "Open Chronicle",
+    "url": "https://openchronicle.org/2026/11/26/global-news-brief-key-developments-around-the-world-november-26-2026/"
    },
    {
-    "id": "tidal-bans-ai-music",
-    "category": "tech",
-    "categoryLabel": "Tech",
-    "headline": "Tidal to ban AI-generated music and remove 29 million tracks",
-    "summary": "Starting Dec 9, Tidal will remove fully AI-generated tracks — about 29 million songs — and reject 80,000–85,000 new ones a day. 43% of tracks uploaded in the last 90 days were flagged as AI-generated.",
-    "source": "TechCrunch",
-    "url": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/"
-   },
-   {
-    "id": "axelera-ai-400m-raise",
-    "category": "tech",
-    "categoryLabel": "Tech",
-    "headline": "Dutch AI chip startup Axelera seeks $400M in new funding",
-    "summary": "Axelera AI is in talks to raise $400M for AI inference chips and is seeking EU grants; meanwhile AI adoption is cutting graduate hiring for clerical roles in Japan, and India's AI sector drew $1.6B in venture funding in 2026's first nine months.",
-    "source": "Analytics Insight",
-    "url": "https://www.analyticsinsight.net/tech-news/top-news-today-axelera-ai-seeks-usd-400m-ai-reshapes-japans-graduate-hiring"
-   },
-   {
-    "id": "gpt-6-protein-design",
-    "category": "tech",
-    "categoryLabel": "Tech",
-    "headline": "GPT-6 is learning to design proteins in the lab",
-    "summary": "OpenAI showed GPT-6 models designing protein structures and sequences with reasoning and code alone, with lab validation on five targets. Also: amateur astronomers used AI to spot possible exoplanets in NASA telescope data.",
-    "source": "The Neuron",
-    "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-november-25-2026/"
-   },
-   {
-    "id": "israel-strikes-gaza-city",
+    "id": "cairo-fuel-tanker-fire-31-killed",
     "category": "world",
     "categoryLabel": "World",
-    "headline": "Israel struck Gaza City, killing Hamas's internal security chief",
-    "summary": "Israel struck Gaza City, killing Naim Abu Nakhla, head of Hamas's internal security apparatus; Gaza authorities have recorded at least 1,679 deaths since the October ceasefire agreement.",
-    "source": "EventGraph",
-    "url": "https://www.livingruntime.com/en/daily"
+    "headline": "Fuel tanker fire kills at least 31 on Cairo's ring road",
+    "summary": "A fuel tanker overturned on Giza's Ring Road on Wednesday and caught fire; at least 31 people died and about 21 were injured.",
+    "source": "One Turn",
+    "url": "https://oneturn.news/news/"
+   },
+   {
+    "id": "macys-parade-100th-moved-saturday",
+    "category": "culture",
+    "categoryLabel": "Culture",
+    "headline": "The 100th Macy's Thanksgiving Day Parade moves to Saturday",
+    "summary": "NYC Mayor Mamdani announced the 100th parade is rescheduled from Thursday to Saturday due to forecasts of heavy rain and strong winds.",
+    "source": "Inshorts",
+    "url": "https://inshorts.com/en/read/world&"
    }
   ]
  }
