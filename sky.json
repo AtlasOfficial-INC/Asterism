@@ -1,482 +1,491 @@
 {
- "brief": {
-  "calendar": {
-   "state": "events",
-   "summary": "Thanksgiving Day — and nothing else on the calendar.",
-   "entries": [
-    {
-     "title": "Thanksgiving Day",
-     "startLabel": "All day"
+  "brief": {
+    "calendar": {
+      "state": "events",
+      "summary": "Black Friday — and nothing else on the calendar.",
+      "entries": [
+        {
+          "title": "Black Friday",
+          "startLabel": "All day"
+        }
+      ]
+    },
+    "flags": {
+      "state": "urgent",
+      "text": "GitHub asked to verify a sign-in from Chrome on Windows at 5:55 AM — check it was you. The Photon password-reset link already expired.",
+      "nextFlag": {
+        "label": "GitHub device verification",
+        "targetDate": "2026-11-27",
+        "detail": "Chrome on Windows sign-in, 5:55 AM"
+      }
+    },
+    "inbox": {
+      "state": "signals",
+      "summary": "Gmail is back — and three things need your eyes.",
+      "detail": "GitHub device verification (Chrome on Windows, 5:55 AM), a Photon Engine password-reset link that already expired, and a Google security alert that's just your own Muse access grant. Plus Unity sign-ins and a doc share from Evan.",
+      "rows": [
+        {
+          "label": "GitHub — verify your device",
+          "detail": "Sign-in attempt from Chrome on Windows, 5:55 AM. If it wasn't you, your password may be compromised.",
+          "severity": "attention"
+        },
+        {
+          "label": "Photon Engine — password update",
+          "detail": "Reset link sent 5:24 AM, expired after 10 minutes.",
+          "severity": "attention"
+        },
+        {
+          "label": "Google — Security alert",
+          "detail": "You allowed Muse access to your Google Account data — your own reconnect, nothing to do.",
+          "severity": "info"
+        },
+        {
+          "label": "Evan shared a Google Doc",
+          "detail": "com.unity.xr.interaction.toolkit, shared 4:52 AM.",
+          "severity": "info"
+        }
+      ]
+    },
+    "lookingAhead": {
+      "headline": "Clearing out today, warm Saturday — then a soaker Sunday.",
+      "detail": "Fri clearing 49°/30°, Sat mostly sunny 63°/46°, Sun rain 62°/36° (~0.50 in, thunder possible), Mon mostly sunny 52°/28°, Tue mostly sunny 59°/35°.",
+      "entries": [
+        {
+          "day": "Fri Nov 27",
+          "high": 49,
+          "low": 30,
+          "note": "AM clouds, PM sun"
+        },
+        {
+          "day": "Sat Nov 28",
+          "high": 63,
+          "low": 46,
+          "note": "Mostly sunny and dry"
+        },
+        {
+          "day": "Sun Nov 29",
+          "high": 62,
+          "low": 36,
+          "note": "Rain, ~0.50 in, thunder possible"
+        },
+        {
+          "day": "Mon Nov 30",
+          "high": 52,
+          "low": 28,
+          "note": "Mostly sunny"
+        },
+        {
+          "day": "Tue Dec 1",
+          "high": 59,
+          "low": 35,
+          "note": "Mostly sunny, dry"
+        }
+      ]
+    },
+    "weather": {
+      "place": "HAZEL GREEN, AL",
+      "tempNow": 38,
+      "condition": "Cloudy",
+      "high": 49,
+      "low": 30,
+      "hourly": [
+        {
+          "label": "NOW",
+          "temp": 38
+        },
+        {
+          "label": "9 AM",
+          "temp": 40
+        },
+        {
+          "label": "12 PM",
+          "temp": 44
+        },
+        {
+          "label": "3 PM",
+          "temp": 48
+        },
+        {
+          "label": "6 PM",
+          "temp": 41
+        },
+        {
+          "label": "9 PM",
+          "temp": 37
+        }
+      ],
+      "rainChanceTodayPct": 0,
+      "rainChanceTonightPct": 10,
+      "tonightCondition": "Partly cloudy"
     }
-   ]
   },
-  "flags": {
-   "state": "urgent",
-   "text": "Thanksgiving Day — rain turning to snow showers, high 41°, low 34°. Bundle up if you're heading out.",
-   "nextFlag": {
-    "label": "Thanksgiving Day — rain/snow",
-    "targetDate": "2026-11-26",
-    "detail": "Rain/snow, 41°/34°"
-   }
-  },
-  "inbox": {
-   "state": "signals",
-   "summary": "Couldn't check the inbox — Gmail is still disconnected.",
-   "detail": "The Gmail link is still down (status: not_connected since Nov 25). Reconnect Gmail to resume inbox checks.",
-   "rows": [
-    {
-     "label": "Gmail — not connected",
-     "detail": "Gmail still disconnected; reconnect to resume inbox checks.",
-     "severity": "attention"
+  "clusters": {
+    "deepsky": {
+      "nodes": [
+        {
+          "body": "Partly cloudy — low ~30°. Rain ~10%.",
+          "id": "tonight",
+          "statusDot": "default",
+          "title": "Tonight"
+        },
+        {
+          "body": "Today AM clouds/PM sun 49/30. Sat mostly sunny 63/46, Sun rain 62/36. Black Friday is today.",
+          "id": "the-week",
+          "statusDot": "default",
+          "title": "The Week"
+        },
+        {
+          "badge": "Over",
+          "badgeTone": "cluster",
+          "body": "Done — the Nov 13 cold snap bottomed out at 25° overnight and the freeze warning's lifted. A cool, rainy stretch is coming midweek instead.",
+          "countdown": {
+            "dateLabel": "Fri Nov 13",
+            "targetDate": "2026-11-13"
+          },
+          "id": "the-cold-snap",
+          "statusDot": "live",
+          "title": "The Cold Snap"
+        },
+        {
+          "body": "Daily weather + the 7:47 brief run every morning for Hazel Green.",
+          "id": "standing-watches",
+          "statusDot": "info",
+          "title": "Standing Watches"
+        }
+      ]
+    },
+    "devices": {
+      "nodes": [
+        {
+          "body": "Still the daily driver — the Christmas iPhone lands Dec 25, and iOS 27's translucent Liquid Glass keyboard is the thing he's most hyped for on it.",
+          "id": "phone-s26-ultra",
+          "statusDot": "default",
+          "title": "Phone — S26 Ultra"
+        },
+        {
+          "body": "~2–3 GB headroom — quota verified unchanged Nov 4.",
+          "id": "google-storage",
+          "statusDot": "info",
+          "title": "Google Storage"
+        },
+        {
+          "body": "0.2.0 live on the site.",
+          "id": "atlas",
+          "statusDot": "live",
+          "statusWord": "0.2.0 live",
+          "title": "Atlas"
+        }
+      ]
+    },
+    "household": {
+      "nodes": [
+        {
+          "body": "Blue/grey pit-type, ~5 months old — little-shark teething phase in full effect.",
+          "id": "the-puppy",
+          "statusDot": "live",
+          "title": "The Puppy"
+        },
+        {
+          "body": "Grumpy — almost 6, hates everyone including Charlee. The two are mortal enemies.",
+          "id": "the-other-dog",
+          "statusDot": "dim",
+          "title": "The Other Dog"
+        },
+        {
+          "badge": "$1.45",
+          "badgeTone": "rose",
+          "body": "$1.45. Never moves.",
+          "id": "cashapp",
+          "statusDot": "default",
+          "title": "CashApp"
+        }
+      ]
+    },
+    "inmotion": {
+      "nodes": [
+        {
+          "body": "Ordered on Amazon — delivery date not yet known.",
+          "id": "flolab-onetime-pro",
+          "statusDot": "live",
+          "statusWord": "Ordered",
+          "title": "FLOLAB OneTime Pro"
+        },
+        {
+          "body": "Cut from the Christmas list Nov 19 — WOBKEY direct ~$140 with Cocoa switches was the build to beat, but it's off the list now. Watch parked.",
+          "id": "rainy-75-price-watch",
+          "statusDot": "dim",
+          "title": "Rainy 75 Price Watch"
+        },
+        {
+          "badge": "~$758",
+          "body": "~$758 and holding — PS5 $649 + GTA 6 Ultimate $99.99. The audio cart, Rainy 75 and Switch 2 are off the list.",
+          "id": "christmas-list-total",
+          "statusDot": "default",
+          "title": "Christmas List Total"
+        }
+      ]
+    },
+    "life": {
+      "nodes": [
+        {
+          "body": "“Dark Knight Dummo” — Trippie Redd ft. Travis Scott. A top-5 song, set as his Instagram profile song.",
+          "id": "spotify",
+          "statusDot": "live",
+          "title": "Spotify"
+        },
+        {
+          "body": "Java 1.20.1 with Bliss shaders + Distant Horizons — terrain for days.",
+          "id": "minecraft",
+          "statusDot": "default",
+          "title": "Minecraft"
+        },
+        {
+          "body": "Gilla VR is the new peak — brutal horror monkey-movement game, 'Be the Monster' mode, Backrooms, chainsaw monster. Nightclub Simulator champion ('too good at the game'); Drunken Bar Fight for chair-throwing physics.",
+          "id": "vr",
+          "statusDot": "default",
+          "title": "VR"
+        },
+        {
+          "body": "peenleenbeen — beat the Magnus bot in 55 moves on Nov 15, plus an 11-move checkmate the same day.",
+          "id": "chess-com",
+          "statusDot": "info",
+          "title": "Chess.com"
+        }
+      ]
+    },
+    "money": {
+      "nodes": [
+        {
+          "badge": "~$758",
+          "body": "~$758 — the PS5 ($649) plus GTA 6 Ultimate ($99.99) on PlayStation Direct. Wishlist, not yet bought. (Audio cart, Rainy 75 and Switch 2 all cut Nov 19.)",
+          "id": "christmas-list",
+          "statusDot": "default",
+          "title": "Christmas List"
+        },
+        {
+          "badge": "$4,000",
+          "body": "M5 Max, 64GB, 1TB — $4,000 out the door. Decision made, timing open — ‘depends’.",
+          "id": "mac-studio-fund",
+          "statusDot": "info",
+          "title": "Mac Studio Fund"
+        },
+        {
+          "body": "iPhone 18 Pro Max lands at Christmas — 512GB Glacier, $1,499 ($1,581.45 with tax) in the Apple bag. Case: ESR $16.99 leads; FLOLAB protector already ordered.",
+          "id": "iphone-day-fund",
+          "statusDot": "default",
+          "title": "iPhone Day Fund"
+        }
+      ]
+    },
+    "social": {
+      "nodes": [
+        {
+          "body": "@wsgimzay — 0 posts, 11 followers, 64 following. Profile made over Nov 6: new bio, Atlas link, profile song ‘Dark Knight Dummo’. The grid stays empty by choice.",
+          "id": "instagram",
+          "statusDot": "live",
+          "title": "Instagram"
+        },
+        {
+          "body": "Profile decorating in progress. Custom pfp + banner art hunt open — shortlist ready, and the goat (favourite animal) leads. Capybara placeholder sets generated meanwhile. (Replied to Alec’s GTA 6 post Nov 19: “go home guys, the fun police said gta 6 is bad. we’ll try again in 15 years.”)",
+          "id": "twitter-x",
+          "statusDot": "default",
+          "title": "Twitter / X"
+        },
+        {
+          "body": "The Atlas site is live at atlasofficial-inc.github.io/Atlas — and Asterism now has its own repo and Pages site, pouring daily sky.json.",
+          "id": "atlas-out-loud",
+          "statusDot": "info",
+          "title": "Atlas, Out Loud"
+        }
+      ]
+    },
+    "studio": {
+      "nodes": [
+        {
+          "body": "DaVinci Resolve 21 installed on the PC (Nov 1). First edit still ahead — learning video editing is the standing goal.",
+          "id": "video-editing",
+          "statusDot": "default",
+          "title": "Video Editing"
+        },
+        {
+          "body": "0.2.0 live on the website with the verified APK. Windows at 0.2.1 — installer rebuild pending on his PC. Sync parked.",
+          "id": "atlas-the-product",
+          "statusDot": "live",
+          "title": "Atlas, The Product"
+        },
+        {
+          "body": "This app — the second product. Windows build installed and working; live weather fetch went live Nov 8 ~03:41; daily sky.json pours now live.",
+          "id": "asterism-the-product",
+          "statusDot": "live",
+          "title": "Asterism, The Product"
+        }
+      ]
+    },
+    "time": {
+      "nodes": [
+        {
+          "badge": "28 days",
+          "badgeTone": "cluster",
+          "body": "28 days to Fri Dec 25 — also iPhone 18 Pro Max day.",
+          "countdown": {
+            "dateLabel": "Fri Dec 25",
+            "targetDate": "2026-12-25"
+          },
+          "id": "christmas",
+          "statusDot": "live",
+          "title": "Christmas"
+        },
+        {
+          "badge": "124 days",
+          "badgeTone": "cluster",
+          "body": "March 31 — 124 days out.",
+          "countdown": {
+            "dateLabel": "March 31",
+            "targetDate": "2027-03-31"
+          },
+          "id": "birthday",
+          "statusDot": "default",
+          "title": "Birthday"
+        },
+        {
+          "body": "None active — the Nov 13 Google storage deadline was resolved Nov 1.",
+          "id": "deadlines",
+          "statusDot": "info",
+          "title": "Deadlines"
+        }
+      ]
+    },
+    "workbench": {
+      "nodes": [
+        {
+          "body": "Live at atlasofficial-inc.github.io/Atlas — Android 0.2.0 downloadable now.",
+          "id": "atlas",
+          "statusDot": "live",
+          "statusWord": "Live",
+          "title": "Atlas"
+        },
+        {
+          "body": "0.2.1 installer awaits a rebuild on Mors's PC, then GitHub Release hosting.",
+          "id": "atlas-for-windows",
+          "statusDot": "default",
+          "title": "Atlas for Windows"
+        },
+        {
+          "body": "Constellation UI accepted — now in its live-content phase; daily 7:47 pours publish sky.json.",
+          "id": "asterism",
+          "statusDot": "live",
+          "title": "Asterism"
+        },
+        {
+          "body": "ESR Classic Hybrid Magnetic with Camera Control — Clear, $16.99 at ESR — is the frontrunner now; Mors: 'the esr case is genuinely good lmao esr lowk underrated.' Spigen Ultra Hybrid S MagFit ($32.99) is the runner-up; TORRAS Q3 Air Ever Green/Midnight Blue ($65.99) and Nomad leather ($79) still in the running.",
+          "id": "iphone-case-hunt",
+          "statusDot": "default",
+          "title": "iPhone Case Hunt"
+        },
+        {
+          "body": "FLOLAB OneTime Pro ordered on Amazon — saga closed.",
+          "id": "screen-protector",
+          "statusDot": "info",
+          "title": "Screen Protector"
+        },
+        {
+          "body": "Artist shortlist in hand — Goatz4Eva, albannastudios, elbydraws. No pick yet, ~$45 budget.",
+          "id": "custom-pfp-banner-art",
+          "statusDot": "default",
+          "title": "Custom Pfp & Banner Art"
+        },
+        {
+          "badge": "~$758",
+          "body": "PS5 + iPhone only now — everything else was cut Nov 19. PS5 1TB with disc $649 and GTA 6 Ultimate $99.99 on PlayStation Direct (his total $758); the iPhone 18 Pro Max lands Dec 25.",
+          "id": "christmas-list",
+          "statusDot": "default",
+          "title": "Christmas List"
+        },
+        {
+          "badge": "$4,000",
+          "body": "M5 Max / 64GB / 1TB chosen at $4,000 out the door — timing undecided.",
+          "id": "mac-studio",
+          "statusDot": "info",
+          "title": "Mac Studio"
+        }
+      ]
     }
-   ]
   },
-  "lookingAhead": {
-   "headline": "Rain and snow showers for Thanksgiving — then a warm, dry Saturday.",
-   "detail": "Thu Thanksgiving rain/snow 41°/34° (~0.19 in), Fri clearing 48°/30°, Sat sunny 60°/36°, Sun rain showers 64°/45°, Mon overcast 51°/38°, Tue 57°/37°.",
-   "entries": [
-    {
-     "day": "Thu Nov 26",
-     "high": 41,
-     "low": 34,
-     "note": "Thanksgiving — rain turning to snow showers, ~0.19 in"
-    },
-    {
-     "day": "Fri Nov 27",
-     "high": 48,
-     "low": 30,
-     "note": "AM clouds, PM sun"
-    },
-    {
-     "day": "Sat Nov 28",
-     "high": 60,
-     "low": 36,
-     "note": "Sunny and dry"
-    },
-    {
-     "day": "Sun Nov 29",
-     "high": 64,
-     "low": 45,
-     "note": "Rain showers likely"
-    },
-    {
-     "day": "Mon Nov 30",
-     "high": 51,
-     "low": 38,
-     "note": "Overcast"
-    },
-    {
-     "day": "Tue Dec 1",
-     "high": 57,
-     "low": 37,
-     "note": "Overcast, dry"
+  "meta": {
+    "schemaVersion": 1,
+    "pourVersion": 13,
+    "pouredAt": "2026-11-27T07:55:00-06:00",
+    "pourLabel": "Poured Friday, Nov 27 — morning",
+    "displayDate": {
+      "weekday": "Friday",
+      "monthDay": "Nov 27"
     }
-   ]
   },
-  "weather": {
-   "place": "HAZEL GREEN, AL",
-   "tempNow": 40,
-   "condition": "Rain",
-   "high": 41,
-   "low": 34,
-   "hourly": [
-    {
-     "label": "NOW",
-     "temp": 40
-    },
-    {
-     "label": "9 AM",
-     "temp": 40
-    },
-    {
-     "label": "12 PM",
-     "temp": 37
-    },
-    {
-     "label": "3 PM",
-     "temp": 38
-    },
-    {
-     "label": "6 PM",
-     "temp": 36
-    },
-    {
-     "label": "9 PM",
-     "temp": 35
-    }
-   ],
-   "rainChanceTodayPct": 90,
-   "rainChanceTonightPct": 50,
-   "tonightCondition": "Snow showers early"
+  "world": {
+    "stories": [
+      {
+        "id": "dram-prices-halve-2028-jeff-pu",
+        "category": "tech",
+        "categoryLabel": "Tech",
+        "headline": "RAM prices could halve by 2028, but don't expect cheaper memory next year",
+        "summary": "GF Securities' Jeff Pu cut every quarter of his 2027 DRAM forecast and, for the first time, sketched 2028: base case $8/GB vs $16 in 2027 — a halving — with a bear case back at pre-AI pricing. Prices still climb through mid-2027 though, and supply stays short.",
+        "source": "WCCFTech",
+        "url": "https://wccftech.com/analyst-jeff-pu-says-dram-prices-could-halve-in-2028-as-the-ai-memory-boom-cools-but-cheaper-ram-isnt-coming-next-year/"
+      },
+      {
+        "id": "gta-6-pc-modded-multiplayer-30fps",
+        "category": "gaming",
+        "categoryLabel": "Gaming",
+        "headline": "GTA 6's unofficial PC port now runs modded multiplayer at 25–30 FPS",
+        "summary": "French dev TeK got two Jason Duvals synced in the same Leonida instance with proximity voice chat, verified by PortWatch on Nov 26. Single-player AMD builds hit ~22 FPS. Nothing is publicly downloadable — any \"launcher\" is a scam.",
+        "source": "Pro-Gamer",
+        "url": "https://pro-gamer.gg/gta-6-pc-modded-multiplayer-25-30-fps-french-dev-tek-portwatch/"
+      },
+      {
+        "id": "rockstar-union-vote-fails-75-percent",
+        "category": "gaming",
+        "categoryLabel": "Gaming",
+        "headline": "Rockstar's union vote fails — 75% vote against recognition",
+        "summary": "Rockstar's UK staff voted 1,163 to 381 against formally recognizing the IWGB Game Workers Union, on 93.2% turnout. The union says it will keep fighting; the vote ran Nov 12–26, right through GTA 6's launch.",
+        "source": "Kotaku",
+        "url": "https://kotaku.com/rockstar-games-union-vote-fails-as-75-percent-of-devs-vote-no-2001000621"
+      },
+      {
+        "id": "team-cherry-cherry-time-silksong-sea-of-sorrow",
+        "category": "gaming",
+        "categoryLabel": "Gaming",
+        "headline": "Team Cherry's 'Cherry Time' airs today with a Silksong Sea of Sorrow update",
+        "summary": "The special presentation premieres on YouTube today at 9 AM Central, promising \"a bunch of exciting announcements\" plus an update on the free nautical expansion, which was given a 2026 window. Release date, shadow drop, or delay — nobody knows yet.",
+        "source": "GameWatcher",
+        "url": "https://www.gamewatcher.com/team-cherry-announces-cherry-time-showcase-with-silksong-sea-of-sorrow-update-news"
+      },
+      {
+        "id": "fortnite-doki-doki-literature-club-outfits",
+        "category": "culture",
+        "categoryLabel": "Culture",
+        "headline": "Fortnite x Doki Doki Literature Club outfits hit the Item Shop today",
+        "summary": "Monika, Sayori, Yuri and Natsuki arrive in cel-shaded anime style after days of speculation from encrypted files. No V-Bucks pricing announced yet; shop refreshes 7 PM ET.",
+        "source": "Pro-Gamer",
+        "url": "https://pro-gamer.gg/fortnite-doki-doki-literature-club-outfits-monika-sayori-yuri-natsuki-release-date/"
+      },
+      {
+        "id": "south-korea-apple-iphone-16-ai-ads-case",
+        "category": "tech",
+        "categoryLabel": "Tech",
+        "headline": "South Korea moves ahead with case over Apple's misleading iPhone 16 AI ads",
+        "summary": "The Fair Trade Commission opened formal proceedings: Apple advertised Apple Intelligence features — including personal-context Siri — as available when they weren't, some landing ~18 months late. Fines could reach ~$36–43M.",
+        "source": "9to5Mac",
+        "url": "https://9to5mac.com/2026/11/26/south-korea-proceeds-with-case-over-allegedly-misleading-apple-intelligence-ads/"
+      },
+      {
+        "id": "steam-discounts-page-overhaul-black-friday",
+        "category": "gaming",
+        "categoryLabel": "Gaming",
+        "headline": "Steam overhauls its discounts page for Black Friday — 10x more deals surfaced",
+        "summary": "Valve replaced fixed promo slots with a permanent personalized hub blending your tastes with what's trending, launching with Black Friday theming through Nov 30. No official Black Friday fest, but the new layout stays for good.",
+        "source": "Pro-Gamer",
+        "url": "https://pro-gamer.gg/steam-discounts-events-page-overhaul-black-friday-personalized-deals/"
+      }
+    ]
   }
- },
- "clusters": {
-  "deepsky": {
-   "nodes": [
-    {
-     "body": "Snow showers early — low ~34°. Rain/snow ~50%.",
-     "id": "tonight",
-     "statusDot": "default",
-     "title": "Tonight"
-    },
-    {
-     "body": "Today rain/snow 41/34. Fri clearing 48/30, Sat sunny 60/36, Sun showers 64/45. Thanksgiving is today.",
-     "id": "the-week",
-     "statusDot": "default",
-     "title": "The Week"
-    },
-    {
-     "badge": "Over",
-     "badgeTone": "cluster",
-     "body": "Done — the Nov 13 cold snap bottomed out at 25° overnight and the freeze warning's lifted. A cool, rainy stretch is coming midweek instead.",
-     "countdown": {
-      "dateLabel": "Fri Nov 13",
-      "targetDate": "2026-11-13"
-     },
-     "id": "the-cold-snap",
-     "statusDot": "live",
-     "title": "The Cold Snap"
-    },
-    {
-     "body": "Daily weather + the 7:47 brief run every morning for Hazel Green.",
-     "id": "standing-watches",
-     "statusDot": "info",
-     "title": "Standing Watches"
-    }
-   ]
-  },
-  "devices": {
-   "nodes": [
-    {
-     "body": "Still the daily driver — the Christmas iPhone lands Dec 25, and iOS 27's translucent Liquid Glass keyboard is the thing he's most hyped for on it.",
-     "id": "phone-s26-ultra",
-     "statusDot": "default",
-     "title": "Phone — S26 Ultra"
-    },
-    {
-     "body": "~2–3 GB headroom — quota verified unchanged Nov 4.",
-     "id": "google-storage",
-     "statusDot": "info",
-     "title": "Google Storage"
-    },
-    {
-     "body": "0.2.0 live on the site.",
-     "id": "atlas",
-     "statusDot": "live",
-     "statusWord": "0.2.0 live",
-     "title": "Atlas"
-    }
-   ]
-  },
-  "household": {
-   "nodes": [
-    {
-     "body": "Blue/grey pit-type, ~5 months old — little-shark teething phase in full effect.",
-     "id": "the-puppy",
-     "statusDot": "live",
-     "title": "The Puppy"
-    },
-    {
-     "body": "Grumpy — almost 6, hates everyone including Charlee. The two are mortal enemies.",
-     "id": "the-other-dog",
-     "statusDot": "dim",
-     "title": "The Other Dog"
-    },
-    {
-     "badge": "$1.45",
-     "badgeTone": "rose",
-     "body": "$1.45. Never moves.",
-     "id": "cashapp",
-     "statusDot": "default",
-     "title": "CashApp"
-    }
-   ]
-  },
-  "inmotion": {
-   "nodes": [
-    {
-     "body": "Ordered on Amazon — delivery date not yet known.",
-     "id": "flolab-onetime-pro",
-     "statusDot": "live",
-     "statusWord": "Ordered",
-     "title": "FLOLAB OneTime Pro"
-    },
-    {
-     "body": "Cut from the Christmas list Nov 19 — WOBKEY direct ~$140 with Cocoa switches was the build to beat, but it's off the list now. Watch parked.",
-     "id": "rainy-75-price-watch",
-     "statusDot": "dim",
-     "title": "Rainy 75 Price Watch"
-    },
-    {
-     "badge": "~$758",
-     "body": "~$758 and holding — PS5 $649 + GTA 6 Ultimate $99.99. The audio cart, Rainy 75 and Switch 2 are off the list.",
-     "id": "christmas-list-total",
-     "statusDot": "default",
-     "title": "Christmas List Total"
-    }
-   ]
-  },
-  "life": {
-   "nodes": [
-    {
-     "body": "“Dark Knight Dummo” — Trippie Redd ft. Travis Scott. A top-5 song, set as his Instagram profile song.",
-     "id": "spotify",
-     "statusDot": "live",
-     "title": "Spotify"
-    },
-    {
-     "body": "Java 1.20.1 with Bliss shaders + Distant Horizons — terrain for days.",
-     "id": "minecraft",
-     "statusDot": "default",
-     "title": "Minecraft"
-    },
-    {
-     "body": "Gilla VR is the new peak — brutal horror monkey-movement game, 'Be the Monster' mode, Backrooms, chainsaw monster. Nightclub Simulator champion ('too good at the game'); Drunken Bar Fight for chair-throwing physics.",
-     "id": "vr",
-     "statusDot": "default",
-     "title": "VR"
-    },
-    {
-     "body": "peenleenbeen — beat the Magnus bot in 55 moves on Nov 15, plus an 11-move checkmate the same day.",
-     "id": "chess-com",
-     "statusDot": "info",
-     "title": "Chess.com"
-    }
-   ]
-  },
-  "money": {
-   "nodes": [
-    {
-     "badge": "~$758",
-     "body": "~$758 — the PS5 ($649) plus GTA 6 Ultimate ($99.99) on PlayStation Direct. Wishlist, not yet bought. (Audio cart, Rainy 75 and Switch 2 all cut Nov 19.)",
-     "id": "christmas-list",
-     "statusDot": "default",
-     "title": "Christmas List"
-    },
-    {
-     "badge": "$4,000",
-     "body": "M5 Max, 64GB, 1TB — $4,000 out the door. Decision made, timing open — ‘depends’.",
-     "id": "mac-studio-fund",
-     "statusDot": "info",
-     "title": "Mac Studio Fund"
-    },
-    {
-     "body": "iPhone 18 Pro Max lands at Christmas — 512GB Glacier, $1,499 ($1,581.45 with tax) in the Apple bag. Case: ESR $16.99 leads; FLOLAB protector already ordered.",
-     "id": "iphone-day-fund",
-     "statusDot": "default",
-     "title": "iPhone Day Fund"
-    }
-   ]
-  },
-  "social": {
-   "nodes": [
-    {
-     "body": "@wsgimzay — 0 posts, 11 followers, 64 following. Profile made over Nov 6: new bio, Atlas link, profile song ‘Dark Knight Dummo’. The grid stays empty by choice.",
-     "id": "instagram",
-     "statusDot": "live",
-     "title": "Instagram"
-    },
-    {
-     "body": "Profile decorating in progress. Custom pfp + banner art hunt open — shortlist ready, and the goat (favourite animal) leads. Capybara placeholder sets generated meanwhile. (Replied to Alec’s GTA 6 post Nov 19: “go home guys, the fun police said gta 6 is bad. we’ll try again in 15 years.”)",
-     "id": "twitter-x",
-     "statusDot": "default",
-     "title": "Twitter / X"
-    },
-    {
-     "body": "The Atlas site is live at atlasofficial-inc.github.io/Atlas — and Asterism now has its own repo and Pages site, pouring daily sky.json.",
-     "id": "atlas-out-loud",
-     "statusDot": "info",
-     "title": "Atlas, Out Loud"
-    }
-   ]
-  },
-  "studio": {
-   "nodes": [
-    {
-     "body": "DaVinci Resolve 21 installed on the PC (Nov 1). First edit still ahead — learning video editing is the standing goal.",
-     "id": "video-editing",
-     "statusDot": "default",
-     "title": "Video Editing"
-    },
-    {
-     "body": "0.2.0 live on the website with the verified APK. Windows at 0.2.1 — installer rebuild pending on his PC. Sync parked.",
-     "id": "atlas-the-product",
-     "statusDot": "live",
-     "title": "Atlas, The Product"
-    },
-    {
-     "body": "This app — the second product. Windows build installed and working; live weather fetch went live Nov 8 ~03:41; daily sky.json pours now live.",
-     "id": "asterism-the-product",
-     "statusDot": "live",
-     "title": "Asterism, The Product"
-    }
-   ]
-  },
-  "time": {
-   "nodes": [
-    {
-     "badge": "29 days",
-     "badgeTone": "cluster",
-     "body": "29 days to Fri Dec 25 — also iPhone 18 Pro Max day.",
-     "countdown": {
-      "dateLabel": "Fri Dec 25",
-      "targetDate": "2026-12-25"
-     },
-     "id": "christmas",
-     "statusDot": "live",
-     "title": "Christmas"
-    },
-    {
-     "badge": "125 days",
-     "badgeTone": "cluster",
-     "body": "March 31 — 125 days out.",
-     "countdown": {
-      "dateLabel": "March 31",
-      "targetDate": "2027-03-31"
-     },
-     "id": "birthday",
-     "statusDot": "default",
-     "title": "Birthday"
-    },
-    {
-     "body": "None active — the Nov 13 Google storage deadline was resolved Nov 1.",
-     "id": "deadlines",
-     "statusDot": "info",
-     "title": "Deadlines"
-    }
-   ]
-  },
-  "workbench": {
-   "nodes": [
-    {
-     "body": "Live at atlasofficial-inc.github.io/Atlas — Android 0.2.0 downloadable now.",
-     "id": "atlas",
-     "statusDot": "live",
-     "statusWord": "Live",
-     "title": "Atlas"
-    },
-    {
-     "body": "0.2.1 installer awaits a rebuild on Mors's PC, then GitHub Release hosting.",
-     "id": "atlas-for-windows",
-     "statusDot": "default",
-     "title": "Atlas for Windows"
-    },
-    {
-     "body": "Constellation UI accepted — now in its live-content phase; daily 7:47 pours publish sky.json.",
-     "id": "asterism",
-     "statusDot": "live",
-     "title": "Asterism"
-    },
-    {
-     "body": "ESR Classic Hybrid Magnetic with Camera Control — Clear, $16.99 at ESR — is the frontrunner now; Mors: 'the esr case is genuinely good lmao esr lowk underrated.' Spigen Ultra Hybrid S MagFit ($32.99) is the runner-up; TORRAS Q3 Air Ever Green/Midnight Blue ($65.99) and Nomad leather ($79) still in the running.",
-     "id": "iphone-case-hunt",
-     "statusDot": "default",
-     "title": "iPhone Case Hunt"
-    },
-    {
-     "body": "FLOLAB OneTime Pro ordered on Amazon — saga closed.",
-     "id": "screen-protector",
-     "statusDot": "info",
-     "title": "Screen Protector"
-    },
-    {
-     "body": "Artist shortlist in hand — Goatz4Eva, albannastudios, elbydraws. No pick yet, ~$45 budget.",
-     "id": "custom-pfp-banner-art",
-     "statusDot": "default",
-     "title": "Custom Pfp & Banner Art"
-    },
-    {
-     "badge": "~$758",
-     "body": "PS5 + iPhone only now — everything else was cut Nov 19. PS5 1TB with disc $649 and GTA 6 Ultimate $99.99 on PlayStation Direct (his total $758); the iPhone 18 Pro Max lands Dec 25.",
-     "id": "christmas-list",
-     "statusDot": "default",
-     "title": "Christmas List"
-    },
-    {
-     "badge": "$4,000",
-     "body": "M5 Max / 64GB / 1TB chosen at $4,000 out the door — timing undecided.",
-     "id": "mac-studio",
-     "statusDot": "info",
-     "title": "Mac Studio"
-    }
-   ]
-  }
- },
- "meta": {
-  "schemaVersion": 1,
-  "pourVersion": 12,
-  "pouredAt": "2026-11-26T07:52:00-06:00",
-  "pourLabel": "Poured Thursday, Nov 26 — morning",
-  "displayDate": {
-   "weekday": "Thursday",
-   "monthDay": "Nov 26"
-  }
- },
- "world": {
-  "stories": [
-   {
-    "id": "memory-chip-shortage-10x-holiday-prices",
-    "category": "tech",
-    "categoryLabel": "Tech",
-    "headline": "Memory chips are up 10x — and holiday electronics prices are paying for it",
-    "summary": "AI data centers have drained the memory-chip supply; some chip prices are up tenfold in a year, SK Hynix is sold out of DRAM through 2029, and MacBook prices are up $100–500 while the iPhone 18 Pro and Pro Max start $100 higher.",
-    "source": "The Wall Street Journal",
-    "url": "https://www.wsj.com/tech/memory-chip-shortage-ai-electronics-prices-e58a065a"
-   },
-   {
-    "id": "gta-6-leaked-build-boots-pc-1fps",
-    "category": "gaming",
-    "categoryLabel": "Gaming",
-    "headline": "The leaked GTA 6 Xbox build now boots on PC — at about 1 frame per second",
-    "summary": "Cyberleek released the missing executable on Nov 23; the open-source VIctory project says the game boots and reaches the prologue, menus at 30fps but ~1fps in the world — not playable.",
-    "source": "Make Tech Easier",
-    "url": "https://maketecheasier.com/cyberleek-gta-6-xbox-executable-released/"
-   },
-   {
-    "id": "gta-6-cut-features-tennis-crawl-cinemas",
-    "category": "gaming",
-    "categoryLabel": "Gaming",
-    "headline": "Rockstar devs reveal GTA 6's cut features — tennis, crawling, cinemas",
-    "summary": "Tennis was cut because it wasn't good enough, cinemas weren't interactive enough, and crawling plus safehouse furnishing were also dropped. Story missions can't be replayed, unlike GTA 5.",
-    "source": "VGTimes",
-    "url": "https://vgtimes.com/gaming-news/175803-gta-6-developers-reveal-cut-features-from-tennis-to-crawl-mechanics.html"
-   },
-   {
-    "id": "gta-6-40m-copies-683m-hours",
-    "category": "gaming",
-    "categoryLabel": "Gaming",
-    "headline": "GTA 6 is closing in on 40 million copies — 683 million hours in four days",
-    "summary": "Nearly 40M copies sold across PS5 and Xbox; PS5 players logged 683 million hours over the launch weekend, a platform record. The game also picked up eight Game Awards nominations, including Game of the Year.",
-    "source": "Wall Street Next",
-    "url": "https://wsnext.com/inside-grand-theft-auto-vis-massive-launch-and-evolving-crime-mechanics/"
-   },
-   {
-    "id": "trump-new-tariffs-14-partners",
-    "category": "world",
-    "categoryLabel": "World",
-    "headline": "Trump unveils new tariffs on 14 trading partners",
-    "summary": "Proposed tariffs target 14 major trading partners over factory overcapacity; meanwhile EU leaders meet over the bloc's long-term budget, North Korea signals further nuclear expansion, and Ukraine diplomacy faces renewed uncertainty.",
-    "source": "Open Chronicle",
-    "url": "https://openchronicle.org/2026/11/26/global-news-brief-key-developments-around-the-world-november-26-2026/"
-   },
-   {
-    "id": "cairo-fuel-tanker-fire-31-killed",
-    "category": "world",
-    "categoryLabel": "World",
-    "headline": "Fuel tanker fire kills at least 31 on Cairo's ring road",
-    "summary": "A fuel tanker overturned on Giza's Ring Road on Wednesday and caught fire; at least 31 people died and about 21 were injured.",
-    "source": "One Turn",
-    "url": "https://oneturn.news/news/"
-   },
-   {
-    "id": "macys-parade-100th-moved-saturday",
-    "category": "culture",
-    "categoryLabel": "Culture",
-    "headline": "The 100th Macy's Thanksgiving Day Parade moves to Saturday",
-    "summary": "NYC Mayor Mamdani announced the 100th parade is rescheduled from Thursday to Saturday due to forecasts of heavy rain and strong winds.",
-    "source": "Inshorts",
-    "url": "https://inshorts.com/en/read/world&"
-   }
-  ]
- }
 }
